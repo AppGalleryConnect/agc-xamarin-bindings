@@ -13,7 +13,7 @@ These are the available demos in this repository.
 
 | Demo | Version | Documentation |
 |--------|-----|-----|
-| [agc-remoteconfig-xamarin](./agc-remoteconfig-xamarin) | [![version](https://img.shields.io/badge/Release-Android-1.4.2.301-yellow)](./agc-remoteconfig-xamarin) <br/> [![version](https://img.shields.io/badge/Release-iOS-1.3.0.300-blue)]| [Getting Started](https://developer.huawei.com/consumer/cn/doc/development/AppGallery-connect-Guides/remoteconfig-xamarin-releasenotes-0000001135676681) <br/> [API Reference](https://developer.huawei.com/consumer/cn/doc/development/AppGallery-connect-References/remoteconfig-overview-main-0000001088768192) |
+| [agc-remoteconfig-xamarin](./agc-remoteconfig-xamarin) | [![version](https://img.shields.io/badge/Release-Android-1.4.2.301-yellow)](./agc-remoteconfig-xamarin) | [Getting Started](https://developer.huawei.com/consumer/cn/doc/development/AppGallery-connect-Guides/remoteconfig-xamarin-releasenotes-0000001135676681) <br/> [API Reference](https://developer.huawei.com/consumer/cn/doc/development/AppGallery-connect-References/remoteconfig-overview-main-0000001088768192) |
 
 ## Precautions
 The agc-xamarins-demos project contains 1 independent projects. After downloading the code, you can load different nested projects to the IDE as required. And you can run each project independently.
