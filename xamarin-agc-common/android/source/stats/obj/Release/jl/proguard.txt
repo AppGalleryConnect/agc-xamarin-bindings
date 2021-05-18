@@ -1,0 +1,3 @@
+-keep class com.huawei.hms.utils.** {*;}
+-keep class com.huawei.hms.support.** {*;}
+-keep class com.huawei.hms.stats.** {*;}

@@ -1,0 +1,12 @@
+com/huawei/agconnect/datastore/annotation/DefaultCrypto = Com.Huawei.Agconnect.Datastore.Annotation.DefaultCrypto
+  <init>()V = .ctor()
+  decrypt(Ljava/lang/String;)Ljava/lang/String; = Decrypt(string)
+  encrypt(Ljava/lang/String;)Ljava/lang/String; = Encrypt(string)
+com/huawei/agconnect/datastore/annotation/ICrypto = Com.Huawei.Agconnect.Datastore.Annotation.ICrypto
+  decrypt(Ljava/lang/String;)Ljava/lang/String; = Decrypt(string)
+  encrypt(Ljava/lang/String;)Ljava/lang/String; = Encrypt(string)
+com/huawei/agconnect/datastore/annotation/SharedPreference = Com.Huawei.Agconnect.Datastore.Annotation.ISharedPreference
+  isDynamic()Z = IsDynamic
+  crypto()Ljava/lang/Class; = Crypto()
+  fileName()Ljava/lang/String; = FileName()
+  key()Ljava/lang/String; = Key()

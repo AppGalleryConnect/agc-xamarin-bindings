@@ -1,0 +1,189 @@
+<api
+  api-source="class-parse">
+  <package
+    name="com.huawei.agconnect.datastore.annotation"
+    jni-name="com/huawei/agconnect/datastore/annotation">
+    <class
+      abstract="false"
+      deprecated="not deprecated"
+      jni-extends="Ljava/lang/Object;"
+      extends="java.lang.Object"
+      extends-generic-aware="java.lang.Object"
+      final="false"
+      name="DefaultCrypto"
+      jni-signature="Lcom/huawei/agconnect/datastore/annotation/DefaultCrypto;"
+      source-file-name="DefaultCrypto.java"
+      static="false"
+      visibility="public">
+      <implements
+        name="com.huawei.agconnect.datastore.annotation.ICrypto"
+        name-generic-aware="com.huawei.agconnect.datastore.annotation.ICrypto"
+        jni-type="Lcom/huawei/agconnect/datastore/annotation/ICrypto;" />
+      <constructor
+        deprecated="not deprecated"
+        final="false"
+        name="DefaultCrypto"
+        static="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="()V" />
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="decrypt"
+        native="false"
+        return="java.lang.String"
+        jni-return="Ljava/lang/String;"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Ljava/lang/String;)Ljava/lang/String;">
+        <parameter
+          name="cipher"
+          type="java.lang.String"
+          jni-type="Ljava/lang/String;" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="encrypt"
+        native="false"
+        return="java.lang.String"
+        jni-return="Ljava/lang/String;"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Ljava/lang/String;)Ljava/lang/String;">
+        <parameter
+          name="plain"
+          type="java.lang.String"
+          jni-type="Ljava/lang/String;" />
+      </method>
+    </class>
+    <interface
+      abstract="true"
+      deprecated="not deprecated"
+      final="false"
+      name="ICrypto"
+      jni-signature="Lcom/huawei/agconnect/datastore/annotation/ICrypto;"
+      source-file-name="ICrypto.java"
+      static="false"
+      visibility="public">
+      <method
+        abstract="true"
+        deprecated="not deprecated"
+        final="false"
+        name="decrypt"
+        native="false"
+        return="java.lang.String"
+        jni-return="Ljava/lang/String;"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Ljava/lang/String;)Ljava/lang/String;">
+        <parameter
+          name="p0"
+          type="java.lang.String"
+          jni-type="Ljava/lang/String;" />
+      </method>
+      <method
+        abstract="true"
+        deprecated="not deprecated"
+        final="false"
+        name="encrypt"
+        native="false"
+        return="java.lang.String"
+        jni-return="Ljava/lang/String;"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Ljava/lang/String;)Ljava/lang/String;">
+        <parameter
+          name="p0"
+          type="java.lang.String"
+          jni-type="Ljava/lang/String;" />
+      </method>
+    </interface>
+    <interface
+      abstract="true"
+      deprecated="not deprecated"
+      final="false"
+      name="SharedPreference"
+      jni-signature="Lcom/huawei/agconnect/datastore/annotation/SharedPreference;"
+      source-file-name="SharedPreference.java"
+      static="false"
+      visibility="public">
+      <implements
+        name="java.lang.annotation.Annotation"
+        name-generic-aware="java.lang.annotation.Annotation"
+        jni-type="Ljava/lang/annotation/Annotation;" />
+      <method
+        abstract="true"
+        deprecated="not deprecated"
+        final="false"
+        name="crypto"
+        native="false"
+        return="java.lang.Class&lt;? extends com.huawei.agconnect.datastore.annotation.ICrypto&gt;"
+        jni-return="Ljava/lang/Class&lt;+Lcom/huawei/agconnect/datastore/annotation/ICrypto;&gt;;"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="()Ljava/lang/Class;" />
+      <method
+        abstract="true"
+        deprecated="not deprecated"
+        final="false"
+        name="fileName"
+        native="false"
+        return="java.lang.String"
+        jni-return="Ljava/lang/String;"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="()Ljava/lang/String;" />
+      <method
+        abstract="true"
+        deprecated="not deprecated"
+        final="false"
+        name="isDynamic"
+        native="false"
+        return="boolean"
+        jni-return="Z"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="()Z" />
+      <method
+        abstract="true"
+        deprecated="not deprecated"
+        final="false"
+        name="key"
+        native="false"
+        return="java.lang.String"
+        jni-return="Ljava/lang/String;"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="()Ljava/lang/String;" />
+    </interface>
+  </package>
+</api>

@@ -1,0 +1,31 @@
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>Huawei.Agconnect.Auth</id>
+    <version>1.5.0.300</version>
+    <title>Huawei.Agconnect.Auth</title>
+    <authors>Huawei</authors>
+    <owners>Huawei</owners>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+    <license type="file">LICENSE.txt</license>
+    <projectUrl>https://github.com/AppGalleryConnect/agc-xamarin-bindings</projectUrl>
+    <icon>huawei.png</icon>
+    <description>Xamarin.Android bindings for AGC - Auth</description>
+    <copyright>© Huawei Technologies Co., Ltd. All rights reserved.</copyright>
+    <tags>Huawei Agconnect Auth</tags>
+    <dependencies>
+      <group targetFramework="MonoAndroid9.0">
+        <dependency id="Huawei.Hmf.Tasks" version="1.4.1.300" />
+        <dependency id="Huawei.Agconnect.AgconnectCredential" version="1.5.0.300" />
+      </group>
+    </dependencies>
+    <frameworkAssemblies>
+      <frameworkAssembly assemblyName="Java.Interop" targetFramework="MonoAndroid9.0" />
+    </frameworkAssemblies>
+  </metadata>
+  <files>
+    <file src="bin/Release/Huawei.Agconnect.Auth.dll" target="lib/monoandroid90/Huawei.Agconnect.Auth.dll" />
+    <file src="../../icons/huawei.png" target="" />
+    <file src="../../README.md" target="" />
+    <file src="../../LICENSE.txt" target="" />
+  </files>
+</package>

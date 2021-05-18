@@ -1,0 +1,16 @@
+C:\Users\t00596874\Desktop\AGC-NUGETS\Repo\AGC-Common-Libraries\android\source\stats\bin\Release\Huawei.Hms.Stats.dll
+C:\Users\t00596874\Desktop\AGC-NUGETS\Repo\AGC-Common-Libraries\android\source\stats\bin\Release\Huawei.Hms.Stats.pdb
+C:\Users\t00596874\Desktop\AGC-NUGETS\Repo\AGC-Common-Libraries\android\source\stats\bin\Release\Huawei.Hms.Log.dll
+C:\Users\t00596874\Desktop\AGC-NUGETS\Repo\AGC-Common-Libraries\android\source\stats\bin\Release\Huawei.Hms.NetworkCommon.dll
+C:\Users\t00596874\Desktop\AGC-NUGETS\Repo\AGC-Common-Libraries\android\source\stats\bin\Release\Huawei.Hms.NetworkGrs.dll
+C:\Users\t00596874\Desktop\AGC-NUGETS\Repo\AGC-Common-Libraries\android\source\stats\bin\Release\Huawei.Hms.Log.pdb
+C:\Users\t00596874\Desktop\AGC-NUGETS\Repo\AGC-Common-Libraries\android\source\stats\bin\Release\Huawei.Hms.NetworkCommon.pdb
+C:\Users\t00596874\Desktop\AGC-NUGETS\Repo\AGC-Common-Libraries\android\source\stats\bin\Release\Huawei.Hms.NetworkGrs.pdb
+C:\Users\t00596874\Desktop\AGC-NUGETS\Repo\AGC-Common-Libraries\android\source\stats\obj\Release\__AndroidLibraryProjects__.zip
+C:\Users\t00596874\Desktop\AGC-NUGETS\Repo\AGC-Common-Libraries\android\source\stats\obj\Release\MonoAndroid,Version=v9.0.AssemblyAttributes.cs
+C:\Users\t00596874\Desktop\AGC-NUGETS\Repo\AGC-Common-Libraries\android\source\stats\obj\Release\stats.csprojAssemblyReference.cache
+C:\Users\t00596874\Desktop\AGC-NUGETS\Repo\AGC-Common-Libraries\android\source\stats\obj\Release\stamp\_BuildLibraryImportsCache.stamp
+C:\Users\t00596874\Desktop\AGC-NUGETS\Repo\AGC-Common-Libraries\android\source\stats\obj\Release\stats.csproj.CoreCompileInputs.cache
+C:\Users\t00596874\Desktop\AGC-NUGETS\Repo\AGC-Common-Libraries\android\source\stats\obj\Release\stats.csproj.CopyComplete
+C:\Users\t00596874\Desktop\AGC-NUGETS\Repo\AGC-Common-Libraries\android\source\stats\obj\Release\Huawei.Hms.Stats.dll
+C:\Users\t00596874\Desktop\AGC-NUGETS\Repo\AGC-Common-Libraries\android\source\stats\obj\Release\Huawei.Hms.Stats.pdb

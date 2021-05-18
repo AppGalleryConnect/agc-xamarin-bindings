@@ -1,0 +1,1107 @@
+<api
+  api-source="class-parse">
+  <package
+    name="com.huawei.hms.base.log"
+    jni-name="com/huawei/hms/base/log">
+    <class
+      abstract="false"
+      deprecated="not deprecated"
+      jni-extends="Ljava/lang/Object;"
+      extends="java.lang.Object"
+      extends-generic-aware="java.lang.Object"
+      final="false"
+      name="a"
+      jni-signature="Lcom/huawei/hms/base/log/a;"
+      source-file-name="LogAdaptor.java"
+      static="false"
+      visibility="public">
+      <constructor
+        deprecated="not deprecated"
+        final="false"
+        name="a"
+        static="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="()V" />
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="a"
+        native="false"
+        return="boolean"
+        jni-return="Z"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(I)Z">
+        <parameter
+          name="p0"
+          type="int"
+          jni-type="I" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="a"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(ILjava/lang/String;Ljava/lang/String;)V">
+        <parameter
+          name="p0"
+          type="int"
+          jni-type="I" />
+        <parameter
+          name="p1"
+          type="java.lang.String"
+          jni-type="Ljava/lang/String;" />
+        <parameter
+          name="p2"
+          type="java.lang.String"
+          jni-type="Ljava/lang/String;" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="true"
+        name="a"
+        native="false"
+        return="com.huawei.hms.base.log.c"
+        jni-return="Lcom/huawei/hms/base/log/c;"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(ILjava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)Lcom/huawei/hms/base/log/c;">
+        <parameter
+          name="p0"
+          type="int"
+          jni-type="I" />
+        <parameter
+          name="p1"
+          type="java.lang.String"
+          jni-type="Ljava/lang/String;" />
+        <parameter
+          name="p2"
+          type="java.lang.String"
+          jni-type="Ljava/lang/String;" />
+        <parameter
+          name="p3"
+          type="java.lang.Throwable"
+          jni-type="Ljava/lang/Throwable;" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="a"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Landroid/content/Context;ILjava/lang/String;)V">
+        <parameter
+          name="p0"
+          type="android.content.Context"
+          jni-type="Landroid/content/Context;" />
+        <parameter
+          name="p1"
+          type="int"
+          jni-type="I" />
+        <parameter
+          name="p2"
+          type="java.lang.String"
+          jni-type="Ljava/lang/String;" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="a"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Ljava/lang/String;Ljava/lang/String;)V">
+        <parameter
+          name="p0"
+          type="java.lang.String"
+          jni-type="Ljava/lang/String;" />
+        <parameter
+          name="p1"
+          type="java.lang.String"
+          jni-type="Ljava/lang/String;" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="b"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(ILjava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)V">
+        <parameter
+          name="p0"
+          type="int"
+          jni-type="I" />
+        <parameter
+          name="p1"
+          type="java.lang.String"
+          jni-type="Ljava/lang/String;" />
+        <parameter
+          name="p2"
+          type="java.lang.String"
+          jni-type="Ljava/lang/String;" />
+        <parameter
+          name="p3"
+          type="java.lang.Throwable"
+          jni-type="Ljava/lang/Throwable;" />
+      </method>
+      <field
+        deprecated="not deprecated"
+        final="false"
+        name="a"
+        static="false"
+        synthetic="false"
+        transient="false"
+        type="int"
+        type-generic-aware="int"
+        jni-signature="I"
+        visibility="public"
+        volatile="false" />
+      <field
+        deprecated="not deprecated"
+        final="false"
+        name="b"
+        static="false"
+        synthetic="false"
+        transient="false"
+        type="java.lang.String"
+        type-generic-aware="java.lang.String"
+        jni-signature="Ljava/lang/String;"
+        visibility="public"
+        volatile="false" />
+      <field
+        deprecated="not deprecated"
+        final="true"
+        name="c"
+        static="true"
+        synthetic="false"
+        transient="false"
+        type="com.huawei.hms.base.log.b"
+        type-generic-aware="com.huawei.hms.base.log.b"
+        jni-signature="Lcom/huawei/hms/base/log/b;"
+        visibility="public"
+        volatile="false" />
+    </class>
+    <interface
+      abstract="true"
+      deprecated="not deprecated"
+      final="false"
+      name="b"
+      jni-signature="Lcom/huawei/hms/base/log/b;"
+      source-file-name="LogNode.java"
+      static="false"
+      visibility="public">
+      <method
+        abstract="true"
+        deprecated="not deprecated"
+        final="false"
+        name="a"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Landroid/content/Context;Ljava/lang/String;)V">
+        <parameter
+          name="p0"
+          type="android.content.Context"
+          jni-type="Landroid/content/Context;" />
+        <parameter
+          name="p1"
+          type="java.lang.String"
+          jni-type="Ljava/lang/String;" />
+      </method>
+      <method
+        abstract="true"
+        deprecated="not deprecated"
+        final="false"
+        name="a"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Ljava/lang/String;ILjava/lang/String;Ljava/lang/String;)V">
+        <parameter
+          name="p0"
+          type="java.lang.String"
+          jni-type="Ljava/lang/String;" />
+        <parameter
+          name="p1"
+          type="int"
+          jni-type="I" />
+        <parameter
+          name="p2"
+          type="java.lang.String"
+          jni-type="Ljava/lang/String;" />
+        <parameter
+          name="p3"
+          type="java.lang.String"
+          jni-type="Ljava/lang/String;" />
+      </method>
+    </interface>
+    <class
+      abstract="false"
+      deprecated="not deprecated"
+      jni-extends="Ljava/lang/Object;"
+      extends="java.lang.Object"
+      extends-generic-aware="java.lang.Object"
+      final="false"
+      name="c"
+      jni-signature="Lcom/huawei/hms/base/log/c;"
+      source-file-name="LogRecord.java"
+      static="false"
+      visibility="public">
+      <constructor
+        deprecated="not deprecated"
+        final="false"
+        name="c"
+        static="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(ILjava/lang/String;ILjava/lang/String;)V">
+        <parameter
+          name="p0"
+          type="int"
+          jni-type="I" />
+        <parameter
+          name="p1"
+          type="java.lang.String"
+          jni-type="Ljava/lang/String;" />
+        <parameter
+          name="p2"
+          type="int"
+          jni-type="I" />
+        <parameter
+          name="p3"
+          type="java.lang.String"
+          jni-type="Ljava/lang/String;" />
+      </constructor>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="a"
+        native="false"
+        return="java.lang.String"
+        jni-return="Ljava/lang/String;"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="()Ljava/lang/String;" />
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="a"
+        native="false"
+        return="java.lang.String"
+        jni-return="Ljava/lang/String;"
+        static="true"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(I)Ljava/lang/String;">
+        <parameter
+          name="p0"
+          type="int"
+          jni-type="I" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="a"
+        native="false"
+        return="com.huawei.hms.base.log.c"
+        jni-return="Lcom/huawei/hms/base/log/c;"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Ljava/lang/Object;)Lcom/huawei/hms/base/log/c;">
+        <typeParameters>
+          <typeParameter
+            name="T"
+            jni-classBound="Ljava/lang/Object;"
+            classBound="java.lang.Object"
+            interfaceBounds=""
+            jni-interfaceBounds="" />
+        </typeParameters>
+        <parameter
+          name="p0"
+          type="T"
+          jni-type="TT;" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="true"
+        name="a"
+        native="false"
+        return="java.lang.StringBuilder"
+        jni-return="Ljava/lang/StringBuilder;"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Ljava/lang/StringBuilder;)Ljava/lang/StringBuilder;">
+        <parameter
+          name="p0"
+          type="java.lang.StringBuilder"
+          jni-type="Ljava/lang/StringBuilder;" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="a"
+        native="false"
+        return="com.huawei.hms.base.log.c"
+        jni-return="Lcom/huawei/hms/base/log/c;"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Ljava/lang/Throwable;)Lcom/huawei/hms/base/log/c;">
+        <parameter
+          name="p0"
+          type="java.lang.Throwable"
+          jni-type="Ljava/lang/Throwable;" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="true"
+        name="b"
+        native="false"
+        return="com.huawei.hms.base.log.c"
+        jni-return="Lcom/huawei/hms/base/log/c;"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="()Lcom/huawei/hms/base/log/c;" />
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="true"
+        name="b"
+        native="false"
+        return="java.lang.StringBuilder"
+        jni-return="Ljava/lang/StringBuilder;"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Ljava/lang/StringBuilder;)Ljava/lang/StringBuilder;">
+        <parameter
+          name="p0"
+          type="java.lang.StringBuilder"
+          jni-type="Ljava/lang/StringBuilder;" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="c"
+        native="false"
+        return="java.lang.String"
+        jni-return="Ljava/lang/String;"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="()Ljava/lang/String;" />
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="toString"
+        native="false"
+        return="java.lang.String"
+        jni-return="Ljava/lang/String;"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="()Ljava/lang/String;" />
+      <field
+        deprecated="not deprecated"
+        final="true"
+        name="a"
+        static="false"
+        synthetic="false"
+        transient="false"
+        type="java.lang.StringBuilder"
+        type-generic-aware="java.lang.StringBuilder"
+        jni-signature="Ljava/lang/StringBuilder;"
+        visibility="public"
+        volatile="false" />
+      <field
+        deprecated="not deprecated"
+        final="false"
+        name="b"
+        static="false"
+        synthetic="false"
+        transient="false"
+        type="java.lang.String"
+        type-generic-aware="java.lang.String"
+        jni-signature="Ljava/lang/String;"
+        visibility="public"
+        volatile="false" />
+      <field
+        deprecated="not deprecated"
+        final="false"
+        name="c"
+        static="false"
+        synthetic="false"
+        transient="false"
+        type="java.lang.String"
+        type-generic-aware="java.lang.String"
+        jni-signature="Ljava/lang/String;"
+        visibility="public"
+        volatile="false" />
+      <field
+        deprecated="not deprecated"
+        final="false"
+        name="d"
+        static="false"
+        synthetic="false"
+        transient="false"
+        type="int"
+        type-generic-aware="int"
+        jni-signature="I"
+        visibility="public"
+        volatile="false" />
+      <field
+        deprecated="not deprecated"
+        final="false"
+        name="e"
+        static="false"
+        synthetic="false"
+        transient="false"
+        type="long"
+        type-generic-aware="long"
+        jni-signature="J"
+        visibility="public"
+        volatile="false" />
+      <field
+        deprecated="not deprecated"
+        final="false"
+        name="f"
+        static="false"
+        synthetic="false"
+        transient="false"
+        type="long"
+        type-generic-aware="long"
+        jni-signature="J"
+        visibility="public"
+        volatile="false" />
+      <field
+        deprecated="not deprecated"
+        final="false"
+        name="g"
+        static="false"
+        synthetic="false"
+        transient="false"
+        type="java.lang.String"
+        type-generic-aware="java.lang.String"
+        jni-signature="Ljava/lang/String;"
+        visibility="public"
+        volatile="false" />
+      <field
+        deprecated="not deprecated"
+        final="false"
+        name="h"
+        static="false"
+        synthetic="false"
+        transient="false"
+        type="int"
+        type-generic-aware="int"
+        jni-signature="I"
+        visibility="public"
+        volatile="false" />
+      <field
+        deprecated="not deprecated"
+        final="false"
+        name="i"
+        static="false"
+        synthetic="false"
+        transient="false"
+        type="int"
+        type-generic-aware="int"
+        jni-signature="I"
+        visibility="public"
+        volatile="false" />
+      <field
+        deprecated="not deprecated"
+        final="false"
+        name="j"
+        static="false"
+        synthetic="false"
+        transient="false"
+        type="int"
+        type-generic-aware="int"
+        jni-signature="I"
+        visibility="public"
+        volatile="false" />
+    </class>
+    <class
+      abstract="false"
+      deprecated="not deprecated"
+      jni-extends="Ljava/lang/Object;"
+      extends="java.lang.Object"
+      extends-generic-aware="java.lang.Object"
+      final="false"
+      name="d"
+      jni-signature="Lcom/huawei/hms/base/log/d;"
+      source-file-name="LogCatNode.java"
+      static="false"
+      visibility="public">
+      <implements
+        name="com.huawei.hms.base.log.b"
+        name-generic-aware="com.huawei.hms.base.log.b"
+        jni-type="Lcom/huawei/hms/base/log/b;" />
+      <constructor
+        deprecated="not deprecated"
+        final="false"
+        name="d"
+        static="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="()V" />
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="a"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Landroid/content/Context;Ljava/lang/String;)V">
+        <parameter
+          name="p0"
+          type="android.content.Context"
+          jni-type="Landroid/content/Context;" />
+        <parameter
+          name="p1"
+          type="java.lang.String"
+          jni-type="Ljava/lang/String;" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="a"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Ljava/lang/String;ILjava/lang/String;Ljava/lang/String;)V">
+        <parameter
+          name="p0"
+          type="java.lang.String"
+          jni-type="Ljava/lang/String;" />
+        <parameter
+          name="p1"
+          type="int"
+          jni-type="I" />
+        <parameter
+          name="p2"
+          type="java.lang.String"
+          jni-type="Ljava/lang/String;" />
+        <parameter
+          name="p3"
+          type="java.lang.String"
+          jni-type="Ljava/lang/String;" />
+      </method>
+      <field
+        deprecated="not deprecated"
+        final="false"
+        name="a"
+        static="false"
+        synthetic="false"
+        transient="false"
+        type="com.huawei.hms.base.log.b"
+        type-generic-aware="com.huawei.hms.base.log.b"
+        jni-signature="Lcom/huawei/hms/base/log/b;"
+        visibility="public"
+        volatile="false" />
+    </class>
+  </package>
+  <package
+    name="com.huawei.hms.support.log"
+    jni-name="com/huawei/hms/support/log">
+    <class
+      abstract="false"
+      deprecated="not deprecated"
+      jni-extends="Ljava/lang/Object;"
+      extends="java.lang.Object"
+      extends-generic-aware="java.lang.Object"
+      final="true"
+      name="HMSDebugger"
+      jni-signature="Lcom/huawei/hms/support/log/HMSDebugger;"
+      source-file-name="HMSDebugger.java"
+      static="false"
+      visibility="public">
+      <constructor
+        deprecated="not deprecated"
+        final="false"
+        name="HMSDebugger"
+        static="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="()V" />
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="init"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="true"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Landroid/content/Context;I)V">
+        <parameter
+          name="p0"
+          type="android.content.Context"
+          jni-type="Landroid/content/Context;" />
+        <parameter
+          name="p1"
+          type="int"
+          jni-type="I" />
+      </method>
+    </class>
+    <class
+      abstract="false"
+      deprecated="not deprecated"
+      jni-extends="Ljava/lang/Object;"
+      extends="java.lang.Object"
+      extends-generic-aware="java.lang.Object"
+      final="false"
+      name="HMSLog"
+      jni-signature="Lcom/huawei/hms/support/log/HMSLog;"
+      source-file-name="HMSLog.java"
+      static="false"
+      visibility="public">
+      <constructor
+        deprecated="not deprecated"
+        final="false"
+        name="HMSLog"
+        static="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="()V" />
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="a"
+        native="false"
+        return="java.lang.String"
+        jni-return="Ljava/lang/String;"
+        static="true"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Landroid/content/Context;)Ljava/lang/String;">
+        <parameter
+          name="p0"
+          type="android.content.Context"
+          jni-type="Landroid/content/Context;" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="d"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="true"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Ljava/lang/String;Ljava/lang/String;)V">
+        <parameter
+          name="p0"
+          type="java.lang.String"
+          jni-type="Ljava/lang/String;" />
+        <parameter
+          name="p1"
+          type="java.lang.String"
+          jni-type="Ljava/lang/String;" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="e"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="true"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Ljava/lang/String;JLjava/lang/String;)V">
+        <parameter
+          name="p0"
+          type="java.lang.String"
+          jni-type="Ljava/lang/String;" />
+        <parameter
+          name="p1"
+          type="long"
+          jni-type="J" />
+        <parameter
+          name="p2"
+          type="java.lang.String"
+          jni-type="Ljava/lang/String;" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="e"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="true"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Ljava/lang/String;JLjava/lang/String;Ljava/lang/Throwable;)V">
+        <parameter
+          name="p0"
+          type="java.lang.String"
+          jni-type="Ljava/lang/String;" />
+        <parameter
+          name="p1"
+          type="long"
+          jni-type="J" />
+        <parameter
+          name="p2"
+          type="java.lang.String"
+          jni-type="Ljava/lang/String;" />
+        <parameter
+          name="p3"
+          type="java.lang.Throwable"
+          jni-type="Ljava/lang/Throwable;" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="e"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="true"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Ljava/lang/String;Ljava/lang/String;)V">
+        <parameter
+          name="p0"
+          type="java.lang.String"
+          jni-type="Ljava/lang/String;" />
+        <parameter
+          name="p1"
+          type="java.lang.String"
+          jni-type="Ljava/lang/String;" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="e"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="true"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)V">
+        <parameter
+          name="p0"
+          type="java.lang.String"
+          jni-type="Ljava/lang/String;" />
+        <parameter
+          name="p1"
+          type="java.lang.String"
+          jni-type="Ljava/lang/String;" />
+        <parameter
+          name="p2"
+          type="java.lang.Throwable"
+          jni-type="Ljava/lang/Throwable;" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="i"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="true"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Ljava/lang/String;Ljava/lang/String;)V">
+        <parameter
+          name="p0"
+          type="java.lang.String"
+          jni-type="Ljava/lang/String;" />
+        <parameter
+          name="p1"
+          type="java.lang.String"
+          jni-type="Ljava/lang/String;" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="init"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="true"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Landroid/content/Context;ILjava/lang/String;)V">
+        <parameter
+          name="p0"
+          type="android.content.Context"
+          jni-type="Landroid/content/Context;" />
+        <parameter
+          name="p1"
+          type="int"
+          jni-type="I" />
+        <parameter
+          name="p2"
+          type="java.lang.String"
+          jni-type="Ljava/lang/String;" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="isErrorEnable"
+        native="false"
+        return="boolean"
+        jni-return="Z"
+        static="true"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="()Z" />
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="isInfoEnable"
+        native="false"
+        return="boolean"
+        jni-return="Z"
+        static="true"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="()Z" />
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="isWarnEnable"
+        native="false"
+        return="boolean"
+        jni-return="Z"
+        static="true"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="()Z" />
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="w"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="true"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Ljava/lang/String;Ljava/lang/String;)V">
+        <parameter
+          name="p0"
+          type="java.lang.String"
+          jni-type="Ljava/lang/String;" />
+        <parameter
+          name="p1"
+          type="java.lang.String"
+          jni-type="Ljava/lang/String;" />
+      </method>
+      <field
+        deprecated="not deprecated"
+        final="true"
+        name="a"
+        static="true"
+        synthetic="false"
+        transient="false"
+        type="com.huawei.hms.base.log.a"
+        type-generic-aware="com.huawei.hms.base.log.a"
+        jni-signature="Lcom/huawei/hms/base/log/a;"
+        visibility="public"
+        volatile="false" />
+    </class>
+    <interface
+      abstract="true"
+      deprecated="not deprecated"
+      final="false"
+      name="LogLevel"
+      jni-signature="Lcom/huawei/hms/support/log/LogLevel;"
+      source-file-name="LogLevel.java"
+      static="false"
+      visibility="public">
+      <field
+        deprecated="not deprecated"
+        final="true"
+        name="DEBUG"
+        static="true"
+        synthetic="false"
+        transient="false"
+        type="int"
+        type-generic-aware="int"
+        jni-signature="I"
+        value="3"
+        visibility="public"
+        volatile="false" />
+      <field
+        deprecated="not deprecated"
+        final="true"
+        name="ERROR"
+        static="true"
+        synthetic="false"
+        transient="false"
+        type="int"
+        type-generic-aware="int"
+        jni-signature="I"
+        value="6"
+        visibility="public"
+        volatile="false" />
+      <field
+        deprecated="not deprecated"
+        final="true"
+        name="INFO"
+        static="true"
+        synthetic="false"
+        transient="false"
+        type="int"
+        type-generic-aware="int"
+        jni-signature="I"
+        value="4"
+        visibility="public"
+        volatile="false" />
+      <field
+        deprecated="not deprecated"
+        final="true"
+        name="WARN"
+        static="true"
+        synthetic="false"
+        transient="false"
+        type="int"
+        type-generic-aware="int"
+        jni-signature="I"
+        value="5"
+        visibility="public"
+        volatile="false" />
+    </interface>
+  </package>
+</api>

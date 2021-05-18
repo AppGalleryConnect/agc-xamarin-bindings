@@ -1,0 +1,9 @@
+C:\Users\t00596874\Desktop\AGC-NUGETS\Repo\AGC-Common-Libraries\android\source\log\bin\Release\Huawei.Hms.Log.dll
+C:\Users\t00596874\Desktop\AGC-NUGETS\Repo\AGC-Common-Libraries\android\source\log\bin\Release\Huawei.Hms.Log.pdb
+C:\Users\t00596874\Desktop\AGC-NUGETS\Repo\AGC-Common-Libraries\android\source\log\obj\Release\__AndroidLibraryProjects__.zip
+C:\Users\t00596874\Desktop\AGC-NUGETS\Repo\AGC-Common-Libraries\android\source\log\obj\Release\MonoAndroid,Version=v9.0.AssemblyAttributes.cs
+C:\Users\t00596874\Desktop\AGC-NUGETS\Repo\AGC-Common-Libraries\android\source\log\obj\Release\stamp\_BuildLibraryImportsCache.stamp
+C:\Users\t00596874\Desktop\AGC-NUGETS\Repo\AGC-Common-Libraries\android\source\log\obj\Release\log.csproj.CoreCompileInputs.cache
+C:\Users\t00596874\Desktop\AGC-NUGETS\Repo\AGC-Common-Libraries\android\source\log\obj\Release\Huawei.Hms.Log.dll
+C:\Users\t00596874\Desktop\AGC-NUGETS\Repo\AGC-Common-Libraries\android\source\log\obj\Release\Huawei.Hms.Log.pdb
+C:\Users\t00596874\Desktop\AGC-NUGETS\Repo\AGC-Common-Libraries\android\source\log\obj\Release\log.csprojAssemblyReference.cache

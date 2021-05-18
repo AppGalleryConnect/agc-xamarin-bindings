@@ -1,0 +1,14 @@
+C:\Users\t00596874\Desktop\AGC-NUGETS\Repo\AGC-Common-Libraries\android\source\agconnect-https\bin\Release\Huawei.Agconnect.AgconnectHttps.dll
+C:\Users\t00596874\Desktop\AGC-NUGETS\Repo\AGC-Common-Libraries\android\source\agconnect-https\bin\Release\Huawei.Agconnect.AgconnectHttps.pdb
+C:\Users\t00596874\Desktop\AGC-NUGETS\Repo\AGC-Common-Libraries\android\source\agconnect-https\bin\Release\Square.OkHttp3.dll
+C:\Users\t00596874\Desktop\AGC-NUGETS\Repo\AGC-Common-Libraries\android\source\agconnect-https\bin\Release\Square.OkIO.dll
+C:\Users\t00596874\Desktop\AGC-NUGETS\Repo\AGC-Common-Libraries\android\source\agconnect-https\bin\Release\Huawei.Hmf.Tasks.dll
+C:\Users\t00596874\Desktop\AGC-NUGETS\Repo\AGC-Common-Libraries\android\source\agconnect-https\bin\Release\Huawei.Hmf.Tasks.pdb
+C:\Users\t00596874\Desktop\AGC-NUGETS\Repo\AGC-Common-Libraries\android\source\agconnect-https\obj\Release\__AndroidLibraryProjects__.zip
+C:\Users\t00596874\Desktop\AGC-NUGETS\Repo\AGC-Common-Libraries\android\source\agconnect-https\obj\Release\MonoAndroid,Version=v9.0.AssemblyAttributes.cs
+C:\Users\t00596874\Desktop\AGC-NUGETS\Repo\AGC-Common-Libraries\android\source\agconnect-https\obj\Release\agconnect-https.csprojAssemblyReference.cache
+C:\Users\t00596874\Desktop\AGC-NUGETS\Repo\AGC-Common-Libraries\android\source\agconnect-https\obj\Release\stamp\_BuildLibraryImportsCache.stamp
+C:\Users\t00596874\Desktop\AGC-NUGETS\Repo\AGC-Common-Libraries\android\source\agconnect-https\obj\Release\agconnect-https.csproj.CoreCompileInputs.cache
+C:\Users\t00596874\Desktop\AGC-NUGETS\Repo\AGC-Common-Libraries\android\source\agconnect-https\obj\Release\agconnect-https.csproj.CopyComplete
+C:\Users\t00596874\Desktop\AGC-NUGETS\Repo\AGC-Common-Libraries\android\source\agconnect-https\obj\Release\Huawei.Agconnect.AgconnectHttps.dll
+C:\Users\t00596874\Desktop\AGC-NUGETS\Repo\AGC-Common-Libraries\android\source\agconnect-https\obj\Release\Huawei.Agconnect.AgconnectHttps.pdb
