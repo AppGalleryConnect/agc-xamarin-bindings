@@ -1,0 +1,778 @@
+{
+  "version": 3,
+  "targets": {
+    "MonoAndroid,Version=v9.0": {
+      "Huawei.Agconnect.AgconnectCore/1.0.0": {
+        "type": "project",
+        "framework": "MonoAndroid,Version=v9.0",
+        "compile": {
+          "bin/placeholder/Huawei.Agconnect.AgconnectCore.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Huawei.Agconnect.AgconnectCore.dll": {}
+        }
+      },
+      "Huawei.Hmf.Tasks/1.0.0": {
+        "type": "project",
+        "framework": "MonoAndroid,Version=v9.0",
+        "compile": {
+          "bin/placeholder/Huawei.Hmf.Tasks.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Huawei.Hmf.Tasks.dll": {}
+        }
+      },
+      "Huawei.Hms.Availableupdate/1.0.0": {
+        "type": "project",
+        "framework": "MonoAndroid,Version=v9.0",
+        "dependencies": {
+          "Huawei.Agconnect.AgconnectCore": "1.0.0",
+          "Huawei.Hmf.Tasks": "1.0.0",
+          "Huawei.Hms.Device": "1.0.0",
+          "Huawei.Hms.Log": "1.0.0",
+          "Huawei.Hms.NetworkCommon": "1.0.0",
+          "Huawei.Hms.NetworkGrs": "1.0.0",
+          "Huawei.Hms.Stats": "1.0.0",
+          "Huawei.Hms.Ui": "1.0.0",
+          "Huawei.Hms.Update": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Huawei.Hms.Availableupdate.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Huawei.Hms.Availableupdate.dll": {}
+        }
+      },
+      "Huawei.Hms.Base/1.0.0": {
+        "type": "project",
+        "framework": "MonoAndroid,Version=v9.0",
+        "dependencies": {
+          "Huawei.Agconnect.AgconnectCore": "1.0.0",
+          "Huawei.Hmf.Tasks": "1.0.0",
+          "Huawei.Hms.Availableupdate": "1.0.0",
+          "Huawei.Hms.Device": "1.0.0",
+          "Huawei.Hms.Log": "1.0.0",
+          "Huawei.Hms.NetworkCommon": "1.0.0",
+          "Huawei.Hms.NetworkGrs": "1.0.0",
+          "Huawei.Hms.Stats": "1.0.0",
+          "Huawei.Hms.Ui": "1.0.0",
+          "Huawei.Hms.Update": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Huawei.Hms.Base.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Huawei.Hms.Base.dll": {}
+        }
+      },
+      "Huawei.Hms.Device/1.0.0": {
+        "type": "project",
+        "framework": "MonoAndroid,Version=v9.0",
+        "dependencies": {
+          "Huawei.Agconnect.AgconnectCore": "1.0.0",
+          "Huawei.Hmf.Tasks": "1.0.0",
+          "Huawei.Hms.Log": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Huawei.Hms.Device.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Huawei.Hms.Device.dll": {}
+        }
+      },
+      "Huawei.Hms.Log/1.0.0": {
+        "type": "project",
+        "framework": "MonoAndroid,Version=v9.0",
+        "compile": {
+          "bin/placeholder/Huawei.Hms.Log.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Huawei.Hms.Log.dll": {}
+        }
+      },
+      "Huawei.Hms.NetworkCommon/1.0.0": {
+        "type": "project",
+        "framework": "MonoAndroid,Version=v9.0",
+        "compile": {
+          "bin/placeholder/Huawei.Hms.NetworkCommon.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Huawei.Hms.NetworkCommon.dll": {}
+        }
+      },
+      "Huawei.Hms.NetworkGrs/1.0.0": {
+        "type": "project",
+        "framework": "MonoAndroid,Version=v9.0",
+        "dependencies": {
+          "Huawei.Hms.NetworkCommon": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Huawei.Hms.NetworkGrs.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Huawei.Hms.NetworkGrs.dll": {}
+        }
+      },
+      "Huawei.Hms.Stats/1.0.0": {
+        "type": "project",
+        "framework": "MonoAndroid,Version=v9.0",
+        "dependencies": {
+          "Huawei.Hms.Log": "1.0.0",
+          "Huawei.Hms.NetworkCommon": "1.0.0",
+          "Huawei.Hms.NetworkGrs": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Huawei.Hms.Stats.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Huawei.Hms.Stats.dll": {}
+        }
+      },
+      "Huawei.Hms.Ui/1.0.0": {
+        "type": "project",
+        "framework": "MonoAndroid,Version=v9.0",
+        "dependencies": {
+          "Huawei.Hms.Log": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Huawei.Hms.Ui.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Huawei.Hms.Ui.dll": {}
+        }
+      },
+      "Huawei.Hms.Update/1.0.0": {
+        "type": "project",
+        "framework": "MonoAndroid,Version=v9.0",
+        "dependencies": {
+          "Huawei.Hms.NetworkCommon": "1.0.0",
+          "Huawei.Hms.NetworkGrs": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Huawei.Hms.Update.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Huawei.Hms.Update.dll": {}
+        }
+      }
+    },
+    "MonoAndroid,Version=v9.0/win": {
+      "Huawei.Agconnect.AgconnectCore/1.0.0": {
+        "type": "project",
+        "framework": "MonoAndroid,Version=v9.0",
+        "compile": {
+          "bin/placeholder/Huawei.Agconnect.AgconnectCore.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Huawei.Agconnect.AgconnectCore.dll": {}
+        }
+      },
+      "Huawei.Hmf.Tasks/1.0.0": {
+        "type": "project",
+        "framework": "MonoAndroid,Version=v9.0",
+        "compile": {
+          "bin/placeholder/Huawei.Hmf.Tasks.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Huawei.Hmf.Tasks.dll": {}
+        }
+      },
+      "Huawei.Hms.Availableupdate/1.0.0": {
+        "type": "project",
+        "framework": "MonoAndroid,Version=v9.0",
+        "dependencies": {
+          "Huawei.Agconnect.AgconnectCore": "1.0.0",
+          "Huawei.Hmf.Tasks": "1.0.0",
+          "Huawei.Hms.Device": "1.0.0",
+          "Huawei.Hms.Log": "1.0.0",
+          "Huawei.Hms.NetworkCommon": "1.0.0",
+          "Huawei.Hms.NetworkGrs": "1.0.0",
+          "Huawei.Hms.Stats": "1.0.0",
+          "Huawei.Hms.Ui": "1.0.0",
+          "Huawei.Hms.Update": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Huawei.Hms.Availableupdate.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Huawei.Hms.Availableupdate.dll": {}
+        }
+      },
+      "Huawei.Hms.Base/1.0.0": {
+        "type": "project",
+        "framework": "MonoAndroid,Version=v9.0",
+        "dependencies": {
+          "Huawei.Agconnect.AgconnectCore": "1.0.0",
+          "Huawei.Hmf.Tasks": "1.0.0",
+          "Huawei.Hms.Availableupdate": "1.0.0",
+          "Huawei.Hms.Device": "1.0.0",
+          "Huawei.Hms.Log": "1.0.0",
+          "Huawei.Hms.NetworkCommon": "1.0.0",
+          "Huawei.Hms.NetworkGrs": "1.0.0",
+          "Huawei.Hms.Stats": "1.0.0",
+          "Huawei.Hms.Ui": "1.0.0",
+          "Huawei.Hms.Update": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Huawei.Hms.Base.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Huawei.Hms.Base.dll": {}
+        }
+      },
+      "Huawei.Hms.Device/1.0.0": {
+        "type": "project",
+        "framework": "MonoAndroid,Version=v9.0",
+        "dependencies": {
+          "Huawei.Agconnect.AgconnectCore": "1.0.0",
+          "Huawei.Hmf.Tasks": "1.0.0",
+          "Huawei.Hms.Log": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Huawei.Hms.Device.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Huawei.Hms.Device.dll": {}
+        }
+      },
+      "Huawei.Hms.Log/1.0.0": {
+        "type": "project",
+        "framework": "MonoAndroid,Version=v9.0",
+        "compile": {
+          "bin/placeholder/Huawei.Hms.Log.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Huawei.Hms.Log.dll": {}
+        }
+      },
+      "Huawei.Hms.NetworkCommon/1.0.0": {
+        "type": "project",
+        "framework": "MonoAndroid,Version=v9.0",
+        "compile": {
+          "bin/placeholder/Huawei.Hms.NetworkCommon.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Huawei.Hms.NetworkCommon.dll": {}
+        }
+      },
+      "Huawei.Hms.NetworkGrs/1.0.0": {
+        "type": "project",
+        "framework": "MonoAndroid,Version=v9.0",
+        "dependencies": {
+          "Huawei.Hms.NetworkCommon": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Huawei.Hms.NetworkGrs.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Huawei.Hms.NetworkGrs.dll": {}
+        }
+      },
+      "Huawei.Hms.Stats/1.0.0": {
+        "type": "project",
+        "framework": "MonoAndroid,Version=v9.0",
+        "dependencies": {
+          "Huawei.Hms.Log": "1.0.0",
+          "Huawei.Hms.NetworkCommon": "1.0.0",
+          "Huawei.Hms.NetworkGrs": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Huawei.Hms.Stats.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Huawei.Hms.Stats.dll": {}
+        }
+      },
+      "Huawei.Hms.Ui/1.0.0": {
+        "type": "project",
+        "framework": "MonoAndroid,Version=v9.0",
+        "dependencies": {
+          "Huawei.Hms.Log": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Huawei.Hms.Ui.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Huawei.Hms.Ui.dll": {}
+        }
+      },
+      "Huawei.Hms.Update/1.0.0": {
+        "type": "project",
+        "framework": "MonoAndroid,Version=v9.0",
+        "dependencies": {
+          "Huawei.Hms.NetworkCommon": "1.0.0",
+          "Huawei.Hms.NetworkGrs": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Huawei.Hms.Update.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Huawei.Hms.Update.dll": {}
+        }
+      }
+    },
+    "MonoAndroid,Version=v9.0/win-x64": {
+      "Huawei.Agconnect.AgconnectCore/1.0.0": {
+        "type": "project",
+        "framework": "MonoAndroid,Version=v9.0",
+        "compile": {
+          "bin/placeholder/Huawei.Agconnect.AgconnectCore.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Huawei.Agconnect.AgconnectCore.dll": {}
+        }
+      },
+      "Huawei.Hmf.Tasks/1.0.0": {
+        "type": "project",
+        "framework": "MonoAndroid,Version=v9.0",
+        "compile": {
+          "bin/placeholder/Huawei.Hmf.Tasks.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Huawei.Hmf.Tasks.dll": {}
+        }
+      },
+      "Huawei.Hms.Availableupdate/1.0.0": {
+        "type": "project",
+        "framework": "MonoAndroid,Version=v9.0",
+        "dependencies": {
+          "Huawei.Agconnect.AgconnectCore": "1.0.0",
+          "Huawei.Hmf.Tasks": "1.0.0",
+          "Huawei.Hms.Device": "1.0.0",
+          "Huawei.Hms.Log": "1.0.0",
+          "Huawei.Hms.NetworkCommon": "1.0.0",
+          "Huawei.Hms.NetworkGrs": "1.0.0",
+          "Huawei.Hms.Stats": "1.0.0",
+          "Huawei.Hms.Ui": "1.0.0",
+          "Huawei.Hms.Update": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Huawei.Hms.Availableupdate.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Huawei.Hms.Availableupdate.dll": {}
+        }
+      },
+      "Huawei.Hms.Base/1.0.0": {
+        "type": "project",
+        "framework": "MonoAndroid,Version=v9.0",
+        "dependencies": {
+          "Huawei.Agconnect.AgconnectCore": "1.0.0",
+          "Huawei.Hmf.Tasks": "1.0.0",
+          "Huawei.Hms.Availableupdate": "1.0.0",
+          "Huawei.Hms.Device": "1.0.0",
+          "Huawei.Hms.Log": "1.0.0",
+          "Huawei.Hms.NetworkCommon": "1.0.0",
+          "Huawei.Hms.NetworkGrs": "1.0.0",
+          "Huawei.Hms.Stats": "1.0.0",
+          "Huawei.Hms.Ui": "1.0.0",
+          "Huawei.Hms.Update": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Huawei.Hms.Base.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Huawei.Hms.Base.dll": {}
+        }
+      },
+      "Huawei.Hms.Device/1.0.0": {
+        "type": "project",
+        "framework": "MonoAndroid,Version=v9.0",
+        "dependencies": {
+          "Huawei.Agconnect.AgconnectCore": "1.0.0",
+          "Huawei.Hmf.Tasks": "1.0.0",
+          "Huawei.Hms.Log": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Huawei.Hms.Device.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Huawei.Hms.Device.dll": {}
+        }
+      },
+      "Huawei.Hms.Log/1.0.0": {
+        "type": "project",
+        "framework": "MonoAndroid,Version=v9.0",
+        "compile": {
+          "bin/placeholder/Huawei.Hms.Log.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Huawei.Hms.Log.dll": {}
+        }
+      },
+      "Huawei.Hms.NetworkCommon/1.0.0": {
+        "type": "project",
+        "framework": "MonoAndroid,Version=v9.0",
+        "compile": {
+          "bin/placeholder/Huawei.Hms.NetworkCommon.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Huawei.Hms.NetworkCommon.dll": {}
+        }
+      },
+      "Huawei.Hms.NetworkGrs/1.0.0": {
+        "type": "project",
+        "framework": "MonoAndroid,Version=v9.0",
+        "dependencies": {
+          "Huawei.Hms.NetworkCommon": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Huawei.Hms.NetworkGrs.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Huawei.Hms.NetworkGrs.dll": {}
+        }
+      },
+      "Huawei.Hms.Stats/1.0.0": {
+        "type": "project",
+        "framework": "MonoAndroid,Version=v9.0",
+        "dependencies": {
+          "Huawei.Hms.Log": "1.0.0",
+          "Huawei.Hms.NetworkCommon": "1.0.0",
+          "Huawei.Hms.NetworkGrs": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Huawei.Hms.Stats.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Huawei.Hms.Stats.dll": {}
+        }
+      },
+      "Huawei.Hms.Ui/1.0.0": {
+        "type": "project",
+        "framework": "MonoAndroid,Version=v9.0",
+        "dependencies": {
+          "Huawei.Hms.Log": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Huawei.Hms.Ui.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Huawei.Hms.Ui.dll": {}
+        }
+      },
+      "Huawei.Hms.Update/1.0.0": {
+        "type": "project",
+        "framework": "MonoAndroid,Version=v9.0",
+        "dependencies": {
+          "Huawei.Hms.NetworkCommon": "1.0.0",
+          "Huawei.Hms.NetworkGrs": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Huawei.Hms.Update.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Huawei.Hms.Update.dll": {}
+        }
+      }
+    },
+    "MonoAndroid,Version=v9.0/win-x86": {
+      "Huawei.Agconnect.AgconnectCore/1.0.0": {
+        "type": "project",
+        "framework": "MonoAndroid,Version=v9.0",
+        "compile": {
+          "bin/placeholder/Huawei.Agconnect.AgconnectCore.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Huawei.Agconnect.AgconnectCore.dll": {}
+        }
+      },
+      "Huawei.Hmf.Tasks/1.0.0": {
+        "type": "project",
+        "framework": "MonoAndroid,Version=v9.0",
+        "compile": {
+          "bin/placeholder/Huawei.Hmf.Tasks.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Huawei.Hmf.Tasks.dll": {}
+        }
+      },
+      "Huawei.Hms.Availableupdate/1.0.0": {
+        "type": "project",
+        "framework": "MonoAndroid,Version=v9.0",
+        "dependencies": {
+          "Huawei.Agconnect.AgconnectCore": "1.0.0",
+          "Huawei.Hmf.Tasks": "1.0.0",
+          "Huawei.Hms.Device": "1.0.0",
+          "Huawei.Hms.Log": "1.0.0",
+          "Huawei.Hms.NetworkCommon": "1.0.0",
+          "Huawei.Hms.NetworkGrs": "1.0.0",
+          "Huawei.Hms.Stats": "1.0.0",
+          "Huawei.Hms.Ui": "1.0.0",
+          "Huawei.Hms.Update": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Huawei.Hms.Availableupdate.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Huawei.Hms.Availableupdate.dll": {}
+        }
+      },
+      "Huawei.Hms.Base/1.0.0": {
+        "type": "project",
+        "framework": "MonoAndroid,Version=v9.0",
+        "dependencies": {
+          "Huawei.Agconnect.AgconnectCore": "1.0.0",
+          "Huawei.Hmf.Tasks": "1.0.0",
+          "Huawei.Hms.Availableupdate": "1.0.0",
+          "Huawei.Hms.Device": "1.0.0",
+          "Huawei.Hms.Log": "1.0.0",
+          "Huawei.Hms.NetworkCommon": "1.0.0",
+          "Huawei.Hms.NetworkGrs": "1.0.0",
+          "Huawei.Hms.Stats": "1.0.0",
+          "Huawei.Hms.Ui": "1.0.0",
+          "Huawei.Hms.Update": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Huawei.Hms.Base.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Huawei.Hms.Base.dll": {}
+        }
+      },
+      "Huawei.Hms.Device/1.0.0": {
+        "type": "project",
+        "framework": "MonoAndroid,Version=v9.0",
+        "dependencies": {
+          "Huawei.Agconnect.AgconnectCore": "1.0.0",
+          "Huawei.Hmf.Tasks": "1.0.0",
+          "Huawei.Hms.Log": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Huawei.Hms.Device.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Huawei.Hms.Device.dll": {}
+        }
+      },
+      "Huawei.Hms.Log/1.0.0": {
+        "type": "project",
+        "framework": "MonoAndroid,Version=v9.0",
+        "compile": {
+          "bin/placeholder/Huawei.Hms.Log.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Huawei.Hms.Log.dll": {}
+        }
+      },
+      "Huawei.Hms.NetworkCommon/1.0.0": {
+        "type": "project",
+        "framework": "MonoAndroid,Version=v9.0",
+        "compile": {
+          "bin/placeholder/Huawei.Hms.NetworkCommon.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Huawei.Hms.NetworkCommon.dll": {}
+        }
+      },
+      "Huawei.Hms.NetworkGrs/1.0.0": {
+        "type": "project",
+        "framework": "MonoAndroid,Version=v9.0",
+        "dependencies": {
+          "Huawei.Hms.NetworkCommon": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Huawei.Hms.NetworkGrs.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Huawei.Hms.NetworkGrs.dll": {}
+        }
+      },
+      "Huawei.Hms.Stats/1.0.0": {
+        "type": "project",
+        "framework": "MonoAndroid,Version=v9.0",
+        "dependencies": {
+          "Huawei.Hms.Log": "1.0.0",
+          "Huawei.Hms.NetworkCommon": "1.0.0",
+          "Huawei.Hms.NetworkGrs": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Huawei.Hms.Stats.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Huawei.Hms.Stats.dll": {}
+        }
+      },
+      "Huawei.Hms.Ui/1.0.0": {
+        "type": "project",
+        "framework": "MonoAndroid,Version=v9.0",
+        "dependencies": {
+          "Huawei.Hms.Log": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Huawei.Hms.Ui.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Huawei.Hms.Ui.dll": {}
+        }
+      },
+      "Huawei.Hms.Update/1.0.0": {
+        "type": "project",
+        "framework": "MonoAndroid,Version=v9.0",
+        "dependencies": {
+          "Huawei.Hms.NetworkCommon": "1.0.0",
+          "Huawei.Hms.NetworkGrs": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Huawei.Hms.Update.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Huawei.Hms.Update.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Huawei.Agconnect.AgconnectCore/1.0.0": {
+      "type": "project",
+      "path": "../agconnect-core/agconnect-core.csproj",
+      "msbuildProject": "../agconnect-core/agconnect-core.csproj"
+    },
+    "Huawei.Hmf.Tasks/1.0.0": {
+      "type": "project",
+      "path": "../tasks/tasks.csproj",
+      "msbuildProject": "../tasks/tasks.csproj"
+    },
+    "Huawei.Hms.Availableupdate/1.0.0": {
+      "type": "project",
+      "path": "../availableupdate/availableupdate.csproj",
+      "msbuildProject": "../availableupdate/availableupdate.csproj"
+    },
+    "Huawei.Hms.Base/1.0.0": {
+      "type": "project",
+      "path": "../base/base.csproj",
+      "msbuildProject": "../base/base.csproj"
+    },
+    "Huawei.Hms.Device/1.0.0": {
+      "type": "project",
+      "path": "../device/device.csproj",
+      "msbuildProject": "../device/device.csproj"
+    },
+    "Huawei.Hms.Log/1.0.0": {
+      "type": "project",
+      "path": "../log/log.csproj",
+      "msbuildProject": "../log/log.csproj"
+    },
+    "Huawei.Hms.NetworkCommon/1.0.0": {
+      "type": "project",
+      "path": "../network-common/network-common.csproj",
+      "msbuildProject": "../network-common/network-common.csproj"
+    },
+    "Huawei.Hms.NetworkGrs/1.0.0": {
+      "type": "project",
+      "path": "../network-grs/network-grs.csproj",
+      "msbuildProject": "../network-grs/network-grs.csproj"
+    },
+    "Huawei.Hms.Stats/1.0.0": {
+      "type": "project",
+      "path": "../stats/stats.csproj",
+      "msbuildProject": "../stats/stats.csproj"
+    },
+    "Huawei.Hms.Ui/1.0.0": {
+      "type": "project",
+      "path": "../ui/ui.csproj",
+      "msbuildProject": "../ui/ui.csproj"
+    },
+    "Huawei.Hms.Update/1.0.0": {
+      "type": "project",
+      "path": "../update/update.csproj",
+      "msbuildProject": "../update/update.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "MonoAndroid,Version=v9.0": [
+      "Huawei.Agconnect.AgconnectCore >= 1.0.0",
+      "Huawei.Hmf.Tasks >= 1.0.0",
+      "Huawei.Hms.Base >= 1.0.0",
+      "Huawei.Hms.Device >= 1.0.0",
+      "Huawei.Hms.Log >= 1.0.0",
+      "Huawei.Hms.NetworkCommon >= 1.0.0",
+      "Huawei.Hms.NetworkGrs >= 1.0.0",
+      "Huawei.Hms.Stats >= 1.0.0",
+      "Huawei.Hms.Ui >= 1.0.0",
+      "Huawei.Hms.Update >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\t00596874\\.nuget\\packages\\": {},
+    "C:\\Microsoft\\Xamarin\\NuGet\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\t00596874\\Desktop\\AGC-NUGETS\\Repo\\AGC-Common-Libraries\\android\\source\\opendevice\\opendevice.csproj",
+      "projectName": "Huawei.Hms.Opendevice",
+      "projectPath": "C:\\Users\\t00596874\\Desktop\\AGC-NUGETS\\Repo\\AGC-Common-Libraries\\android\\source\\opendevice\\opendevice.csproj",
+      "packagesPath": "C:\\Users\\t00596874\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\t00596874\\Desktop\\AGC-NUGETS\\Repo\\AGC-Common-Libraries\\android\\source\\opendevice\\obj\\",
+      "projectStyle": "PackageReference",
+      "skipContentFileWrite": true,
+      "fallbackFolders": [
+        "C:\\Microsoft\\Xamarin\\NuGet\\"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\t00596874\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "monoandroid90"
+      ],
+      "sources": {
+        "C:\\Users\\t00596874\\Desktop\\remote-test": {},
+        "http://10.216.77.196:5000/v3/index.json": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "monoandroid90": {
+          "projectReferences": {
+            "C:\\Users\\t00596874\\Desktop\\AGC-NUGETS\\Repo\\AGC-Common-Libraries\\android\\source\\agconnect-core\\agconnect-core.csproj": {
+              "projectPath": "C:\\Users\\t00596874\\Desktop\\AGC-NUGETS\\Repo\\AGC-Common-Libraries\\android\\source\\agconnect-core\\agconnect-core.csproj"
+            },
+            "C:\\Users\\t00596874\\Desktop\\AGC-NUGETS\\Repo\\AGC-Common-Libraries\\android\\source\\base\\base.csproj": {
+              "projectPath": "C:\\Users\\t00596874\\Desktop\\AGC-NUGETS\\Repo\\AGC-Common-Libraries\\android\\source\\base\\base.csproj"
+            },
+            "C:\\Users\\t00596874\\Desktop\\AGC-NUGETS\\Repo\\AGC-Common-Libraries\\android\\source\\device\\device.csproj": {
+              "projectPath": "C:\\Users\\t00596874\\Desktop\\AGC-NUGETS\\Repo\\AGC-Common-Libraries\\android\\source\\device\\device.csproj"
+            },
+            "C:\\Users\\t00596874\\Desktop\\AGC-NUGETS\\Repo\\AGC-Common-Libraries\\android\\source\\log\\log.csproj": {
+              "projectPath": "C:\\Users\\t00596874\\Desktop\\AGC-NUGETS\\Repo\\AGC-Common-Libraries\\android\\source\\log\\log.csproj"
+            },
+            "C:\\Users\\t00596874\\Desktop\\AGC-NUGETS\\Repo\\AGC-Common-Libraries\\android\\source\\network-common\\network-common.csproj": {
+              "projectPath": "C:\\Users\\t00596874\\Desktop\\AGC-NUGETS\\Repo\\AGC-Common-Libraries\\android\\source\\network-common\\network-common.csproj"
+            },
+            "C:\\Users\\t00596874\\Desktop\\AGC-NUGETS\\Repo\\AGC-Common-Libraries\\android\\source\\network-grs\\network-grs.csproj": {
+              "projectPath": "C:\\Users\\t00596874\\Desktop\\AGC-NUGETS\\Repo\\AGC-Common-Libraries\\android\\source\\network-grs\\network-grs.csproj"
+            },
+            "C:\\Users\\t00596874\\Desktop\\AGC-NUGETS\\Repo\\AGC-Common-Libraries\\android\\source\\stats\\stats.csproj": {
+              "projectPath": "C:\\Users\\t00596874\\Desktop\\AGC-NUGETS\\Repo\\AGC-Common-Libraries\\android\\source\\stats\\stats.csproj"
+            },
+            "C:\\Users\\t00596874\\Desktop\\AGC-NUGETS\\Repo\\AGC-Common-Libraries\\android\\source\\tasks\\tasks.csproj": {
+              "projectPath": "C:\\Users\\t00596874\\Desktop\\AGC-NUGETS\\Repo\\AGC-Common-Libraries\\android\\source\\tasks\\tasks.csproj"
+            },
+            "C:\\Users\\t00596874\\Desktop\\AGC-NUGETS\\Repo\\AGC-Common-Libraries\\android\\source\\ui\\ui.csproj": {
+              "projectPath": "C:\\Users\\t00596874\\Desktop\\AGC-NUGETS\\Repo\\AGC-Common-Libraries\\android\\source\\ui\\ui.csproj"
+            },
+            "C:\\Users\\t00596874\\Desktop\\AGC-NUGETS\\Repo\\AGC-Common-Libraries\\android\\source\\update\\update.csproj": {
+              "projectPath": "C:\\Users\\t00596874\\Desktop\\AGC-NUGETS\\Repo\\AGC-Common-Libraries\\android\\source\\update\\update.csproj"
+            }
+          }
+        }
+      }
+    },
+    "frameworks": {
+      "monoandroid90": {}
+    },
+    "runtimes": {
+      "win": {
+        "#import": []
+      },
+      "win-x64": {
+        "#import": []
+      },
+      "win-x86": {
+        "#import": []
+      }
+    }
+  }
+}

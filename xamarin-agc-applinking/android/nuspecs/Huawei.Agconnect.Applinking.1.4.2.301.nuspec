@@ -1,0 +1,32 @@
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>Huawei.Agconnect.Applinking</id>
+    <version>1.4.2.301</version>
+    <title>Huawei.Agconnect.Applinking</title>
+    <authors>Huawei</authors>
+    <owners>Huawei</owners>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+    <license type="file">LICENSE.txt</license>
+    <projectUrl>https://github.com/HMS-Core/hms-xamarin-bindings</projectUrl>
+    <icon>huawei.png</icon>
+    <description>Xamarin.Android bindings for AGC - Applinking</description>
+    <copyright>© Huawei Technologies Co., Ltd. All rights reserved.</copyright>
+    <tags>Huawei Agconnect Applinking</tags>
+    <dependencies>
+      <group targetFramework="MonoAndroid9.0">
+        <dependency id="Huawei.Hmf.Tasks" version="1.4.1.300" />
+        <dependency id="Huawei.Agconnect.AgconnectCredential" version="1.4.2.301" />
+      </group>
+    </dependencies>
+    <frameworkAssemblies>
+      <frameworkAssembly assemblyName="Java.Interop" targetFramework="MonoAndroid9.0" />
+    </frameworkAssemblies>
+  </metadata>
+  <files>
+    <file src="bin/Release/Huawei.Agconnect.Applinking.dll" target="lib/monoandroid90/Huawei.Agconnect.Applinking.dll" />
+    <file src="THIRD PARTY OPEN SOURCE SOFTWARE NOTICE.txt" target="THIRD PARTY OPEN SOURCE SOFTWARE NOTICE.txt" />
+    <file src="../../icons/huawei.png" target="" />
+    <file src="../../README.md" target="" />
+    <file src="../../LICENSE.txt" target="" />
+  </files>
+</package>

@@ -1,0 +1,5 @@
+-keep class com.huawei.updatesdk.** {*;}
+-keep class com.huawei.hms.update.** {*;}
+-keep class com.huawei.hms.adapter.** {*;}
+-keep class com.huawei.hms.base.** {*;}
+-keep class com.huawei.hms.availableupdate.** {*;}

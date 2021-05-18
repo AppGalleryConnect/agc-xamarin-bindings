@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <DefineConstants>$(DefineConstants);ANDROID_1;ANDROID_2;ANDROID_3;ANDROID_4;ANDROID_5;ANDROID_6;ANDROID_7;ANDROID_8;ANDROID_9;ANDROID_10;ANDROID_11;ANDROID_12;ANDROID_13;ANDROID_14;ANDROID_15;ANDROID_16;ANDROID_17;ANDROID_18;ANDROID_19;ANDROID_20;ANDROID_21;ANDROID_22;ANDROID_23;ANDROID_24;ANDROID_25;ANDROID_26;ANDROID_27;ANDROID_28</DefineConstants>
+  </PropertyGroup>
+  <!-- Classes -->
+  <ItemGroup>
+    <Compile Include="$(MSBuildThisFileDirectory)Huawei.Hms.Framework.Common.BuildConfig.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Huawei.Hms.Framework.Common.CheckParamUtils.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Huawei.Hms.Framework.Common.ContainerUtils.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Huawei.Hms.Framework.Common.ExceptionCode.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Huawei.Hms.Framework.Common.ExecutorsEnhance.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Huawei.Hms.Framework.Common.ExecutorsUtils.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Huawei.Hms.Framework.Common.ExtLogger.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Huawei.Hms.Framework.Common.Hianalytics.CrashHianalyticsData.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Huawei.Hms.Framework.Common.Hianalytics.HianalyticsBaseData.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Huawei.Hms.Framework.Common.Hianalytics.HianalyticsHelper.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Huawei.Hms.Framework.Common.Hianalytics.LinkedHashMapPack.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Huawei.Hms.Framework.Common.IoUtils.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Huawei.Hms.Framework.Common.LimitQueue.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Huawei.Hms.Framework.Common.Logger.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Huawei.Hms.Framework.Common.PackageUtils.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Huawei.Hms.Framework.Common.PLSharedPreferences.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Huawei.Hms.Framework.Common.ReflectionUtils.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Huawei.Hms.Framework.Common.RunnableEnhance.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Huawei.Hms.Framework.Common.RunnableScheduledFutureEnhance.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Huawei.Hms.Framework.Common.ScheduledThreadPoolExecutorEnhance.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Huawei.Hms.Framework.Common.SecurityBase64Utils.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Huawei.Hms.Framework.Common.StringUtils.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Huawei.Hms.Framework.Common.SystemPropUtils.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Huawei.Hms.Framework.Common.ThreadPoolExcutorEnhance.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Huawei.Hms.Framework.Common.Utils.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Java.Interop.__TypeRegistrations.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)__NamespaceMapping__.cs" />
+  </ItemGroup>
+  <!-- Enums -->
+  <ItemGroup />
+</Project>

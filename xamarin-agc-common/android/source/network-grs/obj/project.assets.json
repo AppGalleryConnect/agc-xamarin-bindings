@@ -1,0 +1,120 @@
+{
+  "version": 3,
+  "targets": {
+    "MonoAndroid,Version=v9.0": {
+      "Huawei.Hms.NetworkCommon/1.0.0": {
+        "type": "project",
+        "framework": "MonoAndroid,Version=v9.0",
+        "compile": {
+          "bin/placeholder/Huawei.Hms.NetworkCommon.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Huawei.Hms.NetworkCommon.dll": {}
+        }
+      }
+    },
+    "MonoAndroid,Version=v9.0/win": {
+      "Huawei.Hms.NetworkCommon/1.0.0": {
+        "type": "project",
+        "framework": "MonoAndroid,Version=v9.0",
+        "compile": {
+          "bin/placeholder/Huawei.Hms.NetworkCommon.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Huawei.Hms.NetworkCommon.dll": {}
+        }
+      }
+    },
+    "MonoAndroid,Version=v9.0/win-x64": {
+      "Huawei.Hms.NetworkCommon/1.0.0": {
+        "type": "project",
+        "framework": "MonoAndroid,Version=v9.0",
+        "compile": {
+          "bin/placeholder/Huawei.Hms.NetworkCommon.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Huawei.Hms.NetworkCommon.dll": {}
+        }
+      }
+    },
+    "MonoAndroid,Version=v9.0/win-x86": {
+      "Huawei.Hms.NetworkCommon/1.0.0": {
+        "type": "project",
+        "framework": "MonoAndroid,Version=v9.0",
+        "compile": {
+          "bin/placeholder/Huawei.Hms.NetworkCommon.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Huawei.Hms.NetworkCommon.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Huawei.Hms.NetworkCommon/1.0.0": {
+      "type": "project",
+      "path": "../network-common/network-common.csproj",
+      "msbuildProject": "../network-common/network-common.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "MonoAndroid,Version=v9.0": [
+      "Huawei.Hms.NetworkCommon >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\t00596874\\.nuget\\packages\\": {},
+    "C:\\Microsoft\\Xamarin\\NuGet\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\t00596874\\Desktop\\AGC-NUGETS\\Repo\\AGC-Common-Libraries\\android\\source\\network-grs\\network-grs.csproj",
+      "projectName": "Huawei.Hms.NetworkGrs",
+      "projectPath": "C:\\Users\\t00596874\\Desktop\\AGC-NUGETS\\Repo\\AGC-Common-Libraries\\android\\source\\network-grs\\network-grs.csproj",
+      "packagesPath": "C:\\Users\\t00596874\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\t00596874\\Desktop\\AGC-NUGETS\\Repo\\AGC-Common-Libraries\\android\\source\\network-grs\\obj\\",
+      "projectStyle": "PackageReference",
+      "skipContentFileWrite": true,
+      "fallbackFolders": [
+        "C:\\Microsoft\\Xamarin\\NuGet\\"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\t00596874\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "monoandroid90"
+      ],
+      "sources": {
+        "C:\\Users\\t00596874\\Desktop\\remote-test": {},
+        "http://10.216.77.196:5000/v3/index.json": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "monoandroid90": {
+          "projectReferences": {
+            "C:\\Users\\t00596874\\Desktop\\AGC-NUGETS\\Repo\\AGC-Common-Libraries\\android\\source\\network-common\\network-common.csproj": {
+              "projectPath": "C:\\Users\\t00596874\\Desktop\\AGC-NUGETS\\Repo\\AGC-Common-Libraries\\android\\source\\network-common\\network-common.csproj"
+            }
+          }
+        }
+      }
+    },
+    "frameworks": {
+      "monoandroid90": {}
+    },
+    "runtimes": {
+      "win": {
+        "#import": []
+      },
+      "win-x64": {
+        "#import": []
+      },
+      "win-x86": {
+        "#import": []
+      }
+    }
+  }
+}

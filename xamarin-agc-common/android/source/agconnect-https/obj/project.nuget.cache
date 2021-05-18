@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "i2uKtdotq+OQknO1IKSXhhsRhEP9y58Vwm6pNIvf4tJVDj0OvPDFY2R1HYftKqCpCP3Kpncld3xaAp2hehe8CA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\t00596874\\Desktop\\AGC-NUGETS\\Repo\\AGC-Common-Libraries\\android\\source\\agconnect-https\\agconnect-https.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\t00596874\\.nuget\\packages\\square.okhttp3\\3.11.0\\square.okhttp3.3.11.0.nupkg.sha512",
+    "C:\\Users\\t00596874\\.nuget\\packages\\square.okio\\1.15.0\\square.okio.1.15.0.nupkg.sha512"
+  ],
+  "logs": []
+}

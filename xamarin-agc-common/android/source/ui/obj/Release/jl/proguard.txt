@@ -1,0 +1,5 @@
+-keep class com.huawei.hms.ui.** {*;}
+-keep class com.huawei.hms.activity.** {*;}
+-keep class com.huawei.hms.utils.** {*;}
+-keep class com.huawei.hms.base.** {*;}
+-keep class com.huawei.hms.support.** {*;}

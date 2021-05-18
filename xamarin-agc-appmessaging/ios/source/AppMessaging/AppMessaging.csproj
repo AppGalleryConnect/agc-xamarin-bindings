@@ -1,0 +1,112 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+    <PropertyGroup>
+        <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+        <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+        <ProjectTypeGuids>{8FFB629D-F513-41CE-95D2-7ECE97B6EEEC};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+        <ProjectGuid>{4B7CA2BE-16DA-490C-8BCB-A250DE7FDB71}</ProjectGuid>
+        <TemplateGuid>{b6f3ff35-79b2-4f25-a2fc-60a7cf61013b}</TemplateGuid>
+        <OutputType>Library</OutputType>
+        <RootNamespace>Huawei.Agconnect.Appmessaging</RootNamespace>
+        <IPhoneResourcePrefix>Resources</IPhoneResourcePrefix>
+        <AssemblyName>Huawei.Agconnect.Appmessaging</AssemblyName>
+        <RestoreProjectStyle>PackageReference</RestoreProjectStyle>
+    </PropertyGroup>
+    <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+        <DebugSymbols>true</DebugSymbols>
+        <DebugType>full</DebugType>
+        <Optimize>false</Optimize>
+        <OutputPath>bin\Debug</OutputPath>
+        <DefineConstants>DEBUG;</DefineConstants>
+        <ErrorReport>prompt</ErrorReport>
+        <WarningLevel>4</WarningLevel>
+        <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    </PropertyGroup>
+    <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+        <DebugType>full</DebugType>
+        <Optimize>true</Optimize>
+        <OutputPath>bin\Release</OutputPath>
+        <ErrorReport>prompt</ErrorReport>
+        <WarningLevel>4</WarningLevel>
+        <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    </PropertyGroup>
+    <ItemGroup>
+        <Reference Include="System" />
+        <Reference Include="Xamarin.iOS" />
+    </ItemGroup>
+    <ItemGroup>
+        <Folder Include="Resources\" />
+    </ItemGroup>
+    <ItemGroup>
+        <Compile Include="Properties\AssemblyInfo.cs" />
+    </ItemGroup>
+    <ItemGroup>
+        <ObjcBindingApiDefinition Include="ApiDefinitions.cs" />
+    </ItemGroup>
+    <ItemGroup>
+        <ObjcBindingCoreSource Include="Enums.cs" />
+    </ItemGroup>
+    <ItemGroup>
+        <BundleResource Include="..\..\externals\AGConnectAppMessaging.framework\AGConnectAppMessagingResources.bundle\agc_appmessaging_ic_close.png">
+            <Link>Resources\AGConnectAppMessagingResources.bundle\agc_appmessaging_ic_close.png</Link>
+        </BundleResource>
+        <BundleResource Include="..\..\externals\AGConnectAppMessaging.framework\AGConnectAppMessagingResources.bundle\agc_appmessaging_ic_close%402x.png">
+            <Link>Resources\AGConnectAppMessagingResources.bundle\agc_appmessaging_ic_close%402x.png</Link>
+        </BundleResource>
+        <BundleResource Include="..\..\externals\AGConnectAppMessaging.framework\AGConnectAppMessagingResources.bundle\agc_appmessaging_ic_close%403x.png">
+            <Link>Resources\AGConnectAppMessagingResources.bundle\agc_appmessaging_ic_close%403x.png</Link>
+        </BundleResource>
+        <BundleResource Include="..\..\externals\AGConnectAppMessaging.framework\AGConnectAppMessagingResources.bundle\AGCAppMessagingDefaultDisplayController.storyboardc\Info.plist">
+            <Link>Resources\AGConnectAppMessagingResources.bundle\AGCAppMessagingDefaultDisplayController.storyboardc\Info.plist</Link>
+        </BundleResource>
+        <BundleResource Include="..\..\externals\AGConnectAppMessaging.framework\AGConnectAppMessagingResources.bundle\AGCAppMessagingDefaultDisplayController.storyboardc\Kdu-Bq-qDg-view-I70-Tg-vf1.nib\objects-11.0+.nib">
+            <Link>Resources\AGConnectAppMessagingResources.bundle\AGCAppMessagingDefaultDisplayController.storyboardc\Kdu-Bq-qDg-view-I70-Tg-vf1.nib\objects-11.0+.nib</Link>
+        </BundleResource>
+        <BundleResource Include="..\..\externals\AGConnectAppMessaging.framework\AGConnectAppMessagingResources.bundle\AGCAppMessagingDefaultDisplayController.storyboardc\Kdu-Bq-qDg-view-I70-Tg-vf1.nib\runtime.nib">
+            <Link>Resources\AGConnectAppMessagingResources.bundle\AGCAppMessagingDefaultDisplayController.storyboardc\Kdu-Bq-qDg-view-I70-Tg-vf1.nib\runtime.nib</Link>
+        </BundleResource>
+        <BundleResource Include="..\..\externals\AGConnectAppMessaging.framework\AGConnectAppMessagingResources.bundle\AGCAppMessagingDefaultDisplayController.storyboardc\AGCIAMCardViewController.nib\objects-11.0+.nib">
+            <Link>Resources\AGConnectAppMessagingResources.bundle\AGCAppMessagingDefaultDisplayController.storyboardc\AGCIAMCardViewController.nib\objects-11.0+.nib</Link>
+        </BundleResource>
+        <BundleResource Include="..\..\externals\AGConnectAppMessaging.framework\AGConnectAppMessagingResources.bundle\AGCAppMessagingDefaultDisplayController.storyboardc\AGCIAMCardViewController.nib\runtime.nib">
+            <Link>Resources\AGConnectAppMessagingResources.bundle\AGCAppMessagingDefaultDisplayController.storyboardc\AGCIAMCardViewController.nib\runtime.nib</Link>
+        </BundleResource>
+        <BundleResource Include="..\..\externals\AGConnectAppMessaging.framework\AGConnectAppMessagingResources.bundle\AGCAppMessagingDefaultDisplayController.storyboardc\1FQ-qq-lYt-view-ddd-Ux-Kpi.nib\objects-11.0+.nib">
+            <Link>Resources\AGConnectAppMessagingResources.bundle\AGCAppMessagingDefaultDisplayController.storyboardc\1FQ-qq-lYt-view-ddd-Ux-Kpi.nib\objects-11.0+.nib</Link>
+        </BundleResource>
+        <BundleResource Include="..\..\externals\AGConnectAppMessaging.framework\AGConnectAppMessagingResources.bundle\AGCAppMessagingDefaultDisplayController.storyboardc\1FQ-qq-lYt-view-ddd-Ux-Kpi.nib\runtime.nib">
+            <Link>Resources\AGConnectAppMessagingResources.bundle\AGCAppMessagingDefaultDisplayController.storyboardc\1FQ-qq-lYt-view-ddd-Ux-Kpi.nib\runtime.nib</Link>
+        </BundleResource>
+        <BundleResource Include="..\..\externals\AGConnectAppMessaging.framework\AGConnectAppMessagingResources.bundle\AGCAppMessagingDefaultDisplayController.storyboardc\AGCIAMPictureViewController.nib\objects-11.0+.nib">
+            <Link>Resources\AGConnectAppMessagingResources.bundle\AGCAppMessagingDefaultDisplayController.storyboardc\AGCIAMPictureViewController.nib\objects-11.0+.nib</Link>
+        </BundleResource>
+        <BundleResource Include="..\..\externals\AGConnectAppMessaging.framework\AGConnectAppMessagingResources.bundle\AGCAppMessagingDefaultDisplayController.storyboardc\AGCIAMPictureViewController.nib\runtime.nib">
+            <Link>Resources\AGConnectAppMessagingResources.bundle\AGCAppMessagingDefaultDisplayController.storyboardc\AGCIAMPictureViewController.nib\runtime.nib</Link>
+        </BundleResource>
+        <BundleResource Include="..\..\externals\AGConnectAppMessaging.framework\AGConnectAppMessagingResources.bundle\AGCAppMessagingDefaultDisplayController.storyboardc\Rk6-hG-Rxk-view-hDS-dC-l6f.nib\objects-11.0+.nib">
+            <Link>Resources\AGConnectAppMessagingResources.bundle\AGCAppMessagingDefaultDisplayController.storyboardc\Rk6-hG-Rxk-view-hDS-dC-l6f.nib\objects-11.0+.nib</Link>
+        </BundleResource>
+        <BundleResource Include="..\..\externals\AGConnectAppMessaging.framework\AGConnectAppMessagingResources.bundle\AGCAppMessagingDefaultDisplayController.storyboardc\Rk6-hG-Rxk-view-hDS-dC-l6f.nib\runtime.nib">
+            <Link>Resources\AGConnectAppMessagingResources.bundle\AGCAppMessagingDefaultDisplayController.storyboardc\Rk6-hG-Rxk-view-hDS-dC-l6f.nib\runtime.nib</Link>
+        </BundleResource>
+        <BundleResource Include="..\..\externals\AGConnectAppMessaging.framework\AGConnectAppMessagingResources.bundle\AGCAppMessagingDefaultDisplayController.storyboardc\AGCIAMBannerViewController.nib\objects-11.0+.nib">
+            <Link>Resources\AGConnectAppMessagingResources.bundle\AGCAppMessagingDefaultDisplayController.storyboardc\AGCIAMBannerViewController.nib\objects-11.0+.nib</Link>
+        </BundleResource>
+        <BundleResource Include="..\..\externals\AGConnectAppMessaging.framework\AGConnectAppMessagingResources.bundle\AGCAppMessagingDefaultDisplayController.storyboardc\AGCIAMBannerViewController.nib\runtime.nib">
+            <Link>Resources\AGConnectAppMessagingResources.bundle\AGCAppMessagingDefaultDisplayController.storyboardc\AGCIAMBannerViewController.nib\runtime.nib</Link>
+        </BundleResource>
+    </ItemGroup>
+   
+    <ItemGroup>
+      <NativeReference Include="..\..\externals\AGConnectAppMessaging.framework">
+        <Kind>Framework</Kind>
+        <ForceLoad>True</ForceLoad>
+        <Frameworks>CFNetwork Foundation Security CoreFoundation UIKit</Frameworks>
+        <LinkerFlags>-ObjC -lz</LinkerFlags>
+      </NativeReference>
+    </ItemGroup>
+   <ItemGroup>
+    <PackageReference Include="Huawei.Agconnect.iOS.AgconnectCore" Version="1.2.1.300"/>
+    </ItemGroup>
+    <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.ObjCBinding.CSharp.targets" />
+</Project>

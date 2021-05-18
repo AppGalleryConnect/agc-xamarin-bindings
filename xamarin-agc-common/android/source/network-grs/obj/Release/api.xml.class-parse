@@ -1,0 +1,6067 @@
+<api
+  api-source="class-parse">
+  <package
+    name="com.huawei.hms.framework.network.grs"
+    jni-name="com/huawei/hms/framework/network/grs">
+    <class
+      abstract="false"
+      deprecated="not deprecated"
+      jni-extends="Ljava/lang/Object;"
+      extends="java.lang.Object"
+      extends-generic-aware="java.lang.Object"
+      final="false"
+      name="a"
+      jni-signature="Lcom/huawei/hms/framework/network/grs/a;"
+      source-file-name=""
+      static="false"
+      visibility="public">
+      <constructor
+        deprecated="not deprecated"
+        final="false"
+        name="a"
+        static="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Lcom/huawei/hms/framework/network/grs/GrsBaseInfo;Lcom/huawei/hms/framework/network/grs/a/a;Lcom/huawei/hms/framework/network/grs/c/m;Lcom/huawei/hms/framework/network/grs/a/c;)V">
+        <parameter
+          name="p0"
+          type="com.huawei.hms.framework.network.grs.GrsBaseInfo"
+          jni-type="Lcom/huawei/hms/framework/network/grs/GrsBaseInfo;" />
+        <parameter
+          name="p1"
+          type="com.huawei.hms.framework.network.grs.a.a"
+          jni-type="Lcom/huawei/hms/framework/network/grs/a/a;" />
+        <parameter
+          name="p2"
+          type="com.huawei.hms.framework.network.grs.c.m"
+          jni-type="Lcom/huawei/hms/framework/network/grs/c/m;" />
+        <parameter
+          name="p3"
+          type="com.huawei.hms.framework.network.grs.a.c"
+          jni-type="Lcom/huawei/hms/framework/network/grs/a/c;" />
+      </constructor>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="a"
+        native="false"
+        return="java.lang.String"
+        jni-return="Ljava/lang/String;"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Landroid/content/Context;Ljava/lang/String;)Ljava/lang/String;">
+        <parameter
+          name="p0"
+          type="android.content.Context"
+          jni-type="Landroid/content/Context;" />
+        <parameter
+          name="p1"
+          type="java.lang.String"
+          jni-type="Ljava/lang/String;" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="a"
+        native="false"
+        return="com.huawei.hms.framework.network.grs.local.model.CountryCodeBean"
+        jni-return="Lcom/huawei/hms/framework/network/grs/local/model/CountryCodeBean;"
+        static="true"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Landroid/content/Context;Z)Lcom/huawei/hms/framework/network/grs/local/model/CountryCodeBean;">
+        <parameter
+          name="p0"
+          type="android.content.Context"
+          jni-type="Landroid/content/Context;" />
+        <parameter
+          name="p1"
+          type="boolean"
+          jni-type="Z" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="a"
+        native="false"
+        return="java.util.Map&lt;java.lang.String, java.util.Map&lt;java.lang.String, java.lang.String&gt;&gt;"
+        jni-return="Ljava/util/Map&lt;Ljava/lang/String;Ljava/util/Map&lt;Ljava/lang/String;Ljava/lang/String;&gt;;&gt;;"
+        static="true"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Ljava/lang/String;)Ljava/util/Map;">
+        <parameter
+          name="p0"
+          type="java.lang.String"
+          jni-type="Ljava/lang/String;" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="a"
+        native="false"
+        return="java.util.Map&lt;java.lang.String, java.lang.String&gt;"
+        jni-return="Ljava/util/Map&lt;Ljava/lang/String;Ljava/lang/String;&gt;;"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Ljava/lang/String;Landroid/content/Context;)Ljava/util/Map;">
+        <parameter
+          name="p0"
+          type="java.lang.String"
+          jni-type="Ljava/lang/String;" />
+        <parameter
+          name="p1"
+          type="android.content.Context"
+          jni-type="Landroid/content/Context;" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="a"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Ljava/lang/String;Lcom/huawei/hms/framework/network/grs/IQueryUrlsCallBack;Landroid/content/Context;)V">
+        <parameter
+          name="p0"
+          type="java.lang.String"
+          jni-type="Ljava/lang/String;" />
+        <parameter
+          name="p1"
+          type="com.huawei.hms.framework.network.grs.IQueryUrlsCallBack"
+          jni-type="Lcom/huawei/hms/framework/network/grs/IQueryUrlsCallBack;" />
+        <parameter
+          name="p2"
+          type="android.content.Context"
+          jni-type="Landroid/content/Context;" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="a"
+        native="false"
+        return="java.util.Map&lt;java.lang.String, java.lang.String&gt;"
+        jni-return="Ljava/util/Map&lt;Ljava/lang/String;Ljava/lang/String;&gt;;"
+        static="true"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Ljava/lang/String;Ljava/lang/String;)Ljava/util/Map;">
+        <parameter
+          name="p0"
+          type="java.lang.String"
+          jni-type="Ljava/lang/String;" />
+        <parameter
+          name="p1"
+          type="java.lang.String"
+          jni-type="Ljava/lang/String;" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="a"
+        native="false"
+        return="java.lang.String"
+        jni-return="Ljava/lang/String;"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Ljava/lang/String;Ljava/lang/String;Landroid/content/Context;)Ljava/lang/String;">
+        <parameter
+          name="p0"
+          type="java.lang.String"
+          jni-type="Ljava/lang/String;" />
+        <parameter
+          name="p1"
+          type="java.lang.String"
+          jni-type="Ljava/lang/String;" />
+        <parameter
+          name="p2"
+          type="android.content.Context"
+          jni-type="Landroid/content/Context;" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="a"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Ljava/lang/String;Ljava/lang/String;Lcom/huawei/hms/framework/network/grs/IQueryUrlCallBack;Landroid/content/Context;)V">
+        <parameter
+          name="p0"
+          type="java.lang.String"
+          jni-type="Ljava/lang/String;" />
+        <parameter
+          name="p1"
+          type="java.lang.String"
+          jni-type="Ljava/lang/String;" />
+        <parameter
+          name="p2"
+          type="com.huawei.hms.framework.network.grs.IQueryUrlCallBack"
+          jni-type="Lcom/huawei/hms/framework/network/grs/IQueryUrlCallBack;" />
+        <parameter
+          name="p3"
+          type="android.content.Context"
+          jni-type="Landroid/content/Context;" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="a"
+        native="false"
+        return="java.lang.String"
+        jni-return="Ljava/lang/String;"
+        static="true"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;">
+        <parameter
+          name="p0"
+          type="java.lang.String"
+          jni-type="Ljava/lang/String;" />
+        <parameter
+          name="p1"
+          type="java.lang.String"
+          jni-type="Ljava/lang/String;" />
+        <parameter
+          name="p2"
+          type="java.lang.String"
+          jni-type="Ljava/lang/String;" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="a"
+        native="false"
+        return="java.util.Map&lt;java.lang.String, java.lang.String&gt;"
+        jni-return="Ljava/util/Map&lt;Ljava/lang/String;Ljava/lang/String;&gt;;"
+        static="true"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Lorg/json/JSONObject;)Ljava/util/Map;">
+        <parameter
+          name="p0"
+          type="org.json.JSONObject"
+          jni-type="Lorg/json/JSONObject;" />
+      </method>
+    </class>
+    <class
+      abstract="false"
+      deprecated="not deprecated"
+      jni-extends="Ljava/lang/Object;"
+      extends="java.lang.Object"
+      extends-generic-aware="java.lang.Object"
+      final="false"
+      name="a.a"
+      jni-signature="Lcom/huawei/hms/framework/network/grs/a$a;"
+      source-file-name=""
+      static="true"
+      visibility="private">
+      <implements
+        name="com.huawei.hms.framework.network.grs.b"
+        name-generic-aware="com.huawei.hms.framework.network.grs.b"
+        jni-type="Lcom/huawei/hms/framework/network/grs/b;" />
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="a"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="()V" />
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="a"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Lcom/huawei/hms/framework/network/grs/c/f;)V">
+        <parameter
+          name="p0"
+          type="com.huawei.hms.framework.network.grs.c.f"
+          jni-type="Lcom/huawei/hms/framework/network/grs/c/f;" />
+      </method>
+    </class>
+    <class
+      abstract="false"
+      deprecated="not deprecated"
+      jni-extends="Ljava/lang/Object;"
+      extends="java.lang.Object"
+      extends-generic-aware="java.lang.Object"
+      final="false"
+      name="a.b"
+      jni-signature="Lcom/huawei/hms/framework/network/grs/a$b;"
+      source-file-name=""
+      static="true"
+      visibility="private">
+      <implements
+        name="com.huawei.hms.framework.network.grs.b"
+        name-generic-aware="com.huawei.hms.framework.network.grs.b"
+        jni-type="Lcom/huawei/hms/framework/network/grs/b;" />
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="a"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="()V" />
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="a"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Lcom/huawei/hms/framework/network/grs/c/f;)V">
+        <parameter
+          name="p0"
+          type="com.huawei.hms.framework.network.grs.c.f"
+          jni-type="Lcom/huawei/hms/framework/network/grs/c/f;" />
+      </method>
+    </class>
+    <interface
+      abstract="true"
+      deprecated="not deprecated"
+      final="false"
+      name="b"
+      jni-signature="Lcom/huawei/hms/framework/network/grs/b;"
+      source-file-name=""
+      static="false"
+      visibility="public">
+      <method
+        abstract="true"
+        deprecated="not deprecated"
+        final="false"
+        name="a"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="()V" />
+      <method
+        abstract="true"
+        deprecated="not deprecated"
+        final="false"
+        name="a"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Lcom/huawei/hms/framework/network/grs/c/f;)V">
+        <parameter
+          name="p0"
+          type="com.huawei.hms.framework.network.grs.c.f"
+          jni-type="Lcom/huawei/hms/framework/network/grs/c/f;" />
+      </method>
+    </interface>
+    <class
+      abstract="false"
+      deprecated="not deprecated"
+      enclosing-method-jni-type="Lcom/huawei/hms/framework/network/grs/d;"
+      enclosing-method-name="&lt;init&gt;"
+      enclosing-method-signature="(Landroid/content/Context;Lcom/huawei/hms/framework/network/grs/GrsBaseInfo;)V"
+      jni-extends="Ljava/lang/Object;"
+      extends="java.lang.Object"
+      extends-generic-aware="java.lang.Object"
+      final="false"
+      name="c"
+      jni-signature="Lcom/huawei/hms/framework/network/grs/c;"
+      source-file-name=""
+      static="false"
+      visibility="">
+      <implements
+        name="java.util.concurrent.Callable"
+        name-generic-aware="java.util.concurrent.Callable&lt;java.lang.Boolean&gt;"
+        jni-type="Ljava/util/concurrent/Callable&lt;Ljava/lang/Boolean;&gt;;" />
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="call"
+        native="false"
+        return="java.lang.Boolean"
+        jni-return="Ljava/lang/Boolean;"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="()Ljava/lang/Boolean;" />
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="call"
+        native="false"
+        return="java.lang.Object"
+        jni-return="Ljava/lang/Object;"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="true"
+        synthetic="true"
+        jni-signature="()Ljava/lang/Object;" />
+    </class>
+    <class
+      abstract="false"
+      deprecated="not deprecated"
+      jni-extends="Ljava/lang/Object;"
+      extends="java.lang.Object"
+      extends-generic-aware="java.lang.Object"
+      final="false"
+      name="d"
+      jni-signature="Lcom/huawei/hms/framework/network/grs/d;"
+      source-file-name=""
+      static="false"
+      visibility="public" />
+    <class
+      abstract="false"
+      deprecated="not deprecated"
+      jni-extends="Ljava/lang/Object;"
+      extends="java.lang.Object"
+      extends-generic-aware="java.lang.Object"
+      final="false"
+      name="e"
+      jni-signature="Lcom/huawei/hms/framework/network/grs/e;"
+      source-file-name=""
+      static="false"
+      visibility="public">
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="a"
+        native="false"
+        return="com.huawei.hms.framework.network.grs.d"
+        jni-return="Lcom/huawei/hms/framework/network/grs/d;"
+        static="true"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Lcom/huawei/hms/framework/network/grs/GrsBaseInfo;Landroid/content/Context;)Lcom/huawei/hms/framework/network/grs/d;">
+        <parameter
+          name="p0"
+          type="com.huawei.hms.framework.network.grs.GrsBaseInfo"
+          jni-type="Lcom/huawei/hms/framework/network/grs/GrsBaseInfo;" />
+        <parameter
+          name="p1"
+          type="android.content.Context"
+          jni-type="Landroid/content/Context;" />
+      </method>
+    </class>
+    <class
+      abstract="false"
+      deprecated="not deprecated"
+      jni-extends="Ljava/lang/Object;"
+      extends="java.lang.Object"
+      extends-generic-aware="java.lang.Object"
+      final="false"
+      name="f"
+      jni-signature="Lcom/huawei/hms/framework/network/grs/f;"
+      source-file-name=""
+      static="false"
+      visibility="public">
+      <implements
+        name="com.huawei.hms.framework.network.restclient.hwhttp.plugin.PluginInterceptor"
+        name-generic-aware="com.huawei.hms.framework.network.restclient.hwhttp.plugin.PluginInterceptor"
+        jni-type="Lcom/huawei/hms/framework/network/restclient/hwhttp/plugin/PluginInterceptor;" />
+      <constructor
+        deprecated="not deprecated"
+        final="false"
+        name="f"
+        static="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="()V" />
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="intercept"
+        native="false"
+        return="com.huawei.hms.framework.network.restclient.hwhttp.Response"
+        jni-return="Lcom/huawei/hms/framework/network/restclient/hwhttp/Response;"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Lcom/huawei/hms/framework/network/restclient/hwhttp/Interceptor$Chain;)Lcom/huawei/hms/framework/network/restclient/hwhttp/Response;">
+        <parameter
+          name="p0"
+          type="com.huawei.hms.framework.network.restclient.hwhttp.Interceptor.Chain"
+          jni-type="Lcom/huawei/hms/framework/network/restclient/hwhttp/Interceptor$Chain;" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="pluginName"
+        native="false"
+        return="java.lang.String"
+        jni-return="Ljava/lang/String;"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="()Ljava/lang/String;" />
+    </class>
+    <class
+      abstract="false"
+      deprecated="not deprecated"
+      jni-extends="Ljava/lang/Object;"
+      extends="java.lang.Object"
+      extends-generic-aware="java.lang.Object"
+      final="false"
+      name="GrsApi"
+      jni-signature="Lcom/huawei/hms/framework/network/grs/GrsApi;"
+      source-file-name=""
+      static="false"
+      visibility="public">
+      <constructor
+        deprecated="not deprecated"
+        final="false"
+        name="GrsApi"
+        static="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="()V" />
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="ayncGetGrsUrl"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="true"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Ljava/lang/String;Ljava/lang/String;Lcom/huawei/hms/framework/network/grs/IQueryUrlCallBack;)V">
+        <parameter
+          name="p0"
+          type="java.lang.String"
+          jni-type="Ljava/lang/String;" />
+        <parameter
+          name="p1"
+          type="java.lang.String"
+          jni-type="Ljava/lang/String;" />
+        <parameter
+          name="p2"
+          type="com.huawei.hms.framework.network.grs.IQueryUrlCallBack"
+          jni-type="Lcom/huawei/hms/framework/network/grs/IQueryUrlCallBack;" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="ayncGetGrsUrls"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="true"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Ljava/lang/String;Lcom/huawei/hms/framework/network/grs/IQueryUrlsCallBack;)V">
+        <parameter
+          name="p0"
+          type="java.lang.String"
+          jni-type="Ljava/lang/String;" />
+        <parameter
+          name="p1"
+          type="com.huawei.hms.framework.network.grs.IQueryUrlsCallBack"
+          jni-type="Lcom/huawei/hms/framework/network/grs/IQueryUrlsCallBack;" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="clearSp"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="true"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="()V" />
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="forceExpire"
+        native="false"
+        return="boolean"
+        jni-return="Z"
+        static="true"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="()Z" />
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="getCountryCode"
+        native="false"
+        return="com.huawei.hms.framework.network.grs.local.model.CountryCodeBean"
+        jni-return="Lcom/huawei/hms/framework/network/grs/local/model/CountryCodeBean;"
+        static="true"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Landroid/content/Context;Z)Lcom/huawei/hms/framework/network/grs/local/model/CountryCodeBean;">
+        <parameter
+          name="p0"
+          type="android.content.Context"
+          jni-type="Landroid/content/Context;" />
+        <parameter
+          name="p1"
+          type="boolean"
+          jni-type="Z" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="grsSdkInit"
+        native="false"
+        return="int"
+        jni-return="I"
+        static="true"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Landroid/content/Context;Lcom/huawei/hms/framework/network/grs/GrsBaseInfo;)I">
+        <parameter
+          name="p0"
+          type="android.content.Context"
+          jni-type="Landroid/content/Context;" />
+        <parameter
+          name="p1"
+          type="com.huawei.hms.framework.network.grs.GrsBaseInfo"
+          jni-type="Lcom/huawei/hms/framework/network/grs/GrsBaseInfo;" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="synGetGrsUrl"
+        native="false"
+        return="java.lang.String"
+        jni-return="Ljava/lang/String;"
+        static="true"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;">
+        <parameter
+          name="p0"
+          type="java.lang.String"
+          jni-type="Ljava/lang/String;" />
+        <parameter
+          name="p1"
+          type="java.lang.String"
+          jni-type="Ljava/lang/String;" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="synGetGrsUrls"
+        native="false"
+        return="java.util.Map&lt;java.lang.String, java.lang.String&gt;"
+        jni-return="Ljava/util/Map&lt;Ljava/lang/String;Ljava/lang/String;&gt;;"
+        static="true"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Ljava/lang/String;)Ljava/util/Map;">
+        <parameter
+          name="p0"
+          type="java.lang.String"
+          jni-type="Ljava/lang/String;" />
+      </method>
+    </class>
+    <class
+      abstract="false"
+      deprecated="not deprecated"
+      jni-extends="Ljava/lang/Object;"
+      extends="java.lang.Object"
+      extends-generic-aware="java.lang.Object"
+      final="false"
+      name="GrsApp"
+      jni-signature="Lcom/huawei/hms/framework/network/grs/GrsApp;"
+      source-file-name=""
+      static="false"
+      visibility="public">
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="getAppConfigName"
+        native="false"
+        return="java.lang.String"
+        jni-return="Ljava/lang/String;"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="()Ljava/lang/String;" />
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="getInstance"
+        native="false"
+        return="com.huawei.hms.framework.network.grs.GrsApp"
+        jni-return="Lcom/huawei/hms/framework/network/grs/GrsApp;"
+        static="true"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="()Lcom/huawei/hms/framework/network/grs/GrsApp;" />
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="getIssueCountryCode"
+        native="false"
+        return="java.lang.String"
+        jni-return="Ljava/lang/String;"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Landroid/content/Context;)Ljava/lang/String;">
+        <parameter
+          name="p0"
+          type="android.content.Context"
+          jni-type="Landroid/content/Context;" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="setAppConfigName"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Ljava/lang/String;)V">
+        <parameter
+          name="p0"
+          type="java.lang.String"
+          jni-type="Ljava/lang/String;" />
+      </method>
+    </class>
+    <class
+      abstract="false"
+      deprecated="not deprecated"
+      jni-extends="Ljava/lang/Object;"
+      extends="java.lang.Object"
+      extends-generic-aware="java.lang.Object"
+      final="false"
+      name="GrsBaseInfo"
+      jni-signature="Lcom/huawei/hms/framework/network/grs/GrsBaseInfo;"
+      source-file-name=""
+      static="false"
+      visibility="public">
+      <implements
+        name="java.lang.Cloneable"
+        name-generic-aware="java.lang.Cloneable"
+        jni-type="Ljava/lang/Cloneable;" />
+      <constructor
+        deprecated="not deprecated"
+        final="false"
+        name="GrsBaseInfo"
+        static="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="()V" />
+      <constructor
+        deprecated="not deprecated"
+        final="false"
+        name="GrsBaseInfo"
+        static="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Landroid/content/Context;)V">
+        <parameter
+          name="p0"
+          type="android.content.Context"
+          jni-type="Landroid/content/Context;" />
+      </constructor>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="clone"
+        native="false"
+        return="com.huawei.hms.framework.network.grs.GrsBaseInfo"
+        jni-return="Lcom/huawei/hms/framework/network/grs/GrsBaseInfo;"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="()Lcom/huawei/hms/framework/network/grs/GrsBaseInfo;" />
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="clone"
+        native="false"
+        return="java.lang.Object"
+        jni-return="Ljava/lang/Object;"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="true"
+        synthetic="true"
+        jni-signature="()Ljava/lang/Object;" />
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="compare"
+        native="false"
+        return="boolean"
+        jni-return="Z"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Ljava/lang/Object;)Z">
+        <parameter
+          name="p0"
+          type="java.lang.Object"
+          jni-type="Ljava/lang/Object;" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="copy"
+        native="false"
+        return="com.huawei.hms.framework.network.grs.GrsBaseInfo"
+        jni-return="Lcom/huawei/hms/framework/network/grs/GrsBaseInfo;"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="()Lcom/huawei/hms/framework/network/grs/GrsBaseInfo;" />
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="getAndroidVersion"
+        native="false"
+        return="java.lang.String"
+        jni-return="Ljava/lang/String;"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="()Ljava/lang/String;" />
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="getAppName"
+        native="false"
+        return="java.lang.String"
+        jni-return="Ljava/lang/String;"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="()Ljava/lang/String;" />
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="getCountrySource"
+        native="false"
+        return="java.lang.String"
+        jni-return="Ljava/lang/String;"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="()Ljava/lang/String;" />
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="getDeviceModel"
+        native="false"
+        return="java.lang.String"
+        jni-return="Ljava/lang/String;"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="()Ljava/lang/String;" />
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="getGrsParasKey"
+        native="false"
+        return="java.lang.String"
+        jni-return="Ljava/lang/String;"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(ZZLandroid/content/Context;)Ljava/lang/String;">
+        <parameter
+          name="p0"
+          type="boolean"
+          jni-type="Z" />
+        <parameter
+          name="p1"
+          type="boolean"
+          jni-type="Z" />
+        <parameter
+          name="p2"
+          type="android.content.Context"
+          jni-type="Landroid/content/Context;" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="getGrsParasTag"
+        native="false"
+        return="java.lang.String"
+        jni-return="Ljava/lang/String;"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(ZZLandroid/content/Context;)Ljava/lang/String;">
+        <parameter
+          name="p0"
+          type="boolean"
+          jni-type="Z" />
+        <parameter
+          name="p1"
+          type="boolean"
+          jni-type="Z" />
+        <parameter
+          name="p2"
+          type="android.content.Context"
+          jni-type="Landroid/content/Context;" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="getGrsReqParamJoint"
+        native="false"
+        return="java.lang.String"
+        jni-return="Ljava/lang/String;"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(ZZLjava/lang/String;Landroid/content/Context;)Ljava/lang/String;">
+        <parameter
+          name="p0"
+          type="boolean"
+          jni-type="Z" />
+        <parameter
+          name="p1"
+          type="boolean"
+          jni-type="Z" />
+        <parameter
+          name="p2"
+          type="java.lang.String"
+          jni-type="Ljava/lang/String;" />
+        <parameter
+          name="p3"
+          type="android.content.Context"
+          jni-type="Landroid/content/Context;" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="getIssueCountry"
+        native="false"
+        return="java.lang.String"
+        jni-return="Ljava/lang/String;"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="()Ljava/lang/String;" />
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="getRegCountry"
+        native="false"
+        return="java.lang.String"
+        jni-return="Ljava/lang/String;"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="()Ljava/lang/String;" />
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="getRomVersion"
+        native="false"
+        return="java.lang.String"
+        jni-return="Ljava/lang/String;"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="()Ljava/lang/String;" />
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="getSerCountry"
+        native="false"
+        return="java.lang.String"
+        jni-return="Ljava/lang/String;"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="()Ljava/lang/String;" />
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="getUid"
+        native="false"
+        return="java.lang.String"
+        jni-return="Ljava/lang/String;"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="()Ljava/lang/String;" />
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="getVersionName"
+        native="false"
+        return="java.lang.String"
+        jni-return="Ljava/lang/String;"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="()Ljava/lang/String;" />
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="setAndroidVersion"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Ljava/lang/String;)V">
+        <parameter
+          name="p0"
+          type="java.lang.String"
+          jni-type="Ljava/lang/String;" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="setAppName"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Ljava/lang/String;)V">
+        <parameter
+          name="p0"
+          type="java.lang.String"
+          jni-type="Ljava/lang/String;" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="setCountrySource"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Ljava/lang/String;)V">
+        <parameter
+          name="p0"
+          type="java.lang.String"
+          jni-type="Ljava/lang/String;" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="setDeviceModel"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Ljava/lang/String;)V">
+        <parameter
+          name="p0"
+          type="java.lang.String"
+          jni-type="Ljava/lang/String;" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="setIssueCountry"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Ljava/lang/String;)V">
+        <parameter
+          name="p0"
+          type="java.lang.String"
+          jni-type="Ljava/lang/String;" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="setRegCountry"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Ljava/lang/String;)V">
+        <parameter
+          name="p0"
+          type="java.lang.String"
+          jni-type="Ljava/lang/String;" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="setRomVersion"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Ljava/lang/String;)V">
+        <parameter
+          name="p0"
+          type="java.lang.String"
+          jni-type="Ljava/lang/String;" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="setSerCountry"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Ljava/lang/String;)V">
+        <parameter
+          name="p0"
+          type="java.lang.String"
+          jni-type="Ljava/lang/String;" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="setUid"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Ljava/lang/String;)V">
+        <parameter
+          name="p0"
+          type="java.lang.String"
+          jni-type="Ljava/lang/String;" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="setVersionName"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Ljava/lang/String;)V">
+        <parameter
+          name="p0"
+          type="java.lang.String"
+          jni-type="Ljava/lang/String;" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="uniqueCode"
+        native="false"
+        return="int"
+        jni-return="I"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="()I" />
+    </class>
+    <interface
+      abstract="true"
+      deprecated="not deprecated"
+      final="false"
+      name="GrsBaseInfo.CountryCodeSource"
+      jni-signature="Lcom/huawei/hms/framework/network/grs/GrsBaseInfo$CountryCodeSource;"
+      source-file-name=""
+      static="true"
+      visibility="public">
+      <implements
+        name="java.lang.annotation.Annotation"
+        name-generic-aware="java.lang.annotation.Annotation"
+        jni-type="Ljava/lang/annotation/Annotation;" />
+      <field
+        deprecated="not deprecated"
+        final="true"
+        name="APP"
+        static="true"
+        synthetic="false"
+        transient="false"
+        type="java.lang.String"
+        type-generic-aware="java.lang.String"
+        jni-signature="Ljava/lang/String;"
+        value="&quot;APP&quot;"
+        visibility="public"
+        volatile="false" />
+      <field
+        deprecated="not deprecated"
+        final="true"
+        name="LOCALE_INFO"
+        static="true"
+        synthetic="false"
+        transient="false"
+        type="java.lang.String"
+        type-generic-aware="java.lang.String"
+        jni-signature="Ljava/lang/String;"
+        value="&quot;LOCALE_INFO&quot;"
+        visibility="public"
+        volatile="false" />
+      <field
+        deprecated="not deprecated"
+        final="true"
+        name="NETWORK_COUNTRY"
+        static="true"
+        synthetic="false"
+        transient="false"
+        type="java.lang.String"
+        type-generic-aware="java.lang.String"
+        jni-signature="Ljava/lang/String;"
+        value="&quot;NETWORK_COUNTRY&quot;"
+        visibility="public"
+        volatile="false" />
+      <field
+        deprecated="not deprecated"
+        final="true"
+        name="SIM_COUNTRY"
+        static="true"
+        synthetic="false"
+        transient="false"
+        type="java.lang.String"
+        type-generic-aware="java.lang.String"
+        jni-signature="Ljava/lang/String;"
+        value="&quot;SIM_COUNTRY&quot;"
+        visibility="public"
+        volatile="false" />
+      <field
+        deprecated="not deprecated"
+        final="true"
+        name="UNKNOWN"
+        static="true"
+        synthetic="false"
+        transient="false"
+        type="java.lang.String"
+        type-generic-aware="java.lang.String"
+        jni-signature="Ljava/lang/String;"
+        value="&quot;UNKNOWN&quot;"
+        visibility="public"
+        volatile="false" />
+      <field
+        deprecated="not deprecated"
+        final="true"
+        name="VENDOR_COUNTRY"
+        static="true"
+        synthetic="false"
+        transient="false"
+        type="java.lang.String"
+        type-generic-aware="java.lang.String"
+        jni-signature="Ljava/lang/String;"
+        value="&quot;VENDOR_COUNTRY&quot;"
+        visibility="public"
+        volatile="false" />
+    </interface>
+    <class
+      abstract="false"
+      deprecated="not deprecated"
+      jni-extends="Ljava/lang/Object;"
+      extends="java.lang.Object"
+      extends-generic-aware="java.lang.Object"
+      final="false"
+      name="GrsClient"
+      jni-signature="Lcom/huawei/hms/framework/network/grs/GrsClient;"
+      source-file-name=""
+      static="false"
+      visibility="public">
+      <constructor
+        deprecated="not deprecated"
+        final="false"
+        name="GrsClient"
+        static="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Landroid/content/Context;Lcom/huawei/hms/framework/network/grs/GrsBaseInfo;)V">
+        <parameter
+          name="p0"
+          type="android.content.Context"
+          jni-type="Landroid/content/Context;" />
+        <parameter
+          name="p1"
+          type="com.huawei.hms.framework.network.grs.GrsBaseInfo"
+          jni-type="Lcom/huawei/hms/framework/network/grs/GrsBaseInfo;" />
+      </constructor>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="ayncGetGrsUrl"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Ljava/lang/String;Ljava/lang/String;Lcom/huawei/hms/framework/network/grs/IQueryUrlCallBack;)V">
+        <parameter
+          name="p0"
+          type="java.lang.String"
+          jni-type="Ljava/lang/String;" />
+        <parameter
+          name="p1"
+          type="java.lang.String"
+          jni-type="Ljava/lang/String;" />
+        <parameter
+          name="p2"
+          type="com.huawei.hms.framework.network.grs.IQueryUrlCallBack"
+          jni-type="Lcom/huawei/hms/framework/network/grs/IQueryUrlCallBack;" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="ayncGetGrsUrls"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Ljava/lang/String;Lcom/huawei/hms/framework/network/grs/IQueryUrlsCallBack;)V">
+        <parameter
+          name="p0"
+          type="java.lang.String"
+          jni-type="Ljava/lang/String;" />
+        <parameter
+          name="p1"
+          type="com.huawei.hms.framework.network.grs.IQueryUrlsCallBack"
+          jni-type="Lcom/huawei/hms/framework/network/grs/IQueryUrlsCallBack;" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="clearSp"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="()V" />
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="forceExpire"
+        native="false"
+        return="boolean"
+        jni-return="Z"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="()Z" />
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="synGetGrsUrl"
+        native="false"
+        return="java.lang.String"
+        jni-return="Ljava/lang/String;"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;">
+        <parameter
+          name="p0"
+          type="java.lang.String"
+          jni-type="Ljava/lang/String;" />
+        <parameter
+          name="p1"
+          type="java.lang.String"
+          jni-type="Ljava/lang/String;" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="synGetGrsUrls"
+        native="false"
+        return="java.util.Map&lt;java.lang.String, java.lang.String&gt;"
+        jni-return="Ljava/util/Map&lt;Ljava/lang/String;Ljava/lang/String;&gt;;"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Ljava/lang/String;)Ljava/util/Map;">
+        <parameter
+          name="p0"
+          type="java.lang.String"
+          jni-type="Ljava/lang/String;" />
+      </method>
+    </class>
+    <class
+      abstract="false"
+      deprecated="not deprecated"
+      jni-extends="Ljava/lang/Object;"
+      extends="java.lang.Object"
+      extends-generic-aware="java.lang.Object"
+      final="false"
+      name="GrsConfig"
+      jni-signature="Lcom/huawei/hms/framework/network/grs/GrsConfig;"
+      source-file-name=""
+      static="false"
+      visibility="public">
+      <constructor
+        deprecated="not deprecated"
+        final="false"
+        name="GrsConfig"
+        static="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="()V" />
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="equal"
+        native="false"
+        return="boolean"
+        jni-return="Z"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Lcom/huawei/hms/framework/network/grs/GrsConfig;)Z">
+        <parameter
+          name="p0"
+          type="com.huawei.hms.framework.network.grs.GrsConfig"
+          jni-type="Lcom/huawei/hms/framework/network/grs/GrsConfig;" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="getAppName"
+        native="false"
+        return="java.lang.String"
+        jni-return="Ljava/lang/String;"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="()Ljava/lang/String;" />
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="getCountrySource"
+        native="false"
+        return="java.lang.String"
+        jni-return="Ljava/lang/String;"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="()Ljava/lang/String;" />
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="getGrsBaseInfo"
+        native="false"
+        return="com.huawei.hms.framework.network.grs.GrsBaseInfo"
+        jni-return="Lcom/huawei/hms/framework/network/grs/GrsBaseInfo;"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Landroid/content/Context;)Lcom/huawei/hms/framework/network/grs/GrsBaseInfo;">
+        <parameter
+          name="p0"
+          type="android.content.Context"
+          jni-type="Landroid/content/Context;" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="getIssueCountry"
+        native="false"
+        return="java.lang.String"
+        jni-return="Ljava/lang/String;"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="()Ljava/lang/String;" />
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="getRegCountry"
+        native="false"
+        return="java.lang.String"
+        jni-return="Ljava/lang/String;"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="()Ljava/lang/String;" />
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="getSerCountry"
+        native="false"
+        return="java.lang.String"
+        jni-return="Ljava/lang/String;"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="()Ljava/lang/String;" />
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="getuserId"
+        native="false"
+        return="java.lang.String"
+        jni-return="Ljava/lang/String;"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="()Ljava/lang/String;" />
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="getVersionName"
+        native="false"
+        return="java.lang.String"
+        jni-return="Ljava/lang/String;"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="()Ljava/lang/String;" />
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="setAppName"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Ljava/lang/String;)V">
+        <parameter
+          name="p0"
+          type="java.lang.String"
+          jni-type="Ljava/lang/String;" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="setCountrySource"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Ljava/lang/String;)V">
+        <parameter
+          name="p0"
+          type="java.lang.String"
+          jni-type="Ljava/lang/String;" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="setIssueCountry"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Ljava/lang/String;)V">
+        <parameter
+          name="p0"
+          type="java.lang.String"
+          jni-type="Ljava/lang/String;" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="setRegCountry"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Ljava/lang/String;)V">
+        <parameter
+          name="p0"
+          type="java.lang.String"
+          jni-type="Ljava/lang/String;" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="setSerCountry"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Ljava/lang/String;)V">
+        <parameter
+          name="p0"
+          type="java.lang.String"
+          jni-type="Ljava/lang/String;" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="setUserId"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Ljava/lang/String;)V">
+        <parameter
+          name="p0"
+          type="java.lang.String"
+          jni-type="Ljava/lang/String;" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="setVersionName"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Ljava/lang/String;)V">
+        <parameter
+          name="p0"
+          type="java.lang.String"
+          jni-type="Ljava/lang/String;" />
+      </method>
+    </class>
+    <class
+      abstract="false"
+      deprecated="not deprecated"
+      jni-extends="Ljava/lang/Object;"
+      extends="java.lang.Object"
+      extends-generic-aware="java.lang.Object"
+      final="false"
+      name="GrsManager"
+      jni-signature="Lcom/huawei/hms/framework/network/grs/GrsManager;"
+      source-file-name=""
+      static="false"
+      visibility="public">
+      <implements
+        name="com.huawei.hms.framework.network.restclient.hwhttp.plugin.BasePlugin"
+        name-generic-aware="com.huawei.hms.framework.network.restclient.hwhttp.plugin.BasePlugin"
+        jni-type="Lcom/huawei/hms/framework/network/restclient/hwhttp/plugin/BasePlugin;" />
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="getInstance"
+        native="false"
+        return="com.huawei.hms.framework.network.grs.GrsManager"
+        jni-return="Lcom/huawei/hms/framework/network/grs/GrsManager;"
+        static="true"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="()Lcom/huawei/hms/framework/network/grs/GrsManager;" />
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="getInterceptor"
+        native="false"
+        return="com.huawei.hms.framework.network.restclient.hwhttp.plugin.PluginInterceptor"
+        jni-return="Lcom/huawei/hms/framework/network/restclient/hwhttp/plugin/PluginInterceptor;"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="()Lcom/huawei/hms/framework/network/restclient/hwhttp/plugin/PluginInterceptor;" />
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="initGrs"
+        native="false"
+        return="boolean"
+        jni-return="Z"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Landroid/content/Context;Lcom/huawei/hms/framework/network/grs/GrsConfig;)Z">
+        <parameter
+          name="p0"
+          type="android.content.Context"
+          jni-type="Landroid/content/Context;" />
+        <parameter
+          name="p1"
+          type="com.huawei.hms.framework.network.grs.GrsConfig"
+          jni-type="Lcom/huawei/hms/framework/network/grs/GrsConfig;" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="isGRSSchema"
+        native="false"
+        return="boolean"
+        jni-return="Z"
+        static="true"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Ljava/lang/String;)Z">
+        <parameter
+          name="p0"
+          type="java.lang.String"
+          jni-type="Ljava/lang/String;" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="parseGrs"
+        native="false"
+        return="java.lang.String"
+        jni-return="Ljava/lang/String;"
+        static="false"
+        synchronized="false"
+        visibility="protected"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Ljava/lang/String;)Ljava/lang/String;">
+        <parameter
+          name="p0"
+          type="java.lang.String"
+          jni-type="Ljava/lang/String;" />
+      </method>
+    </class>
+    <interface
+      abstract="true"
+      deprecated="not deprecated"
+      final="false"
+      name="IQueryUrlCallBack"
+      jni-signature="Lcom/huawei/hms/framework/network/grs/IQueryUrlCallBack;"
+      source-file-name=""
+      static="false"
+      visibility="public">
+      <method
+        abstract="true"
+        deprecated="not deprecated"
+        final="false"
+        name="onCallBackFail"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(I)V">
+        <parameter
+          name="p0"
+          type="int"
+          jni-type="I" />
+      </method>
+      <method
+        abstract="true"
+        deprecated="not deprecated"
+        final="false"
+        name="onCallBackSuccess"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Ljava/lang/String;)V">
+        <parameter
+          name="p0"
+          type="java.lang.String"
+          jni-type="Ljava/lang/String;" />
+      </method>
+    </interface>
+    <interface
+      abstract="true"
+      deprecated="not deprecated"
+      final="false"
+      name="IQueryUrlsCallBack"
+      jni-signature="Lcom/huawei/hms/framework/network/grs/IQueryUrlsCallBack;"
+      source-file-name=""
+      static="false"
+      visibility="public">
+      <method
+        abstract="true"
+        deprecated="not deprecated"
+        final="false"
+        name="onCallBackFail"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(I)V">
+        <parameter
+          name="p0"
+          type="int"
+          jni-type="I" />
+      </method>
+      <method
+        abstract="true"
+        deprecated="not deprecated"
+        final="false"
+        name="onCallBackSuccess"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Ljava/util/Map;)V">
+        <parameter
+          name="p0"
+          type="java.util.Map&lt;java.lang.String, java.lang.String&gt;"
+          jni-type="Ljava/util/Map&lt;Ljava/lang/String;Ljava/lang/String;&gt;;" />
+      </method>
+    </interface>
+  </package>
+  <package
+    name="com.huawei.hms.framework.network.grs.a"
+    jni-name="com/huawei/hms/framework/network/grs/a">
+    <class
+      abstract="false"
+      deprecated="not deprecated"
+      jni-extends="Ljava/lang/Object;"
+      extends="java.lang.Object"
+      extends-generic-aware="java.lang.Object"
+      final="false"
+      name="a"
+      jni-signature="Lcom/huawei/hms/framework/network/grs/a/a;"
+      source-file-name=""
+      static="false"
+      visibility="public">
+      <constructor
+        deprecated="not deprecated"
+        final="false"
+        name="a"
+        static="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Lcom/huawei/hms/framework/network/grs/a/c;Lcom/huawei/hms/framework/network/grs/a/c;Lcom/huawei/hms/framework/network/grs/c/m;)V">
+        <parameter
+          name="p0"
+          type="com.huawei.hms.framework.network.grs.a.c"
+          jni-type="Lcom/huawei/hms/framework/network/grs/a/c;" />
+        <parameter
+          name="p1"
+          type="com.huawei.hms.framework.network.grs.a.c"
+          jni-type="Lcom/huawei/hms/framework/network/grs/a/c;" />
+        <parameter
+          name="p2"
+          type="com.huawei.hms.framework.network.grs.c.m"
+          jni-type="Lcom/huawei/hms/framework/network/grs/c/m;" />
+      </constructor>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="a"
+        native="false"
+        return="com.huawei.hms.framework.network.grs.a.c"
+        jni-return="Lcom/huawei/hms/framework/network/grs/a/c;"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="()Lcom/huawei/hms/framework/network/grs/a/c;" />
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="a"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Lcom/huawei/hms/framework/network/grs/GrsBaseInfo;Landroid/content/Context;)V">
+        <parameter
+          name="p0"
+          type="com.huawei.hms.framework.network.grs.GrsBaseInfo"
+          jni-type="Lcom/huawei/hms/framework/network/grs/GrsBaseInfo;" />
+        <parameter
+          name="p1"
+          type="android.content.Context"
+          jni-type="Landroid/content/Context;" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="a"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Lcom/huawei/hms/framework/network/grs/GrsBaseInfo;Lcom/huawei/hms/framework/network/grs/c/f;Landroid/content/Context;Lcom/huawei/hms/framework/network/grs/c/b/c;)V">
+        <parameter
+          name="p0"
+          type="com.huawei.hms.framework.network.grs.GrsBaseInfo"
+          jni-type="Lcom/huawei/hms/framework/network/grs/GrsBaseInfo;" />
+        <parameter
+          name="p1"
+          type="com.huawei.hms.framework.network.grs.c.f"
+          jni-type="Lcom/huawei/hms/framework/network/grs/c/f;" />
+        <parameter
+          name="p2"
+          type="android.content.Context"
+          jni-type="Landroid/content/Context;" />
+        <parameter
+          name="p3"
+          type="com.huawei.hms.framework.network.grs.c.b.c"
+          jni-type="Lcom/huawei/hms/framework/network/grs/c/b/c;" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="a"
+        native="false"
+        return="java.util.Map&lt;java.lang.String, java.lang.String&gt;"
+        jni-return="Ljava/util/Map&lt;Ljava/lang/String;Ljava/lang/String;&gt;;"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Lcom/huawei/hms/framework/network/grs/GrsBaseInfo;Ljava/lang/String;Lcom/huawei/hms/framework/network/grs/a/b;Landroid/content/Context;)Ljava/util/Map;">
+        <parameter
+          name="p0"
+          type="com.huawei.hms.framework.network.grs.GrsBaseInfo"
+          jni-type="Lcom/huawei/hms/framework/network/grs/GrsBaseInfo;" />
+        <parameter
+          name="p1"
+          type="java.lang.String"
+          jni-type="Ljava/lang/String;" />
+        <parameter
+          name="p2"
+          type="com.huawei.hms.framework.network.grs.a.b"
+          jni-type="Lcom/huawei/hms/framework/network/grs/a/b;" />
+        <parameter
+          name="p3"
+          type="android.content.Context"
+          jni-type="Landroid/content/Context;" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="a"
+        native="false"
+        return="java.lang.String"
+        jni-return="Ljava/lang/String;"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Lcom/huawei/hms/framework/network/grs/GrsBaseInfo;Ljava/lang/String;Ljava/lang/String;Lcom/huawei/hms/framework/network/grs/a/b;Landroid/content/Context;)Ljava/lang/String;">
+        <parameter
+          name="p0"
+          type="com.huawei.hms.framework.network.grs.GrsBaseInfo"
+          jni-type="Lcom/huawei/hms/framework/network/grs/GrsBaseInfo;" />
+        <parameter
+          name="p1"
+          type="java.lang.String"
+          jni-type="Ljava/lang/String;" />
+        <parameter
+          name="p2"
+          type="java.lang.String"
+          jni-type="Ljava/lang/String;" />
+        <parameter
+          name="p3"
+          type="com.huawei.hms.framework.network.grs.a.b"
+          jni-type="Lcom/huawei/hms/framework/network/grs/a/b;" />
+        <parameter
+          name="p4"
+          type="android.content.Context"
+          jni-type="Landroid/content/Context;" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="b"
+        native="false"
+        return="com.huawei.hms.framework.network.grs.c.m"
+        jni-return="Lcom/huawei/hms/framework/network/grs/c/m;"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="()Lcom/huawei/hms/framework/network/grs/c/m;" />
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="b"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Lcom/huawei/hms/framework/network/grs/GrsBaseInfo;Landroid/content/Context;)V">
+        <parameter
+          name="p0"
+          type="com.huawei.hms.framework.network.grs.GrsBaseInfo"
+          jni-type="Lcom/huawei/hms/framework/network/grs/GrsBaseInfo;" />
+        <parameter
+          name="p1"
+          type="android.content.Context"
+          jni-type="Landroid/content/Context;" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="c"
+        native="false"
+        return="com.huawei.hms.framework.network.grs.a.c"
+        jni-return="Lcom/huawei/hms/framework/network/grs/a/c;"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="()Lcom/huawei/hms/framework/network/grs/a/c;" />
+    </class>
+    <class
+      abstract="false"
+      deprecated="not deprecated"
+      jni-extends="Ljava/lang/Object;"
+      extends="java.lang.Object"
+      extends-generic-aware="java.lang.Object"
+      final="false"
+      name="b"
+      jni-signature="Lcom/huawei/hms/framework/network/grs/a/b;"
+      source-file-name=""
+      static="false"
+      visibility="public">
+      <constructor
+        deprecated="not deprecated"
+        final="false"
+        name="b"
+        static="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="()V" />
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="a"
+        native="false"
+        return="boolean"
+        jni-return="Z"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="()Z" />
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="a"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(I)V">
+        <parameter
+          name="p0"
+          type="int"
+          jni-type="I" />
+      </method>
+    </class>
+    <class
+      abstract="false"
+      deprecated="not deprecated"
+      jni-extends="Ljava/lang/Object;"
+      extends="java.lang.Object"
+      extends-generic-aware="java.lang.Object"
+      final="false"
+      name="c"
+      jni-signature="Lcom/huawei/hms/framework/network/grs/a/c;"
+      source-file-name=""
+      static="false"
+      visibility="public">
+      <constructor
+        deprecated="not deprecated"
+        final="false"
+        name="c"
+        static="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Landroid/content/Context;Ljava/lang/String;)V">
+        <parameter
+          name="p0"
+          type="android.content.Context"
+          jni-type="Landroid/content/Context;" />
+        <parameter
+          name="p1"
+          type="java.lang.String"
+          jni-type="Ljava/lang/String;" />
+      </constructor>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="a"
+        native="false"
+        return="java.util.Map&lt;java.lang.String, ?&gt;"
+        jni-return="Ljava/util/Map&lt;Ljava/lang/String;*&gt;;"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="()Ljava/util/Map;" />
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="a"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Ljava/lang/String;)V">
+        <parameter
+          name="p0"
+          type="java.lang.String"
+          jni-type="Ljava/lang/String;" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="a"
+        native="false"
+        return="java.lang.String"
+        jni-return="Ljava/lang/String;"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;">
+        <parameter
+          name="p0"
+          type="java.lang.String"
+          jni-type="Ljava/lang/String;" />
+        <parameter
+          name="p1"
+          type="java.lang.String"
+          jni-type="Ljava/lang/String;" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="b"
+        native="false"
+        return="java.lang.String"
+        jni-return="Ljava/lang/String;"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="()Ljava/lang/String;" />
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="b"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Ljava/lang/String;Ljava/lang/String;)V">
+        <parameter
+          name="p0"
+          type="java.lang.String"
+          jni-type="Ljava/lang/String;" />
+        <parameter
+          name="p1"
+          type="java.lang.String"
+          jni-type="Ljava/lang/String;" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="c"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="()V" />
+    </class>
+  </package>
+  <package
+    name="com.huawei.hms.framework.network.grs.b"
+    jni-name="com/huawei/hms/framework/network/grs/b">
+    <class
+      abstract="true"
+      deprecated="not deprecated"
+      jni-extends="Ljava/lang/Object;"
+      extends="java.lang.Object"
+      extends-generic-aware="java.lang.Object"
+      final="false"
+      name="a"
+      jni-signature="Lcom/huawei/hms/framework/network/grs/b/a;"
+      source-file-name=""
+      static="false"
+      visibility="public">
+      <constructor
+        deprecated="not deprecated"
+        final="false"
+        name="a"
+        static="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="()V" />
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="a"
+        native="false"
+        return="com.huawei.hms.framework.network.grs.local.model.a"
+        jni-return="Lcom/huawei/hms/framework/network/grs/local/model/a;"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="()Lcom/huawei/hms/framework/network/grs/local/model/a;" />
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="a"
+        native="false"
+        return="java.lang.String"
+        jni-return="Ljava/lang/String;"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Landroid/content/Context;Lcom/huawei/hms/framework/network/grs/a/a;Lcom/huawei/hms/framework/network/grs/GrsBaseInfo;Ljava/lang/String;Ljava/lang/String;Z)Ljava/lang/String;">
+        <parameter
+          name="p0"
+          type="android.content.Context"
+          jni-type="Landroid/content/Context;" />
+        <parameter
+          name="p1"
+          type="com.huawei.hms.framework.network.grs.a.a"
+          jni-type="Lcom/huawei/hms/framework/network/grs/a/a;" />
+        <parameter
+          name="p2"
+          type="com.huawei.hms.framework.network.grs.GrsBaseInfo"
+          jni-type="Lcom/huawei/hms/framework/network/grs/GrsBaseInfo;" />
+        <parameter
+          name="p3"
+          type="java.lang.String"
+          jni-type="Ljava/lang/String;" />
+        <parameter
+          name="p4"
+          type="java.lang.String"
+          jni-type="Ljava/lang/String;" />
+        <parameter
+          name="p5"
+          type="boolean"
+          jni-type="Z" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="a"
+        native="false"
+        return="java.util.Map&lt;java.lang.String, java.lang.String&gt;"
+        jni-return="Ljava/util/Map&lt;Ljava/lang/String;Ljava/lang/String;&gt;;"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Landroid/content/Context;Lcom/huawei/hms/framework/network/grs/a/a;Lcom/huawei/hms/framework/network/grs/GrsBaseInfo;Ljava/lang/String;Z)Ljava/util/Map;">
+        <parameter
+          name="p0"
+          type="android.content.Context"
+          jni-type="Landroid/content/Context;" />
+        <parameter
+          name="p1"
+          type="com.huawei.hms.framework.network.grs.a.a"
+          jni-type="Lcom/huawei/hms/framework/network/grs/a/a;" />
+        <parameter
+          name="p2"
+          type="com.huawei.hms.framework.network.grs.GrsBaseInfo"
+          jni-type="Lcom/huawei/hms/framework/network/grs/GrsBaseInfo;" />
+        <parameter
+          name="p3"
+          type="java.lang.String"
+          jni-type="Ljava/lang/String;" />
+        <parameter
+          name="p4"
+          type="boolean"
+          jni-type="Z" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="a"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Lcom/huawei/hms/framework/network/grs/GrsBaseInfo;)V">
+        <parameter
+          name="p0"
+          type="com.huawei.hms.framework.network.grs.GrsBaseInfo"
+          jni-type="Lcom/huawei/hms/framework/network/grs/GrsBaseInfo;" />
+      </method>
+      <method
+        abstract="true"
+        deprecated="not deprecated"
+        final="false"
+        name="a"
+        native="false"
+        return="int"
+        jni-return="I"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Ljava/lang/String;)I">
+        <parameter
+          name="p0"
+          type="java.lang.String"
+          jni-type="Ljava/lang/String;" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="a"
+        native="false"
+        return="java.util.List&lt;com.huawei.hms.framework.network.grs.local.model.b&gt;"
+        jni-return="Ljava/util/List&lt;Lcom/huawei/hms/framework/network/grs/local/model/b;&gt;;"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Lorg/json/JSONArray;)Ljava/util/List;">
+        <parameter
+          name="p0"
+          type="org.json.JSONArray"
+          jni-type="Lorg/json/JSONArray;" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="b"
+        native="false"
+        return="java.util.Set&lt;java.lang.String&gt;"
+        jni-return="Ljava/util/Set&lt;Ljava/lang/String;&gt;;"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="()Ljava/util/Set;" />
+      <method
+        abstract="true"
+        deprecated="not deprecated"
+        final="false"
+        name="b"
+        native="false"
+        return="int"
+        jni-return="I"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Ljava/lang/String;)I">
+        <parameter
+          name="p0"
+          type="java.lang.String"
+          jni-type="Ljava/lang/String;" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="b"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="protected"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Lorg/json/JSONArray;)V">
+        <parameter
+          name="p0"
+          type="org.json.JSONArray"
+          jni-type="Lorg/json/JSONArray;" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="c"
+        native="false"
+        return="boolean"
+        jni-return="Z"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="()Z" />
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="c"
+        native="false"
+        return="int"
+        jni-return="I"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Ljava/lang/String;)I">
+        <parameter
+          name="p0"
+          type="java.lang.String"
+          jni-type="Ljava/lang/String;" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="d"
+        native="false"
+        return="int"
+        jni-return="I"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Ljava/lang/String;)I">
+        <parameter
+          name="p0"
+          type="java.lang.String"
+          jni-type="Ljava/lang/String;" />
+      </method>
+      <method
+        abstract="true"
+        deprecated="not deprecated"
+        final="false"
+        name="e"
+        native="false"
+        return="int"
+        jni-return="I"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Ljava/lang/String;)I">
+        <parameter
+          name="p0"
+          type="java.lang.String"
+          jni-type="Ljava/lang/String;" />
+      </method>
+      <field
+        deprecated="not deprecated"
+        final="false"
+        name="a"
+        static="false"
+        synthetic="false"
+        transient="false"
+        type="com.huawei.hms.framework.network.grs.local.model.a"
+        type-generic-aware="com.huawei.hms.framework.network.grs.local.model.a"
+        jni-signature="Lcom/huawei/hms/framework/network/grs/local/model/a;"
+        visibility="protected"
+        volatile="false" />
+      <field
+        deprecated="not deprecated"
+        final="false"
+        name="b"
+        static="false"
+        synthetic="false"
+        transient="false"
+        type="java.util.List"
+        type-generic-aware="java.util.List&lt;com.huawei.hms.framework.network.grs.local.model.b&gt;"
+        jni-signature="Ljava/util/List;"
+        visibility="protected"
+        volatile="false" />
+      <field
+        deprecated="not deprecated"
+        final="false"
+        name="c"
+        static="false"
+        synthetic="false"
+        transient="false"
+        type="java.util.Map"
+        type-generic-aware="java.util.Map&lt;java.lang.String, java.lang.String&gt;"
+        jni-signature="Ljava/util/Map;"
+        visibility="protected"
+        volatile="false" />
+      <field
+        deprecated="not deprecated"
+        final="false"
+        name="d"
+        static="false"
+        synthetic="false"
+        transient="false"
+        type="boolean"
+        type-generic-aware="boolean"
+        jni-signature="Z"
+        visibility="protected"
+        volatile="false" />
+      <field
+        deprecated="not deprecated"
+        final="false"
+        name="e"
+        static="false"
+        synthetic="false"
+        transient="false"
+        type="boolean"
+        type-generic-aware="boolean"
+        jni-signature="Z"
+        visibility="protected"
+        volatile="false" />
+      <field
+        deprecated="not deprecated"
+        final="false"
+        name="f"
+        static="false"
+        synthetic="false"
+        transient="false"
+        type="java.util.Set"
+        type-generic-aware="java.util.Set&lt;java.lang.String&gt;"
+        jni-signature="Ljava/util/Set;"
+        visibility="protected"
+        volatile="false" />
+    </class>
+    <class
+      abstract="false"
+      deprecated="not deprecated"
+      jni-extends="Ljava/lang/Object;"
+      extends="java.lang.Object"
+      extends-generic-aware="java.lang.Object"
+      final="false"
+      name="b"
+      jni-signature="Lcom/huawei/hms/framework/network/grs/b/b;"
+      source-file-name=""
+      static="false"
+      visibility="public">
+      <constructor
+        deprecated="not deprecated"
+        final="false"
+        name="b"
+        static="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Landroid/content/Context;Lcom/huawei/hms/framework/network/grs/GrsBaseInfo;Z)V">
+        <parameter
+          name="p0"
+          type="android.content.Context"
+          jni-type="Landroid/content/Context;" />
+        <parameter
+          name="p1"
+          type="com.huawei.hms.framework.network.grs.GrsBaseInfo"
+          jni-type="Lcom/huawei/hms/framework/network/grs/GrsBaseInfo;" />
+        <parameter
+          name="p2"
+          type="boolean"
+          jni-type="Z" />
+      </constructor>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="a"
+        native="false"
+        return="com.huawei.hms.framework.network.grs.local.model.a"
+        jni-return="Lcom/huawei/hms/framework/network/grs/local/model/a;"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="()Lcom/huawei/hms/framework/network/grs/local/model/a;" />
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="a"
+        native="false"
+        return="java.lang.String"
+        jni-return="Ljava/lang/String;"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Landroid/content/Context;Lcom/huawei/hms/framework/network/grs/a/a;Lcom/huawei/hms/framework/network/grs/GrsBaseInfo;Ljava/lang/String;Ljava/lang/String;Z)Ljava/lang/String;">
+        <parameter
+          name="p0"
+          type="android.content.Context"
+          jni-type="Landroid/content/Context;" />
+        <parameter
+          name="p1"
+          type="com.huawei.hms.framework.network.grs.a.a"
+          jni-type="Lcom/huawei/hms/framework/network/grs/a/a;" />
+        <parameter
+          name="p2"
+          type="com.huawei.hms.framework.network.grs.GrsBaseInfo"
+          jni-type="Lcom/huawei/hms/framework/network/grs/GrsBaseInfo;" />
+        <parameter
+          name="p3"
+          type="java.lang.String"
+          jni-type="Ljava/lang/String;" />
+        <parameter
+          name="p4"
+          type="java.lang.String"
+          jni-type="Ljava/lang/String;" />
+        <parameter
+          name="p5"
+          type="boolean"
+          jni-type="Z" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="a"
+        native="false"
+        return="java.util.Map&lt;java.lang.String, java.lang.String&gt;"
+        jni-return="Ljava/util/Map&lt;Ljava/lang/String;Ljava/lang/String;&gt;;"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Landroid/content/Context;Lcom/huawei/hms/framework/network/grs/a/a;Lcom/huawei/hms/framework/network/grs/GrsBaseInfo;Ljava/lang/String;Z)Ljava/util/Map;">
+        <parameter
+          name="p0"
+          type="android.content.Context"
+          jni-type="Landroid/content/Context;" />
+        <parameter
+          name="p1"
+          type="com.huawei.hms.framework.network.grs.a.a"
+          jni-type="Lcom/huawei/hms/framework/network/grs/a/a;" />
+        <parameter
+          name="p2"
+          type="com.huawei.hms.framework.network.grs.GrsBaseInfo"
+          jni-type="Lcom/huawei/hms/framework/network/grs/GrsBaseInfo;" />
+        <parameter
+          name="p3"
+          type="java.lang.String"
+          jni-type="Ljava/lang/String;" />
+        <parameter
+          name="p4"
+          type="boolean"
+          jni-type="Z" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="a"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="true"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Landroid/content/Context;Lcom/huawei/hms/framework/network/grs/GrsBaseInfo;)V">
+        <parameter
+          name="p0"
+          type="android.content.Context"
+          jni-type="Landroid/content/Context;" />
+        <parameter
+          name="p1"
+          type="com.huawei.hms.framework.network.grs.GrsBaseInfo"
+          jni-type="Lcom/huawei/hms/framework/network/grs/GrsBaseInfo;" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="a"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Landroid/content/Context;Z)V">
+        <parameter
+          name="p0"
+          type="android.content.Context"
+          jni-type="Landroid/content/Context;" />
+        <parameter
+          name="p1"
+          type="boolean"
+          jni-type="Z" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="a"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Lcom/huawei/hms/framework/network/grs/GrsBaseInfo;)V">
+        <parameter
+          name="p0"
+          type="com.huawei.hms.framework.network.grs.GrsBaseInfo"
+          jni-type="Lcom/huawei/hms/framework/network/grs/GrsBaseInfo;" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="a"
+        native="false"
+        return="com.huawei.hms.framework.network.grs.b.b"
+        jni-return="Lcom/huawei/hms/framework/network/grs/b/b;"
+        static="true"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Ljava/lang/String;Lcom/huawei/hms/framework/network/grs/GrsBaseInfo;)Lcom/huawei/hms/framework/network/grs/b/b;">
+        <parameter
+          name="p0"
+          type="java.lang.String"
+          jni-type="Ljava/lang/String;" />
+        <parameter
+          name="p1"
+          type="com.huawei.hms.framework.network.grs.GrsBaseInfo"
+          jni-type="Lcom/huawei/hms/framework/network/grs/GrsBaseInfo;" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="b"
+        native="false"
+        return="java.util.Set&lt;java.lang.String&gt;"
+        jni-return="Ljava/util/Set&lt;Ljava/lang/String;&gt;;"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="()Ljava/util/Set;" />
+    </class>
+    <class
+      abstract="false"
+      deprecated="not deprecated"
+      jni-extends="Lcom/huawei/hms/framework/network/grs/b/a;"
+      extends="com.huawei.hms.framework.network.grs.b.a"
+      extends-generic-aware="com.huawei.hms.framework.network.grs.b.a"
+      final="false"
+      name="c"
+      jni-signature="Lcom/huawei/hms/framework/network/grs/b/c;"
+      source-file-name=""
+      static="false"
+      visibility="public">
+      <constructor
+        deprecated="not deprecated"
+        final="false"
+        name="c"
+        static="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Landroid/content/Context;Z)V">
+        <parameter
+          name="p0"
+          type="android.content.Context"
+          jni-type="Landroid/content/Context;" />
+        <parameter
+          name="p1"
+          type="boolean"
+          jni-type="Z" />
+      </constructor>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="a"
+        native="false"
+        return="int"
+        jni-return="I"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Ljava/lang/String;)I">
+        <parameter
+          name="p0"
+          type="java.lang.String"
+          jni-type="Ljava/lang/String;" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="a"
+        native="false"
+        return="java.util.List&lt;com.huawei.hms.framework.network.grs.local.model.b&gt;"
+        jni-return="Ljava/util/List&lt;Lcom/huawei/hms/framework/network/grs/local/model/b;&gt;;"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Lorg/json/JSONArray;Lorg/json/JSONObject;)Ljava/util/List;">
+        <parameter
+          name="p0"
+          type="org.json.JSONArray"
+          jni-type="Lorg/json/JSONArray;" />
+        <parameter
+          name="p1"
+          type="org.json.JSONObject"
+          jni-type="Lorg/json/JSONObject;" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="b"
+        native="false"
+        return="int"
+        jni-return="I"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Ljava/lang/String;)I">
+        <parameter
+          name="p0"
+          type="java.lang.String"
+          jni-type="Ljava/lang/String;" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="e"
+        native="false"
+        return="int"
+        jni-return="I"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Ljava/lang/String;)I">
+        <parameter
+          name="p0"
+          type="java.lang.String"
+          jni-type="Ljava/lang/String;" />
+      </method>
+    </class>
+    <class
+      abstract="false"
+      deprecated="not deprecated"
+      jni-extends="Lcom/huawei/hms/framework/network/grs/b/a;"
+      extends="com.huawei.hms.framework.network.grs.b.a"
+      extends-generic-aware="com.huawei.hms.framework.network.grs.b.a"
+      final="false"
+      name="d"
+      jni-signature="Lcom/huawei/hms/framework/network/grs/b/d;"
+      source-file-name=""
+      static="false"
+      visibility="public">
+      <constructor
+        deprecated="not deprecated"
+        final="false"
+        name="d"
+        static="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Landroid/content/Context;Z)V">
+        <parameter
+          name="p0"
+          type="android.content.Context"
+          jni-type="Landroid/content/Context;" />
+        <parameter
+          name="p1"
+          type="boolean"
+          jni-type="Z" />
+      </constructor>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="a"
+        native="false"
+        return="int"
+        jni-return="I"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Ljava/lang/String;)I">
+        <parameter
+          name="p0"
+          type="java.lang.String"
+          jni-type="Ljava/lang/String;" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="b"
+        native="false"
+        return="int"
+        jni-return="I"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Ljava/lang/String;)I">
+        <parameter
+          name="p0"
+          type="java.lang.String"
+          jni-type="Ljava/lang/String;" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="e"
+        native="false"
+        return="int"
+        jni-return="I"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Ljava/lang/String;)I">
+        <parameter
+          name="p0"
+          type="java.lang.String"
+          jni-type="Ljava/lang/String;" />
+      </method>
+    </class>
+    <class
+      abstract="false"
+      deprecated="not deprecated"
+      enclosing-method-jni-type="Lcom/huawei/hms/framework/network/grs/b/f;"
+      jni-extends="Ljava/util/HashSet;"
+      extends="java.util.HashSet"
+      extends-generic-aware="java.util.HashSet&lt;java.lang.String&gt;"
+      final="true"
+      name="e"
+      jni-signature="Lcom/huawei/hms/framework/network/grs/b/e;"
+      source-file-name=""
+      static="true"
+      visibility="" />
+    <class
+      abstract="false"
+      deprecated="not deprecated"
+      jni-extends="Ljava/lang/Object;"
+      extends="java.lang.Object"
+      extends-generic-aware="java.lang.Object"
+      final="false"
+      name="f"
+      jni-signature="Lcom/huawei/hms/framework/network/grs/b/f;"
+      source-file-name=""
+      static="false"
+      visibility="public">
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="a"
+        native="false"
+        return="java.lang.String"
+        jni-return="Ljava/lang/String;"
+        static="true"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Landroid/content/Context;Lcom/huawei/hms/framework/network/grs/a/a;Ljava/lang/String;Lcom/huawei/hms/framework/network/grs/GrsBaseInfo;Z)Ljava/lang/String;">
+        <parameter
+          name="p0"
+          type="android.content.Context"
+          jni-type="Landroid/content/Context;" />
+        <parameter
+          name="p1"
+          type="com.huawei.hms.framework.network.grs.a.a"
+          jni-type="Lcom/huawei/hms/framework/network/grs/a/a;" />
+        <parameter
+          name="p2"
+          type="java.lang.String"
+          jni-type="Ljava/lang/String;" />
+        <parameter
+          name="p3"
+          type="com.huawei.hms.framework.network.grs.GrsBaseInfo"
+          jni-type="Lcom/huawei/hms/framework/network/grs/GrsBaseInfo;" />
+        <parameter
+          name="p4"
+          type="boolean"
+          jni-type="Z" />
+      </method>
+      <field
+        deprecated="not deprecated"
+        final="true"
+        name="b"
+        static="true"
+        synthetic="false"
+        transient="false"
+        type="java.util.Set"
+        type-generic-aware="java.util.Set&lt;java.lang.String&gt;"
+        jni-signature="Ljava/util/Set;"
+        visibility="public"
+        volatile="false" />
+    </class>
+  </package>
+  <package
+    name="com.huawei.hms.framework.network.grs.c"
+    jni-name="com/huawei/hms/framework/network/grs/c">
+    <interface
+      abstract="true"
+      deprecated="not deprecated"
+      final="false"
+      name="a"
+      jni-signature="Lcom/huawei/hms/framework/network/grs/c/a;"
+      source-file-name=""
+      static="false"
+      visibility="public">
+      <method
+        abstract="true"
+        deprecated="not deprecated"
+        final="false"
+        name="a"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Lcom/huawei/hms/framework/network/grs/c/f;)V">
+        <parameter
+          name="p0"
+          type="com.huawei.hms.framework.network.grs.c.f"
+          jni-type="Lcom/huawei/hms/framework/network/grs/c/f;" />
+      </method>
+    </interface>
+    <class
+      abstract="false"
+      deprecated="not deprecated"
+      jni-extends="Ljava/lang/Object;"
+      extends="java.lang.Object"
+      extends-generic-aware="java.lang.Object"
+      final="false"
+      name="b"
+      jni-signature="Lcom/huawei/hms/framework/network/grs/c/b;"
+      source-file-name=""
+      static="false"
+      visibility="public">
+      <constructor
+        deprecated="not deprecated"
+        final="false"
+        name="b"
+        static="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Ljava/lang/String;ILcom/huawei/hms/framework/network/grs/c/a;Landroid/content/Context;Ljava/lang/String;Lcom/huawei/hms/framework/network/grs/GrsBaseInfo;Lcom/huawei/hms/framework/network/grs/a/c;)V">
+        <parameter
+          name="p0"
+          type="java.lang.String"
+          jni-type="Ljava/lang/String;" />
+        <parameter
+          name="p1"
+          type="int"
+          jni-type="I" />
+        <parameter
+          name="p2"
+          type="com.huawei.hms.framework.network.grs.c.a"
+          jni-type="Lcom/huawei/hms/framework/network/grs/c/a;" />
+        <parameter
+          name="p3"
+          type="android.content.Context"
+          jni-type="Landroid/content/Context;" />
+        <parameter
+          name="p4"
+          type="java.lang.String"
+          jni-type="Ljava/lang/String;" />
+        <parameter
+          name="p5"
+          type="com.huawei.hms.framework.network.grs.GrsBaseInfo"
+          jni-type="Lcom/huawei/hms/framework/network/grs/GrsBaseInfo;" />
+        <parameter
+          name="p6"
+          type="com.huawei.hms.framework.network.grs.a.c"
+          jni-type="Lcom/huawei/hms/framework/network/grs/a/c;" />
+      </constructor>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="a"
+        native="false"
+        return="com.huawei.hms.framework.network.grs.c.a"
+        jni-return="Lcom/huawei/hms/framework/network/grs/c/a;"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="()Lcom/huawei/hms/framework/network/grs/c/a;" />
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="b"
+        native="false"
+        return="android.content.Context"
+        jni-return="Landroid/content/Context;"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="()Landroid/content/Context;" />
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="c"
+        native="false"
+        return="java.lang.String"
+        jni-return="Ljava/lang/String;"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="()Ljava/lang/String;" />
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="d"
+        native="false"
+        return="int"
+        jni-return="I"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="()I" />
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="e"
+        native="false"
+        return="java.lang.String"
+        jni-return="Ljava/lang/String;"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="()Ljava/lang/String;" />
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="f"
+        native="false"
+        return="com.huawei.hms.framework.network.grs.a.c"
+        jni-return="Lcom/huawei/hms/framework/network/grs/a/c;"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="()Lcom/huawei/hms/framework/network/grs/a/c;" />
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="g"
+        native="false"
+        return="java.util.concurrent.Callable&lt;com.huawei.hms.framework.network.grs.c.f&gt;"
+        jni-return="Ljava/util/concurrent/Callable&lt;Lcom/huawei/hms/framework/network/grs/c/f;&gt;;"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="()Ljava/util/concurrent/Callable;" />
+      <field
+        deprecated="not deprecated"
+        final="false"
+        name="a"
+        static="false"
+        synthetic="false"
+        transient="false"
+        type="com.huawei.hms.framework.network.grs.c.f"
+        type-generic-aware="com.huawei.hms.framework.network.grs.c.f"
+        jni-signature="Lcom/huawei/hms/framework/network/grs/c/f;"
+        visibility="protected"
+        volatile="false" />
+    </class>
+    <class
+      abstract="false"
+      deprecated="not deprecated"
+      jni-extends="Ljava/lang/Enum;"
+      extends="java.lang.Enum"
+      extends-generic-aware="java.lang.Enum&lt;com.huawei.hms.framework.network.grs.c.b.a&gt;"
+      final="true"
+      name="b.a"
+      jni-signature="Lcom/huawei/hms/framework/network/grs/c/b$a;"
+      source-file-name=""
+      static="true"
+      visibility="private">
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="valueOf"
+        native="false"
+        return="com.huawei.hms.framework.network.grs.c.b.a"
+        jni-return="Lcom/huawei/hms/framework/network/grs/c/b$a;"
+        static="true"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Ljava/lang/String;)Lcom/huawei/hms/framework/network/grs/c/b$a;">
+        <parameter
+          name="p0"
+          type="java.lang.String"
+          jni-type="Ljava/lang/String;" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="values"
+        native="false"
+        return="com.huawei.hms.framework.network.grs.c.b.a[]"
+        jni-return="[Lcom/huawei/hms/framework/network/grs/c/b$a;"
+        static="true"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="()[Lcom/huawei/hms/framework/network/grs/c/b$a;" />
+      <field
+        deprecated="not deprecated"
+        final="true"
+        name="a"
+        static="true"
+        synthetic="false"
+        transient="false"
+        type="com.huawei.hms.framework.network.grs.c.b.a"
+        type-generic-aware="com.huawei.hms.framework.network.grs.c.b.a"
+        jni-signature="Lcom/huawei/hms/framework/network/grs/c/b$a;"
+        visibility="public"
+        volatile="false" />
+      <field
+        deprecated="not deprecated"
+        final="true"
+        name="b"
+        static="true"
+        synthetic="false"
+        transient="false"
+        type="com.huawei.hms.framework.network.grs.c.b.a"
+        type-generic-aware="com.huawei.hms.framework.network.grs.c.b.a"
+        jni-signature="Lcom/huawei/hms/framework/network/grs/c/b$a;"
+        visibility="public"
+        volatile="false" />
+      <field
+        deprecated="not deprecated"
+        final="true"
+        name="c"
+        static="true"
+        synthetic="false"
+        transient="false"
+        type="com.huawei.hms.framework.network.grs.c.b.a"
+        type-generic-aware="com.huawei.hms.framework.network.grs.c.b.a"
+        jni-signature="Lcom/huawei/hms/framework/network/grs/c/b$a;"
+        visibility="public"
+        volatile="false" />
+    </class>
+    <class
+      abstract="false"
+      deprecated="not deprecated"
+      jni-extends="Ljava/lang/Object;"
+      extends="java.lang.Object"
+      extends-generic-aware="java.lang.Object"
+      final="false"
+      name="c"
+      jni-signature="Lcom/huawei/hms/framework/network/grs/c/c;"
+      source-file-name=""
+      static="false"
+      visibility="public">
+      <constructor
+        deprecated="not deprecated"
+        final="false"
+        name="c"
+        static="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Landroid/content/Context;Lcom/huawei/hms/framework/network/grs/a/a;Lcom/huawei/hms/framework/network/grs/GrsBaseInfo;)V">
+        <parameter
+          name="p0"
+          type="android.content.Context"
+          jni-type="Landroid/content/Context;" />
+        <parameter
+          name="p1"
+          type="com.huawei.hms.framework.network.grs.a.a"
+          jni-type="Lcom/huawei/hms/framework/network/grs/a/a;" />
+        <parameter
+          name="p2"
+          type="com.huawei.hms.framework.network.grs.GrsBaseInfo"
+          jni-type="Lcom/huawei/hms/framework/network/grs/GrsBaseInfo;" />
+      </constructor>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="a"
+        native="false"
+        return="java.lang.String"
+        jni-return="Ljava/lang/String;"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Z)Ljava/lang/String;">
+        <parameter
+          name="p0"
+          type="boolean"
+          jni-type="Z" />
+      </method>
+    </class>
+    <class
+      abstract="false"
+      deprecated="not deprecated"
+      enclosing-method-jni-type="Lcom/huawei/hms/framework/network/grs/c/e;"
+      enclosing-method-name="a"
+      enclosing-method-signature="(Ljava/util/concurrent/ExecutorService;Ljava/lang/String;Lcom/huawei/hms/framework/network/grs/a/c;)Lcom/huawei/hms/framework/network/grs/c/f;"
+      jni-extends="Ljava/lang/Object;"
+      extends="java.lang.Object"
+      extends-generic-aware="java.lang.Object"
+      final="false"
+      name="d"
+      jni-signature="Lcom/huawei/hms/framework/network/grs/c/d;"
+      source-file-name=""
+      static="false"
+      visibility="">
+      <implements
+        name="java.util.concurrent.Callable"
+        name-generic-aware="java.util.concurrent.Callable&lt;com.huawei.hms.framework.network.grs.c.f&gt;"
+        jni-type="Ljava/util/concurrent/Callable&lt;Lcom/huawei/hms/framework/network/grs/c/f;&gt;;" />
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="call"
+        native="false"
+        return="com.huawei.hms.framework.network.grs.c.f"
+        jni-return="Lcom/huawei/hms/framework/network/grs/c/f;"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="()Lcom/huawei/hms/framework/network/grs/c/f;" />
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="call"
+        native="false"
+        return="java.lang.Object"
+        jni-return="Ljava/lang/Object;"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="true"
+        synthetic="true"
+        jni-signature="()Ljava/lang/Object;" />
+    </class>
+    <class
+      abstract="false"
+      deprecated="not deprecated"
+      jni-extends="Ljava/lang/Object;"
+      extends="java.lang.Object"
+      extends-generic-aware="java.lang.Object"
+      final="false"
+      name="e"
+      jni-signature="Lcom/huawei/hms/framework/network/grs/c/e;"
+      source-file-name=""
+      static="false"
+      visibility="public">
+      <implements
+        name="com.huawei.hms.framework.network.grs.c.a"
+        name-generic-aware="com.huawei.hms.framework.network.grs.c.a"
+        jni-type="Lcom/huawei/hms/framework/network/grs/c/a;" />
+      <constructor
+        deprecated="not deprecated"
+        final="false"
+        name="e"
+        static="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Lcom/huawei/hms/framework/network/grs/c/b/c;Lcom/huawei/hms/framework/network/grs/a/a;)V">
+        <parameter
+          name="p0"
+          type="com.huawei.hms.framework.network.grs.c.b.c"
+          jni-type="Lcom/huawei/hms/framework/network/grs/c/b/c;" />
+        <parameter
+          name="p1"
+          type="com.huawei.hms.framework.network.grs.a.a"
+          jni-type="Lcom/huawei/hms/framework/network/grs/a/a;" />
+      </constructor>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="a"
+        native="false"
+        return="com.huawei.hms.framework.network.grs.c.b.d"
+        jni-return="Lcom/huawei/hms/framework/network/grs/c/b/d;"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="()Lcom/huawei/hms/framework/network/grs/c/b/d;" />
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="a"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Lcom/huawei/hms/framework/network/grs/c/b/d;)V">
+        <parameter
+          name="p0"
+          type="com.huawei.hms.framework.network.grs.c.b.d"
+          jni-type="Lcom/huawei/hms/framework/network/grs/c/b/d;" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="a"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="true"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Lcom/huawei/hms/framework/network/grs/c/f;)V">
+        <parameter
+          name="p0"
+          type="com.huawei.hms.framework.network.grs.c.f"
+          jni-type="Lcom/huawei/hms/framework/network/grs/c/f;" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="a"
+        native="false"
+        return="com.huawei.hms.framework.network.grs.c.f"
+        jni-return="Lcom/huawei/hms/framework/network/grs/c/f;"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Ljava/util/concurrent/ExecutorService;Ljava/lang/String;Lcom/huawei/hms/framework/network/grs/a/c;)Lcom/huawei/hms/framework/network/grs/c/f;">
+        <parameter
+          name="p0"
+          type="java.util.concurrent.ExecutorService"
+          jni-type="Ljava/util/concurrent/ExecutorService;" />
+        <parameter
+          name="p1"
+          type="java.lang.String"
+          jni-type="Ljava/lang/String;" />
+        <parameter
+          name="p2"
+          type="com.huawei.hms.framework.network.grs.a.c"
+          jni-type="Lcom/huawei/hms/framework/network/grs/a/c;" />
+      </method>
+    </class>
+    <class
+      abstract="false"
+      deprecated="not deprecated"
+      jni-extends="Ljava/lang/Object;"
+      extends="java.lang.Object"
+      extends-generic-aware="java.lang.Object"
+      final="false"
+      name="f"
+      jni-signature="Lcom/huawei/hms/framework/network/grs/c/f;"
+      source-file-name=""
+      static="false"
+      visibility="public">
+      <constructor
+        deprecated="not deprecated"
+        final="false"
+        name="f"
+        static="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(ILjava/util/Map;[BJ)V">
+        <parameter
+          name="p0"
+          type="int"
+          jni-type="I" />
+        <parameter
+          name="p1"
+          type="java.util.Map&lt;java.lang.String, java.util.List&lt;java.lang.String&gt;&gt;"
+          jni-type="Ljava/util/Map&lt;Ljava/lang/String;Ljava/util/List&lt;Ljava/lang/String;&gt;;&gt;;" />
+        <parameter
+          name="p2"
+          type="byte[]"
+          jni-type="[B" />
+        <parameter
+          name="p3"
+          type="long"
+          jni-type="J" />
+      </constructor>
+      <constructor
+        deprecated="not deprecated"
+        final="false"
+        name="f"
+        static="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Ljava/lang/Exception;J)V">
+        <parameter
+          name="p0"
+          type="java.lang.Exception"
+          jni-type="Ljava/lang/Exception;" />
+        <parameter
+          name="p1"
+          type="long"
+          jni-type="J" />
+      </constructor>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="a"
+        native="false"
+        return="java.lang.String"
+        jni-return="Ljava/lang/String;"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="()Ljava/lang/String;" />
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="a"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(I)V">
+        <parameter
+          name="p0"
+          type="int"
+          jni-type="I" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="a"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(J)V">
+        <parameter
+          name="p0"
+          type="long"
+          jni-type="J" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="a"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Ljava/lang/String;)V">
+        <parameter
+          name="p0"
+          type="java.lang.String"
+          jni-type="Ljava/lang/String;" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="b"
+        native="false"
+        return="int"
+        jni-return="I"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="()I" />
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="b"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(J)V">
+        <parameter
+          name="p0"
+          type="long"
+          jni-type="J" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="c"
+        native="false"
+        return="int"
+        jni-return="I"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="()I" />
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="d"
+        native="false"
+        return="java.lang.Exception"
+        jni-return="Ljava/lang/Exception;"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="()Ljava/lang/Exception;" />
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="e"
+        native="false"
+        return="int"
+        jni-return="I"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="()I" />
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="f"
+        native="false"
+        return="long"
+        jni-return="J"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="()J" />
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="g"
+        native="false"
+        return="long"
+        jni-return="J"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="()J" />
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="h"
+        native="false"
+        return="long"
+        jni-return="J"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="()J" />
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="i"
+        native="false"
+        return="java.lang.String"
+        jni-return="Ljava/lang/String;"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="()Ljava/lang/String;" />
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="j"
+        native="false"
+        return="long"
+        jni-return="J"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="()J" />
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="k"
+        native="false"
+        return="java.lang.String"
+        jni-return="Ljava/lang/String;"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="()Ljava/lang/String;" />
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="l"
+        native="false"
+        return="boolean"
+        jni-return="Z"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="()Z" />
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="m"
+        native="false"
+        return="boolean"
+        jni-return="Z"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="()Z" />
+    </class>
+    <class
+      abstract="false"
+      deprecated="not deprecated"
+      enclosing-method-jni-type="Lcom/huawei/hms/framework/network/grs/c/h;"
+      enclosing-method-name="a"
+      enclosing-method-signature="(Ljava/util/ArrayList;JLorg/json/JSONArray;Landroid/content/Context;)V"
+      jni-extends="Ljava/lang/Object;"
+      extends="java.lang.Object"
+      extends-generic-aware="java.lang.Object"
+      final="true"
+      name="g"
+      jni-signature="Lcom/huawei/hms/framework/network/grs/c/g;"
+      source-file-name=""
+      static="true"
+      visibility="">
+      <implements
+        name="java.lang.Runnable"
+        name-generic-aware="java.lang.Runnable"
+        jni-type="Ljava/lang/Runnable;" />
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="run"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="()V" />
+    </class>
+    <class
+      abstract="false"
+      deprecated="not deprecated"
+      jni-extends="Ljava/lang/Object;"
+      extends="java.lang.Object"
+      extends-generic-aware="java.lang.Object"
+      final="false"
+      name="h"
+      jni-signature="Lcom/huawei/hms/framework/network/grs/c/h;"
+      source-file-name=""
+      static="false"
+      visibility="public">
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="a"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="true"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Ljava/util/ArrayList;JLorg/json/JSONArray;Landroid/content/Context;)V">
+        <parameter
+          name="p0"
+          type="java.util.ArrayList&lt;com.huawei.hms.framework.network.grs.c.f&gt;"
+          jni-type="Ljava/util/ArrayList&lt;Lcom/huawei/hms/framework/network/grs/c/f;&gt;;" />
+        <parameter
+          name="p1"
+          type="long"
+          jni-type="J" />
+        <parameter
+          name="p2"
+          type="org.json.JSONArray"
+          jni-type="Lorg/json/JSONArray;" />
+        <parameter
+          name="p3"
+          type="android.content.Context"
+          jni-type="Landroid/content/Context;" />
+      </method>
+    </class>
+    <class
+      abstract="false"
+      deprecated="not deprecated"
+      jni-extends="Lcom/huawei/hms/framework/network/grs/c/b;"
+      extends="com.huawei.hms.framework.network.grs.c.b"
+      extends-generic-aware="com.huawei.hms.framework.network.grs.c.b"
+      final="false"
+      name="i"
+      jni-signature="Lcom/huawei/hms/framework/network/grs/c/i;"
+      source-file-name=""
+      static="false"
+      visibility="public">
+      <implements
+        name="java.util.concurrent.Callable"
+        name-generic-aware="java.util.concurrent.Callable&lt;com.huawei.hms.framework.network.grs.c.f&gt;"
+        jni-type="Ljava/util/concurrent/Callable&lt;Lcom/huawei/hms/framework/network/grs/c/f;&gt;;" />
+      <constructor
+        deprecated="not deprecated"
+        final="false"
+        name="i"
+        static="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Ljava/lang/String;ILcom/huawei/hms/framework/network/grs/c/a;Landroid/content/Context;Ljava/lang/String;Lcom/huawei/hms/framework/network/grs/GrsBaseInfo;)V">
+        <parameter
+          name="p0"
+          type="java.lang.String"
+          jni-type="Ljava/lang/String;" />
+        <parameter
+          name="p1"
+          type="int"
+          jni-type="I" />
+        <parameter
+          name="p2"
+          type="com.huawei.hms.framework.network.grs.c.a"
+          jni-type="Lcom/huawei/hms/framework/network/grs/c/a;" />
+        <parameter
+          name="p3"
+          type="android.content.Context"
+          jni-type="Landroid/content/Context;" />
+        <parameter
+          name="p4"
+          type="java.lang.String"
+          jni-type="Ljava/lang/String;" />
+        <parameter
+          name="p5"
+          type="com.huawei.hms.framework.network.grs.GrsBaseInfo"
+          jni-type="Lcom/huawei/hms/framework/network/grs/GrsBaseInfo;" />
+      </constructor>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="call"
+        native="false"
+        return="com.huawei.hms.framework.network.grs.c.f"
+        jni-return="Lcom/huawei/hms/framework/network/grs/c/f;"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="()Lcom/huawei/hms/framework/network/grs/c/f;" />
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="call"
+        native="false"
+        return="java.lang.Object"
+        jni-return="Ljava/lang/Object;"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="true"
+        synthetic="true"
+        jni-signature="()Ljava/lang/Object;" />
+    </class>
+    <class
+      abstract="false"
+      deprecated="not deprecated"
+      jni-extends="Lcom/huawei/hms/framework/network/grs/c/b;"
+      extends="com.huawei.hms.framework.network.grs.c.b"
+      extends-generic-aware="com.huawei.hms.framework.network.grs.c.b"
+      final="false"
+      name="j"
+      jni-signature="Lcom/huawei/hms/framework/network/grs/c/j;"
+      source-file-name=""
+      static="false"
+      visibility="public">
+      <implements
+        name="java.util.concurrent.Callable"
+        name-generic-aware="java.util.concurrent.Callable&lt;com.huawei.hms.framework.network.grs.c.f&gt;"
+        jni-type="Ljava/util/concurrent/Callable&lt;Lcom/huawei/hms/framework/network/grs/c/f;&gt;;" />
+      <constructor
+        deprecated="not deprecated"
+        final="false"
+        name="j"
+        static="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Ljava/lang/String;ILcom/huawei/hms/framework/network/grs/c/a;Landroid/content/Context;Ljava/lang/String;Lcom/huawei/hms/framework/network/grs/GrsBaseInfo;Lcom/huawei/hms/framework/network/grs/a/c;)V">
+        <parameter
+          name="p0"
+          type="java.lang.String"
+          jni-type="Ljava/lang/String;" />
+        <parameter
+          name="p1"
+          type="int"
+          jni-type="I" />
+        <parameter
+          name="p2"
+          type="com.huawei.hms.framework.network.grs.c.a"
+          jni-type="Lcom/huawei/hms/framework/network/grs/c/a;" />
+        <parameter
+          name="p3"
+          type="android.content.Context"
+          jni-type="Landroid/content/Context;" />
+        <parameter
+          name="p4"
+          type="java.lang.String"
+          jni-type="Ljava/lang/String;" />
+        <parameter
+          name="p5"
+          type="com.huawei.hms.framework.network.grs.GrsBaseInfo"
+          jni-type="Lcom/huawei/hms/framework/network/grs/GrsBaseInfo;" />
+        <parameter
+          name="p6"
+          type="com.huawei.hms.framework.network.grs.a.c"
+          jni-type="Lcom/huawei/hms/framework/network/grs/a/c;" />
+      </constructor>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="call"
+        native="false"
+        return="com.huawei.hms.framework.network.grs.c.f"
+        jni-return="Lcom/huawei/hms/framework/network/grs/c/f;"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="()Lcom/huawei/hms/framework/network/grs/c/f;" />
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="call"
+        native="false"
+        return="java.lang.Object"
+        jni-return="Ljava/lang/Object;"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="true"
+        synthetic="true"
+        jni-signature="()Ljava/lang/Object;" />
+    </class>
+    <class
+      abstract="false"
+      deprecated="not deprecated"
+      enclosing-method-jni-type="Lcom/huawei/hms/framework/network/grs/c/m;"
+      enclosing-method-name="a"
+      enclosing-method-signature="(Lcom/huawei/hms/framework/network/grs/c/b/c;Ljava/lang/String;Lcom/huawei/hms/framework/network/grs/a/c;)Lcom/huawei/hms/framework/network/grs/c/f;"
+      jni-extends="Ljava/lang/Object;"
+      extends="java.lang.Object"
+      extends-generic-aware="java.lang.Object"
+      final="false"
+      name="k"
+      jni-signature="Lcom/huawei/hms/framework/network/grs/c/k;"
+      source-file-name=""
+      static="false"
+      visibility="">
+      <implements
+        name="java.util.concurrent.Callable"
+        name-generic-aware="java.util.concurrent.Callable&lt;com.huawei.hms.framework.network.grs.c.f&gt;"
+        jni-type="Ljava/util/concurrent/Callable&lt;Lcom/huawei/hms/framework/network/grs/c/f;&gt;;" />
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="call"
+        native="false"
+        return="com.huawei.hms.framework.network.grs.c.f"
+        jni-return="Lcom/huawei/hms/framework/network/grs/c/f;"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="()Lcom/huawei/hms/framework/network/grs/c/f;" />
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="call"
+        native="false"
+        return="java.lang.Object"
+        jni-return="Ljava/lang/Object;"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="true"
+        synthetic="true"
+        jni-signature="()Ljava/lang/Object;" />
+    </class>
+    <class
+      abstract="false"
+      deprecated="not deprecated"
+      enclosing-method-jni-type="Lcom/huawei/hms/framework/network/grs/c/m;"
+      enclosing-method-name="a"
+      enclosing-method-signature="(Lcom/huawei/hms/framework/network/grs/c/b/c;Lcom/huawei/hms/framework/network/grs/b;Ljava/lang/String;Lcom/huawei/hms/framework/network/grs/a/c;)V"
+      jni-extends="Ljava/lang/Object;"
+      extends="java.lang.Object"
+      extends-generic-aware="java.lang.Object"
+      final="false"
+      name="l"
+      jni-signature="Lcom/huawei/hms/framework/network/grs/c/l;"
+      source-file-name=""
+      static="false"
+      visibility="">
+      <implements
+        name="java.lang.Runnable"
+        name-generic-aware="java.lang.Runnable"
+        jni-type="Ljava/lang/Runnable;" />
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="run"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="()V" />
+    </class>
+    <class
+      abstract="false"
+      deprecated="not deprecated"
+      jni-extends="Ljava/lang/Object;"
+      extends="java.lang.Object"
+      extends-generic-aware="java.lang.Object"
+      final="false"
+      name="m"
+      jni-signature="Lcom/huawei/hms/framework/network/grs/c/m;"
+      source-file-name=""
+      static="false"
+      visibility="public">
+      <constructor
+        deprecated="not deprecated"
+        final="false"
+        name="m"
+        static="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="()V" />
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="a"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Lcom/huawei/hms/framework/network/grs/a/a;)V">
+        <parameter
+          name="p0"
+          type="com.huawei.hms.framework.network.grs.a.a"
+          jni-type="Lcom/huawei/hms/framework/network/grs/a/a;" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="a"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Lcom/huawei/hms/framework/network/grs/c/b/c;Lcom/huawei/hms/framework/network/grs/b;Ljava/lang/String;Lcom/huawei/hms/framework/network/grs/a/c;)V">
+        <parameter
+          name="p0"
+          type="com.huawei.hms.framework.network.grs.c.b.c"
+          jni-type="Lcom/huawei/hms/framework/network/grs/c/b/c;" />
+        <parameter
+          name="p1"
+          type="com.huawei.hms.framework.network.grs.b"
+          jni-type="Lcom/huawei/hms/framework/network/grs/b;" />
+        <parameter
+          name="p2"
+          type="java.lang.String"
+          jni-type="Ljava/lang/String;" />
+        <parameter
+          name="p3"
+          type="com.huawei.hms.framework.network.grs.a.c"
+          jni-type="Lcom/huawei/hms/framework/network/grs/a/c;" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="a"
+        native="false"
+        return="com.huawei.hms.framework.network.grs.c.f"
+        jni-return="Lcom/huawei/hms/framework/network/grs/c/f;"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Lcom/huawei/hms/framework/network/grs/c/b/c;Ljava/lang/String;Lcom/huawei/hms/framework/network/grs/a/c;)Lcom/huawei/hms/framework/network/grs/c/f;">
+        <parameter
+          name="p0"
+          type="com.huawei.hms.framework.network.grs.c.b.c"
+          jni-type="Lcom/huawei/hms/framework/network/grs/c/b/c;" />
+        <parameter
+          name="p1"
+          type="java.lang.String"
+          jni-type="Ljava/lang/String;" />
+        <parameter
+          name="p2"
+          type="com.huawei.hms.framework.network.grs.a.c"
+          jni-type="Lcom/huawei/hms/framework/network/grs/a/c;" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="a"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Ljava/lang/String;)V">
+        <parameter
+          name="p0"
+          type="java.lang.String"
+          jni-type="Ljava/lang/String;" />
+      </method>
+    </class>
+    <class
+      abstract="false"
+      deprecated="not deprecated"
+      jni-extends="Ljava/lang/Object;"
+      extends="java.lang.Object"
+      extends-generic-aware="java.lang.Object"
+      final="false"
+      name="n"
+      jni-signature="Lcom/huawei/hms/framework/network/grs/c/n;"
+      source-file-name=""
+      static="false"
+      visibility="public">
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="a"
+        native="false"
+        return="java.lang.String"
+        jni-return="Ljava/lang/String;"
+        static="true"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;">
+        <parameter
+          name="p0"
+          type="java.lang.String"
+          jni-type="Ljava/lang/String;" />
+        <parameter
+          name="p1"
+          type="java.lang.String"
+          jni-type="Ljava/lang/String;" />
+      </method>
+    </class>
+  </package>
+  <package
+    name="com.huawei.hms.framework.network.grs.c.a"
+    jni-name="com/huawei/hms/framework/network/grs/c/a">
+    <class
+      abstract="false"
+      deprecated="not deprecated"
+      jni-extends="Ljava/lang/Object;"
+      extends="java.lang.Object"
+      extends-generic-aware="java.lang.Object"
+      final="false"
+      name="a"
+      jni-signature="Lcom/huawei/hms/framework/network/grs/c/a/a;"
+      source-file-name=""
+      static="false"
+      visibility="public">
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="a"
+        native="false"
+        return="com.huawei.hms.framework.network.grs.c.b.d"
+        jni-return="Lcom/huawei/hms/framework/network/grs/c/b/d;"
+        static="true"
+        synchronized="true"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Landroid/content/Context;)Lcom/huawei/hms/framework/network/grs/c/b/d;">
+        <parameter
+          name="p0"
+          type="android.content.Context"
+          jni-type="Landroid/content/Context;" />
+      </method>
+    </class>
+  </package>
+  <package
+    name="com.huawei.hms.framework.network.grs.c.b"
+    jni-name="com/huawei/hms/framework/network/grs/c/b">
+    <class
+      abstract="false"
+      deprecated="not deprecated"
+      jni-extends="Lcom/huawei/hms/framework/common/hianalytics/HianalyticsBaseData;"
+      extends="com.huawei.hms.framework.common.hianalytics.HianalyticsBaseData"
+      extends-generic-aware="com.huawei.hms.framework.common.hianalytics.HianalyticsBaseData"
+      final="false"
+      name="a"
+      jni-signature="Lcom/huawei/hms/framework/network/grs/c/b/a;"
+      source-file-name=""
+      static="false"
+      visibility="public">
+      <constructor
+        deprecated="not deprecated"
+        final="false"
+        name="a"
+        static="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="()V" />
+      <field
+        deprecated="not deprecated"
+        final="true"
+        name="TAG"
+        static="true"
+        synthetic="false"
+        transient="false"
+        type="java.lang.String"
+        type-generic-aware="java.lang.String"
+        jni-signature="Ljava/lang/String;"
+        visibility="public"
+        volatile="false" />
+    </class>
+    <class
+      abstract="false"
+      deprecated="not deprecated"
+      jni-extends="Ljava/lang/Object;"
+      extends="java.lang.Object"
+      extends-generic-aware="java.lang.Object"
+      final="false"
+      name="b"
+      jni-signature="Lcom/huawei/hms/framework/network/grs/c/b/b;"
+      source-file-name=""
+      static="false"
+      visibility="public">
+      <constructor
+        deprecated="not deprecated"
+        final="false"
+        name="b"
+        static="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Ljava/util/concurrent/Future;)V">
+        <parameter
+          name="p0"
+          type="java.util.concurrent.Future&lt;com.huawei.hms.framework.network.grs.c.f&gt;"
+          jni-type="Ljava/util/concurrent/Future&lt;Lcom/huawei/hms/framework/network/grs/c/f;&gt;;" />
+      </constructor>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="a"
+        native="false"
+        return="java.util.concurrent.Future&lt;com.huawei.hms.framework.network.grs.c.f&gt;"
+        jni-return="Ljava/util/concurrent/Future&lt;Lcom/huawei/hms/framework/network/grs/c/f;&gt;;"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="()Ljava/util/concurrent/Future;" />
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="b"
+        native="false"
+        return="boolean"
+        jni-return="Z"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="()Z" />
+    </class>
+    <class
+      abstract="false"
+      deprecated="not deprecated"
+      jni-extends="Ljava/lang/Object;"
+      extends="java.lang.Object"
+      extends-generic-aware="java.lang.Object"
+      final="false"
+      name="c"
+      jni-signature="Lcom/huawei/hms/framework/network/grs/c/b/c;"
+      source-file-name=""
+      static="false"
+      visibility="public">
+      <constructor
+        deprecated="not deprecated"
+        final="false"
+        name="c"
+        static="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Lcom/huawei/hms/framework/network/grs/GrsBaseInfo;Landroid/content/Context;)V">
+        <parameter
+          name="p0"
+          type="com.huawei.hms.framework.network.grs.GrsBaseInfo"
+          jni-type="Lcom/huawei/hms/framework/network/grs/GrsBaseInfo;" />
+        <parameter
+          name="p1"
+          type="android.content.Context"
+          jni-type="Landroid/content/Context;" />
+      </constructor>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="a"
+        native="false"
+        return="android.content.Context"
+        jni-return="Landroid/content/Context;"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="()Landroid/content/Context;" />
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="a"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Ljava/lang/String;)V">
+        <parameter
+          name="p0"
+          type="java.lang.String"
+          jni-type="Ljava/lang/String;" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="b"
+        native="false"
+        return="com.huawei.hms.framework.network.grs.GrsBaseInfo"
+        jni-return="Lcom/huawei/hms/framework/network/grs/GrsBaseInfo;"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="()Lcom/huawei/hms/framework/network/grs/GrsBaseInfo;" />
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="c"
+        native="false"
+        return="java.lang.String"
+        jni-return="Ljava/lang/String;"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="()Ljava/lang/String;" />
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="d"
+        native="false"
+        return="java.util.Set&lt;java.lang.String&gt;"
+        jni-return="Ljava/util/Set&lt;Ljava/lang/String;&gt;;"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="()Ljava/util/Set;" />
+    </class>
+    <class
+      abstract="false"
+      deprecated="not deprecated"
+      jni-extends="Ljava/lang/Object;"
+      extends="java.lang.Object"
+      extends-generic-aware="java.lang.Object"
+      final="false"
+      name="d"
+      jni-signature="Lcom/huawei/hms/framework/network/grs/c/b/d;"
+      source-file-name=""
+      static="false"
+      visibility="public">
+      <constructor
+        deprecated="not deprecated"
+        final="false"
+        name="d"
+        static="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="()V" />
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="a"
+        native="false"
+        return="java.util.List&lt;java.lang.String&gt;"
+        jni-return="Ljava/util/List&lt;Ljava/lang/String;&gt;;"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="()Ljava/util/List;" />
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="a"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(I)V">
+        <parameter
+          name="p0"
+          type="int"
+          jni-type="I" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="a"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Ljava/lang/String;)V">
+        <parameter
+          name="p0"
+          type="java.lang.String"
+          jni-type="Ljava/lang/String;" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="a"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Ljava/util/List;)V">
+        <parameter
+          name="p0"
+          type="java.util.List&lt;java.lang.String&gt;"
+          jni-type="Ljava/util/List&lt;Ljava/lang/String;&gt;;" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="b"
+        native="false"
+        return="java.lang.String"
+        jni-return="Ljava/lang/String;"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="()Ljava/lang/String;" />
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="b"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Ljava/lang/String;)V">
+        <parameter
+          name="p0"
+          type="java.lang.String"
+          jni-type="Ljava/lang/String;" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="c"
+        native="false"
+        return="java.lang.String"
+        jni-return="Ljava/lang/String;"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="()Ljava/lang/String;" />
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="d"
+        native="false"
+        return="int"
+        jni-return="I"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="()I" />
+    </class>
+  </package>
+  <package
+    name="com.huawei.hms.framework.network.grs.d"
+    jni-name="com/huawei/hms/framework/network/grs/d">
+    <class
+      abstract="false"
+      deprecated="not deprecated"
+      jni-extends="Ljava/lang/Object;"
+      extends="java.lang.Object"
+      extends-generic-aware="java.lang.Object"
+      final="false"
+      name="a"
+      jni-signature="Lcom/huawei/hms/framework/network/grs/d/a;"
+      source-file-name=""
+      static="false"
+      visibility="public">
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="a"
+        native="false"
+        return="java.lang.String"
+        jni-return="Ljava/lang/String;"
+        static="true"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="()Ljava/lang/String;" />
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="a"
+        native="false"
+        return="java.lang.String"
+        jni-return="Ljava/lang/String;"
+        static="true"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Landroid/content/Context;)Ljava/lang/String;">
+        <parameter
+          name="p0"
+          type="android.content.Context"
+          jni-type="Landroid/content/Context;" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="a"
+        native="false"
+        return="java.lang.String"
+        jni-return="Ljava/lang/String;"
+        static="true"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;">
+        <parameter
+          name="p0"
+          type="android.content.Context"
+          jni-type="Landroid/content/Context;" />
+        <parameter
+          name="p1"
+          type="java.lang.String"
+          jni-type="Ljava/lang/String;" />
+        <parameter
+          name="p2"
+          type="java.lang.String"
+          jni-type="Ljava/lang/String;" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="b"
+        native="false"
+        return="java.lang.String"
+        jni-return="Ljava/lang/String;"
+        static="true"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;">
+        <parameter
+          name="p0"
+          type="android.content.Context"
+          jni-type="Landroid/content/Context;" />
+        <parameter
+          name="p1"
+          type="java.lang.String"
+          jni-type="Ljava/lang/String;" />
+        <parameter
+          name="p2"
+          type="java.lang.String"
+          jni-type="Ljava/lang/String;" />
+      </method>
+    </class>
+    <class
+      abstract="false"
+      deprecated="not deprecated"
+      jni-extends="Ljava/lang/Object;"
+      extends="java.lang.Object"
+      extends-generic-aware="java.lang.Object"
+      final="false"
+      name="b"
+      jni-signature="Lcom/huawei/hms/framework/network/grs/d/b;"
+      source-file-name=""
+      static="false"
+      visibility="public">
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="a"
+        native="false"
+        return="java.lang.String"
+        jni-return="Ljava/lang/String;"
+        static="true"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Ljava/lang/String;)Ljava/lang/String;">
+        <parameter
+          name="p0"
+          type="java.lang.String"
+          jni-type="Ljava/lang/String;" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="b"
+        native="false"
+        return="java.lang.String"
+        jni-return="Ljava/lang/String;"
+        static="true"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Ljava/lang/String;)Ljava/lang/String;">
+        <parameter
+          name="p0"
+          type="java.lang.String"
+          jni-type="Ljava/lang/String;" />
+      </method>
+    </class>
+    <class
+      abstract="false"
+      deprecated="not deprecated"
+      jni-extends="Ljava/lang/Object;"
+      extends="java.lang.Object"
+      extends-generic-aware="java.lang.Object"
+      final="false"
+      name="c"
+      jni-signature="Lcom/huawei/hms/framework/network/grs/d/c;"
+      source-file-name=""
+      static="false"
+      visibility="public">
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="a"
+        native="false"
+        return="java.lang.String"
+        jni-return="Ljava/lang/String;"
+        static="true"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Ljava/lang/String;Landroid/content/Context;)Ljava/lang/String;">
+        <parameter
+          name="p0"
+          type="java.lang.String"
+          jni-type="Ljava/lang/String;" />
+        <parameter
+          name="p1"
+          type="android.content.Context"
+          jni-type="Landroid/content/Context;" />
+      </method>
+    </class>
+    <class
+      abstract="false"
+      deprecated="not deprecated"
+      jni-extends="Ljava/lang/Object;"
+      extends="java.lang.Object"
+      extends-generic-aware="java.lang.Object"
+      final="false"
+      name="d"
+      jni-signature="Lcom/huawei/hms/framework/network/grs/d/d;"
+      source-file-name=""
+      static="false"
+      visibility="public">
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="a"
+        native="false"
+        return="com.huawei.hms.framework.network.grs.d.d.a"
+        jni-return="Lcom/huawei/hms/framework/network/grs/d/d$a;"
+        static="true"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Ljava/lang/String;)Lcom/huawei/hms/framework/network/grs/d/d$a;">
+        <parameter
+          name="p0"
+          type="java.lang.String"
+          jni-type="Ljava/lang/String;" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="a"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="true"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Ljava/lang/String;Lcom/huawei/hms/framework/network/grs/d/d$a;)V">
+        <parameter
+          name="p0"
+          type="java.lang.String"
+          jni-type="Ljava/lang/String;" />
+        <parameter
+          name="p1"
+          type="com.huawei.hms.framework.network.grs.d.d.a"
+          jni-type="Lcom/huawei/hms/framework/network/grs/d/d$a;" />
+      </method>
+    </class>
+    <class
+      abstract="false"
+      deprecated="not deprecated"
+      jni-extends="Ljava/lang/Object;"
+      extends="java.lang.Object"
+      extends-generic-aware="java.lang.Object"
+      final="false"
+      name="d.a"
+      jni-signature="Lcom/huawei/hms/framework/network/grs/d/d$a;"
+      source-file-name=""
+      static="true"
+      visibility="public">
+      <constructor
+        deprecated="not deprecated"
+        final="false"
+        name="d.a"
+        static="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(JJ)V">
+        <parameter
+          name="p0"
+          type="long"
+          jni-type="J" />
+        <parameter
+          name="p1"
+          type="long"
+          jni-type="J" />
+      </constructor>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="a"
+        native="false"
+        return="boolean"
+        jni-return="Z"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="()Z" />
+    </class>
+    <class
+      abstract="false"
+      deprecated="not deprecated"
+      jni-extends="Ljava/lang/Object;"
+      extends="java.lang.Object"
+      extends-generic-aware="java.lang.Object"
+      final="false"
+      name="e"
+      jni-signature="Lcom/huawei/hms/framework/network/grs/d/e;"
+      source-file-name=""
+      static="false"
+      visibility="public">
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="a"
+        native="false"
+        return="boolean"
+        jni-return="Z"
+        static="true"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Ljava/lang/Long;)Z">
+        <parameter
+          name="p0"
+          type="java.lang.Long"
+          jni-type="Ljava/lang/Long;" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="a"
+        native="false"
+        return="boolean"
+        jni-return="Z"
+        static="true"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Ljava/lang/Long;J)Z">
+        <parameter
+          name="p0"
+          type="java.lang.Long"
+          jni-type="Ljava/lang/Long;" />
+        <parameter
+          name="p1"
+          type="long"
+          jni-type="J" />
+      </method>
+    </class>
+  </package>
+  <package
+    name="com.huawei.hms.framework.network.grs.d.a"
+    jni-name="com/huawei/hms/framework/network/grs/d/a">
+    <class
+      abstract="false"
+      deprecated="not deprecated"
+      jni-extends="Ljava/lang/Object;"
+      extends="java.lang.Object"
+      extends-generic-aware="java.lang.Object"
+      final="false"
+      name="a"
+      jni-signature="Lcom/huawei/hms/framework/network/grs/d/a/a;"
+      source-file-name=""
+      static="false"
+      visibility="public">
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="a"
+        native="false"
+        return="javax.net.ssl.HttpsURLConnection"
+        jni-return="Ljavax/net/ssl/HttpsURLConnection;"
+        static="true"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Ljava/lang/String;Landroid/content/Context;Ljava/lang/String;)Ljavax/net/ssl/HttpsURLConnection;">
+        <parameter
+          name="p0"
+          type="java.lang.String"
+          jni-type="Ljava/lang/String;" />
+        <parameter
+          name="p1"
+          type="android.content.Context"
+          jni-type="Landroid/content/Context;" />
+        <parameter
+          name="p2"
+          type="java.lang.String"
+          jni-type="Ljava/lang/String;" />
+      </method>
+    </class>
+  </package>
+  <package
+    name="com.huawei.hms.framework.network.grs.d.b"
+    jni-name="com/huawei/hms/framework/network/grs/d/b">
+    <class
+      abstract="false"
+      deprecated="not deprecated"
+      jni-extends="Ljava/lang/Object;"
+      extends="java.lang.Object"
+      extends-generic-aware="java.lang.Object"
+      final="false"
+      name="a"
+      jni-signature="Lcom/huawei/hms/framework/network/grs/d/b/a;"
+      source-file-name=""
+      static="false"
+      visibility="public">
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="a"
+        native="false"
+        return="javax.net.ssl.HostnameVerifier"
+        jni-return="Ljavax/net/ssl/HostnameVerifier;"
+        static="true"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="()Ljavax/net/ssl/HostnameVerifier;" />
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="a"
+        native="false"
+        return="javax.net.ssl.SSLSocketFactory"
+        jni-return="Ljavax/net/ssl/SSLSocketFactory;"
+        static="true"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Landroid/content/Context;)Ljavax/net/ssl/SSLSocketFactory;">
+        <parameter
+          name="p0"
+          type="android.content.Context"
+          jni-type="Landroid/content/Context;" />
+      </method>
+    </class>
+  </package>
+  <package
+    name="com.huawei.hms.framework.network.grs.local.model"
+    jni-name="com/huawei/hms/framework/network/grs/local/model">
+    <class
+      abstract="false"
+      deprecated="not deprecated"
+      jni-extends="Ljava/lang/Object;"
+      extends="java.lang.Object"
+      extends-generic-aware="java.lang.Object"
+      final="false"
+      name="a"
+      jni-signature="Lcom/huawei/hms/framework/network/grs/local/model/a;"
+      source-file-name=""
+      static="false"
+      visibility="public">
+      <constructor
+        deprecated="not deprecated"
+        final="false"
+        name="a"
+        static="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="()V" />
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="a"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="()V" />
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="a"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(J)V">
+        <parameter
+          name="p0"
+          type="long"
+          jni-type="J" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="a"
+        native="false"
+        return="com.huawei.hms.framework.network.grs.local.model.c"
+        jni-return="Lcom/huawei/hms/framework/network/grs/local/model/c;"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Ljava/lang/String;)Lcom/huawei/hms/framework/network/grs/local/model/c;">
+        <parameter
+          name="p0"
+          type="java.lang.String"
+          jni-type="Ljava/lang/String;" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="a"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Ljava/lang/String;Lcom/huawei/hms/framework/network/grs/local/model/c;)V">
+        <parameter
+          name="p0"
+          type="java.lang.String"
+          jni-type="Ljava/lang/String;" />
+        <parameter
+          name="p1"
+          type="com.huawei.hms.framework.network.grs.local.model.c"
+          jni-type="Lcom/huawei/hms/framework/network/grs/local/model/c;" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="b"
+        native="false"
+        return="java.lang.String"
+        jni-return="Ljava/lang/String;"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="()Ljava/lang/String;" />
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="b"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Ljava/lang/String;)V">
+        <parameter
+          name="p0"
+          type="java.lang.String"
+          jni-type="Ljava/lang/String;" />
+      </method>
+    </class>
+    <class
+      abstract="false"
+      deprecated="not deprecated"
+      jni-extends="Ljava/lang/Object;"
+      extends="java.lang.Object"
+      extends-generic-aware="java.lang.Object"
+      final="false"
+      name="b"
+      jni-signature="Lcom/huawei/hms/framework/network/grs/local/model/b;"
+      source-file-name=""
+      static="false"
+      visibility="public">
+      <constructor
+        deprecated="not deprecated"
+        final="false"
+        name="b"
+        static="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="()V" />
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="a"
+        native="false"
+        return="java.util.Set&lt;java.lang.String&gt;"
+        jni-return="Ljava/util/Set&lt;Ljava/lang/String;&gt;;"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="()Ljava/util/Set;" />
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="a"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Ljava/lang/String;)V">
+        <parameter
+          name="p0"
+          type="java.lang.String"
+          jni-type="Ljava/lang/String;" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="a"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Ljava/util/Set;)V">
+        <parameter
+          name="p0"
+          type="java.util.Set&lt;java.lang.String&gt;"
+          jni-type="Ljava/util/Set&lt;Ljava/lang/String;&gt;;" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="b"
+        native="false"
+        return="java.lang.String"
+        jni-return="Ljava/lang/String;"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="()Ljava/lang/String;" />
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="b"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Ljava/lang/String;)V">
+        <parameter
+          name="p0"
+          type="java.lang.String"
+          jni-type="Ljava/lang/String;" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="c"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Ljava/lang/String;)V">
+        <parameter
+          name="p0"
+          type="java.lang.String"
+          jni-type="Ljava/lang/String;" />
+      </method>
+    </class>
+    <class
+      abstract="false"
+      deprecated="not deprecated"
+      jni-extends="Ljava/lang/Object;"
+      extends="java.lang.Object"
+      extends-generic-aware="java.lang.Object"
+      final="false"
+      name="c"
+      jni-signature="Lcom/huawei/hms/framework/network/grs/local/model/c;"
+      source-file-name=""
+      static="false"
+      visibility="public">
+      <constructor
+        deprecated="not deprecated"
+        final="false"
+        name="c"
+        static="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="()V" />
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="a"
+        native="false"
+        return="java.util.List&lt;com.huawei.hms.framework.network.grs.local.model.b&gt;"
+        jni-return="Ljava/util/List&lt;Lcom/huawei/hms/framework/network/grs/local/model/b;&gt;;"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="()Ljava/util/List;" />
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="a"
+        native="false"
+        return="com.huawei.hms.framework.network.grs.local.model.d"
+        jni-return="Lcom/huawei/hms/framework/network/grs/local/model/d;"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Ljava/lang/String;)Lcom/huawei/hms/framework/network/grs/local/model/d;">
+        <parameter
+          name="p0"
+          type="java.lang.String"
+          jni-type="Ljava/lang/String;" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="a"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Ljava/lang/String;Lcom/huawei/hms/framework/network/grs/local/model/d;)V">
+        <parameter
+          name="p0"
+          type="java.lang.String"
+          jni-type="Ljava/lang/String;" />
+        <parameter
+          name="p1"
+          type="com.huawei.hms.framework.network.grs.local.model.d"
+          jni-type="Lcom/huawei/hms/framework/network/grs/local/model/d;" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="a"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Ljava/util/List;)V">
+        <parameter
+          name="p0"
+          type="java.util.List&lt;com.huawei.hms.framework.network.grs.local.model.b&gt;"
+          jni-type="Ljava/util/List&lt;Lcom/huawei/hms/framework/network/grs/local/model/b;&gt;;" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="b"
+        native="false"
+        return="java.lang.String"
+        jni-return="Ljava/lang/String;"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="()Ljava/lang/String;" />
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="b"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Ljava/lang/String;)V">
+        <parameter
+          name="p0"
+          type="java.lang.String"
+          jni-type="Ljava/lang/String;" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="c"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Ljava/lang/String;)V">
+        <parameter
+          name="p0"
+          type="java.lang.String"
+          jni-type="Ljava/lang/String;" />
+      </method>
+    </class>
+    <class
+      abstract="false"
+      deprecated="not deprecated"
+      jni-extends="Ljava/lang/Object;"
+      extends="java.lang.Object"
+      extends-generic-aware="java.lang.Object"
+      final="false"
+      name="CountryCodeBean"
+      jni-signature="Lcom/huawei/hms/framework/network/grs/local/model/CountryCodeBean;"
+      source-file-name=""
+      static="false"
+      visibility="public">
+      <constructor
+        deprecated="not deprecated"
+        final="false"
+        name="CountryCodeBean"
+        static="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Landroid/content/Context;Z)V">
+        <parameter
+          name="p0"
+          type="android.content.Context"
+          jni-type="Landroid/content/Context;" />
+        <parameter
+          name="p1"
+          type="boolean"
+          jni-type="Z" />
+      </constructor>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="getCountryCode"
+        native="false"
+        return="java.lang.String"
+        jni-return="Ljava/lang/String;"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="()Ljava/lang/String;" />
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="getCountrySource"
+        native="false"
+        return="java.lang.String"
+        jni-return="Ljava/lang/String;"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="()Ljava/lang/String;" />
+    </class>
+    <class
+      abstract="false"
+      deprecated="not deprecated"
+      jni-extends="Ljava/lang/Object;"
+      extends="java.lang.Object"
+      extends-generic-aware="java.lang.Object"
+      final="false"
+      name="d"
+      jni-signature="Lcom/huawei/hms/framework/network/grs/local/model/d;"
+      source-file-name=""
+      static="false"
+      visibility="public">
+      <constructor
+        deprecated="not deprecated"
+        final="false"
+        name="d"
+        static="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="()V" />
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="a"
+        native="false"
+        return="java.util.Map&lt;java.lang.String, java.lang.String&gt;"
+        jni-return="Ljava/util/Map&lt;Ljava/lang/String;Ljava/lang/String;&gt;;"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="()Ljava/util/Map;" />
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="a"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Ljava/lang/String;)V">
+        <parameter
+          name="p0"
+          type="java.lang.String"
+          jni-type="Ljava/lang/String;" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="a"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Ljava/util/Map;)V">
+        <parameter
+          name="p0"
+          type="java.util.Map&lt;java.lang.String, java.lang.String&gt;"
+          jni-type="Ljava/util/Map&lt;Ljava/lang/String;Ljava/lang/String;&gt;;" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="b"
+        native="false"
+        return="java.lang.String"
+        jni-return="Ljava/lang/String;"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="()Ljava/lang/String;" />
+    </class>
+  </package>
+</api>

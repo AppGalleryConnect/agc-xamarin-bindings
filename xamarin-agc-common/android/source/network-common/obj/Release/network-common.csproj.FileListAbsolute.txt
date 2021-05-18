@@ -1,0 +1,9 @@
+C:\Users\t00596874\Desktop\AGC-NUGETS\Repo\AGC-Common-Libraries\android\source\network-common\bin\Release\Huawei.Hms.NetworkCommon.dll
+C:\Users\t00596874\Desktop\AGC-NUGETS\Repo\AGC-Common-Libraries\android\source\network-common\bin\Release\Huawei.Hms.NetworkCommon.pdb
+C:\Users\t00596874\Desktop\AGC-NUGETS\Repo\AGC-Common-Libraries\android\source\network-common\obj\Release\__AndroidLibraryProjects__.zip
+C:\Users\t00596874\Desktop\AGC-NUGETS\Repo\AGC-Common-Libraries\android\source\network-common\obj\Release\MonoAndroid,Version=v9.0.AssemblyAttributes.cs
+C:\Users\t00596874\Desktop\AGC-NUGETS\Repo\AGC-Common-Libraries\android\source\network-common\obj\Release\stamp\_BuildLibraryImportsCache.stamp
+C:\Users\t00596874\Desktop\AGC-NUGETS\Repo\AGC-Common-Libraries\android\source\network-common\obj\Release\network-common.csproj.CoreCompileInputs.cache
+C:\Users\t00596874\Desktop\AGC-NUGETS\Repo\AGC-Common-Libraries\android\source\network-common\obj\Release\Huawei.Hms.NetworkCommon.dll
+C:\Users\t00596874\Desktop\AGC-NUGETS\Repo\AGC-Common-Libraries\android\source\network-common\obj\Release\Huawei.Hms.NetworkCommon.pdb
+C:\Users\t00596874\Desktop\AGC-NUGETS\Repo\AGC-Common-Libraries\android\source\network-common\obj\Release\network-common.csprojAssemblyReference.cache

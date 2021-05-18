@@ -1,0 +1,260 @@
+{
+  "version": 3,
+  "targets": {
+    "MonoAndroid,Version=v9.0": {
+      "Square.OkHttp3/3.11.0": {
+        "type": "package",
+        "dependencies": {
+          "Square.OkIO": "1.15.0"
+        },
+        "frameworkAssemblies": [
+          "Java.Interop"
+        ],
+        "compile": {
+          "lib/monoandroid44/Square.OkHttp3.dll": {}
+        },
+        "runtime": {
+          "lib/monoandroid44/Square.OkHttp3.dll": {}
+        }
+      },
+      "Square.OkIO/1.15.0": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "Java.Interop"
+        ],
+        "compile": {
+          "lib/monoandroid44/Square.OkIO.dll": {}
+        },
+        "runtime": {
+          "lib/monoandroid44/Square.OkIO.dll": {}
+        }
+      },
+      "Huawei.Hmf.Tasks/1.0.0": {
+        "type": "project",
+        "framework": "MonoAndroid,Version=v9.0",
+        "compile": {
+          "bin/placeholder/Huawei.Hmf.Tasks.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Huawei.Hmf.Tasks.dll": {}
+        }
+      }
+    },
+    "MonoAndroid,Version=v9.0/win": {
+      "Square.OkHttp3/3.11.0": {
+        "type": "package",
+        "dependencies": {
+          "Square.OkIO": "1.15.0"
+        },
+        "frameworkAssemblies": [
+          "Java.Interop"
+        ],
+        "compile": {
+          "lib/monoandroid44/Square.OkHttp3.dll": {}
+        },
+        "runtime": {
+          "lib/monoandroid44/Square.OkHttp3.dll": {}
+        }
+      },
+      "Square.OkIO/1.15.0": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "Java.Interop"
+        ],
+        "compile": {
+          "lib/monoandroid44/Square.OkIO.dll": {}
+        },
+        "runtime": {
+          "lib/monoandroid44/Square.OkIO.dll": {}
+        }
+      },
+      "Huawei.Hmf.Tasks/1.0.0": {
+        "type": "project",
+        "framework": "MonoAndroid,Version=v9.0",
+        "compile": {
+          "bin/placeholder/Huawei.Hmf.Tasks.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Huawei.Hmf.Tasks.dll": {}
+        }
+      }
+    },
+    "MonoAndroid,Version=v9.0/win-x64": {
+      "Square.OkHttp3/3.11.0": {
+        "type": "package",
+        "dependencies": {
+          "Square.OkIO": "1.15.0"
+        },
+        "frameworkAssemblies": [
+          "Java.Interop"
+        ],
+        "compile": {
+          "lib/monoandroid44/Square.OkHttp3.dll": {}
+        },
+        "runtime": {
+          "lib/monoandroid44/Square.OkHttp3.dll": {}
+        }
+      },
+      "Square.OkIO/1.15.0": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "Java.Interop"
+        ],
+        "compile": {
+          "lib/monoandroid44/Square.OkIO.dll": {}
+        },
+        "runtime": {
+          "lib/monoandroid44/Square.OkIO.dll": {}
+        }
+      },
+      "Huawei.Hmf.Tasks/1.0.0": {
+        "type": "project",
+        "framework": "MonoAndroid,Version=v9.0",
+        "compile": {
+          "bin/placeholder/Huawei.Hmf.Tasks.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Huawei.Hmf.Tasks.dll": {}
+        }
+      }
+    },
+    "MonoAndroid,Version=v9.0/win-x86": {
+      "Square.OkHttp3/3.11.0": {
+        "type": "package",
+        "dependencies": {
+          "Square.OkIO": "1.15.0"
+        },
+        "frameworkAssemblies": [
+          "Java.Interop"
+        ],
+        "compile": {
+          "lib/monoandroid44/Square.OkHttp3.dll": {}
+        },
+        "runtime": {
+          "lib/monoandroid44/Square.OkHttp3.dll": {}
+        }
+      },
+      "Square.OkIO/1.15.0": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "Java.Interop"
+        ],
+        "compile": {
+          "lib/monoandroid44/Square.OkIO.dll": {}
+        },
+        "runtime": {
+          "lib/monoandroid44/Square.OkIO.dll": {}
+        }
+      },
+      "Huawei.Hmf.Tasks/1.0.0": {
+        "type": "project",
+        "framework": "MonoAndroid,Version=v9.0",
+        "compile": {
+          "bin/placeholder/Huawei.Hmf.Tasks.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Huawei.Hmf.Tasks.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Square.OkHttp3/3.11.0": {
+      "sha512": "chd63F8Hh14XQIphPMdd9ZV29kQatPO2MpemyTb+qVGJTtqyPnAqHscSWJCEkmwKv9MzyuUMMbntuAbmKX7cqw==",
+      "type": "package",
+      "path": "square.okhttp3/3.11.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/monoandroid44/Square.OkHttp3.dll",
+        "square.okhttp3.3.11.0.nupkg.sha512",
+        "square.okhttp3.nuspec"
+      ]
+    },
+    "Square.OkIO/1.15.0": {
+      "sha512": "xZLYVsUgr9L7ou8orZvM7GxB8nuqGazlnorXvzgXzcVq76LRPgcegBqwPauSdTCqHYZ3/UpAX1mXtSXoWjZUXA==",
+      "type": "package",
+      "path": "square.okio/1.15.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/monoandroid44/Square.OkIO.dll",
+        "square.okio.1.15.0.nupkg.sha512",
+        "square.okio.nuspec"
+      ]
+    },
+    "Huawei.Hmf.Tasks/1.0.0": {
+      "type": "project",
+      "path": "../tasks/tasks.csproj",
+      "msbuildProject": "../tasks/tasks.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "MonoAndroid,Version=v9.0": [
+      "Huawei.Hmf.Tasks >= 1.0.0",
+      "Square.OkHttp3 >= 3.11.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\t00596874\\.nuget\\packages\\": {},
+    "C:\\Microsoft\\Xamarin\\NuGet\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\t00596874\\Desktop\\AGC-NUGETS\\Repo\\AGC-Common-Libraries\\android\\source\\agconnect-https\\agconnect-https.csproj",
+      "projectName": "Huawei.Agconnect.AgconnectHttps",
+      "projectPath": "C:\\Users\\t00596874\\Desktop\\AGC-NUGETS\\Repo\\AGC-Common-Libraries\\android\\source\\agconnect-https\\agconnect-https.csproj",
+      "packagesPath": "C:\\Users\\t00596874\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\t00596874\\Desktop\\AGC-NUGETS\\Repo\\AGC-Common-Libraries\\android\\source\\agconnect-https\\obj\\",
+      "projectStyle": "PackageReference",
+      "skipContentFileWrite": true,
+      "fallbackFolders": [
+        "C:\\Microsoft\\Xamarin\\NuGet\\"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\t00596874\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "monoandroid90"
+      ],
+      "sources": {
+        "C:\\Users\\t00596874\\Desktop\\remote-test": {},
+        "http://10.216.77.196:5000/v3/index.json": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "monoandroid90": {
+          "projectReferences": {
+            "C:\\Users\\t00596874\\Desktop\\AGC-NUGETS\\Repo\\AGC-Common-Libraries\\android\\source\\tasks\\tasks.csproj": {
+              "projectPath": "C:\\Users\\t00596874\\Desktop\\AGC-NUGETS\\Repo\\AGC-Common-Libraries\\android\\source\\tasks\\tasks.csproj"
+            }
+          }
+        }
+      }
+    },
+    "frameworks": {
+      "monoandroid90": {
+        "dependencies": {
+          "Square.OkHttp3": {
+            "target": "Package",
+            "version": "[3.11.0, )"
+          }
+        }
+      }
+    },
+    "runtimes": {
+      "win": {
+        "#import": []
+      },
+      "win-x64": {
+        "#import": []
+      },
+      "win-x86": {
+        "#import": []
+      }
+    }
+  }
+}
