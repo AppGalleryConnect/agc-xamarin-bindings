@@ -11,7 +11,7 @@ about demos, and how to use them, see
 ## Introduction
 These are the available bindings in this repository.
 
-| Demo | Version | Documentation |
+| Plugin | Version | Documentation |
 |--------|-----|-----|
 | [agc-remoteconfig-xamarin](./Xamarin/agc-remoteconfig-xamarin) | [![version](https://img.shields.io/nuget/v/Huawei.Agconnect.iOS.Remoteconfig.svg?label=Xamarin.iOS)](./Xamarin/agc-remoteconfig-xamarin) <br>[![version](https://img.shields.io/nuget/v/Huawei.Agconnect.Remoteconfig.svg?label=Xamarin.Android)](./Xamarin/agc-remoteconfig-xamarin)|[Getting Started](https://developer.huawei.com/consumer/en/doc/development/AppGallery-connect-Guides/remoteconfig-xamarin-releasenotes-0000001135676681) <br/> [API Reference](https://developer.huawei.com/consumer/en/doc/development/AppGallery-connect-References/remoteconfig-overview-main-0000001088768192) |
 | [agc-applinking-xamarin](./Xamarin/agc-applinking-xamarin)|[![version](https://img.shields.io/nuget/v/Huawei.Agconnect.iOS.Applinking.svg?label=Xamarin.iOS)](./Xamarin/agc-applinking-xamarin) <br>[![version](https://img.shields.io/nuget/v/Huawei.Agconnect.Applinking.svg?label=Xamarin.Android)](./Xamarin/agc-applinking-xamarin)|[Getting Started](https://developer.huawei.com/consumer/en/doc/development/AppGallery-connect-Guides/agc-get-started-xamarin#h1-1617284872937-1) <br/> [API Reference](https://developer.huawei.com/consumer/en/doc/development/AppGallery-connect-References/applinking-overview-main-0000001076677086) |
@@ -22,7 +22,7 @@ These are the available bindings in this repository.
 
 
 ## Precautions
-The agc-xamarins-bindings project contains 1 independent projects. After downloading the code, you can load different nested projects to the IDE as required. And you can run each project independently.
+The agc-xamarins-bindings project contains 6 projects. After downloading the code, you can load different nested projects to the IDE as required. And you can run each project independently.
 
 ## Question or issues
 If you have questions about how to use AppGallery Connect Bindings, try the following options:  
