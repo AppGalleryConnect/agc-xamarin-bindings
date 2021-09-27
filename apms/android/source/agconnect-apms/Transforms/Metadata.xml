@@ -1,0 +1,100 @@
+﻿<!--    Copyright 2020. Huawei Technologies Co., Ltd. All rights reserved.
+
+        Licensed under the Apache License, Version 2.0 (the "License");
+        you may not use this file except in compliance with the License.
+        You may obtain a copy of the License at
+
+        http://www.apache.org/licenses/LICENSE-2.0
+
+        Unless required by applicable law or agreed to in writing, software
+        distributed under the License is distributed on an "AS IS" BASIS,
+        WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+        See the License for the specific language governing permissions and
+        limitations under the License. 
+-->
+<metadata>
+
+  <attr path="/api/package[@name='com.huawei.agconnect.apms']/class[@name='APMSRegistrar.abc']/field[@name='abc']"
+     name="name">ABCField</attr>
+  <attr path="/api/package[@name='com.huawei.agconnect.apms']/class[@name='def']/field[@name='def']"
+  name="name">DEFField</attr>
+  <attr path="/api/package[@name='com.huawei.agconnect.apms.collect.model.event']/class[@name='Events']/field[@name='events']"
+  name="name">EventsField</attr>
+  <attr path="/api/package[@name='com.huawei.agconnect.apms']/class[@name='def']/field[@name='def']"
+  name="name">DefFieldOne</attr>
+  <attr path="/api/package[@name='com.huawei.agconnect.apms']/class[@name='efg']/field[@name='efg']"
+  name="name">EfgField</attr>
+  <attr path="/api/package[@name='com.huawei.agconnect.apms.instrument']/class[@name='FragmentInstrumentation.abc']/field[@name='abc']"
+  name="name">AbcField</attr>
+  <attr path="/api/package[@name='com.huawei.agconnect.apms.instrument.okhttp3']/class[@name='OkHttp3Instrumentation.abc']/field[@name='abc']"
+  name="name">AbcField</attr>
+  <attr path="/api/package[@name='com.huawei.agconnect.apms.lifestyle']/class[@name='ApplicationStateMonitor.abc']/field[@name='abc']"
+  name="name">AbcField</attr>
+  <attr path="/api/package[@name='com.huawei.agconnect.apms']/class[@name='opq.bcd']/field[@name='bcd']"
+  name="name">BcdField</attr>
+  <attr path="/api/package[@name='com.huawei.agconnect.apms']/class[@name='rqp.abc']/field[@name='abc']"
+  name="name">AbcField</attr>
+  <attr path="/api/package[@name='com.huawei.agconnect.apms']/class[@name='rqp.bcd']/field[@name='bcd']"
+  name="name">BcdField</attr>
+  <attr path="/api/package[@name='com.huawei.agconnect.apms']/class[@name='srq.abc']/field[@name='abc']"
+  name="name">AbcField</attr>
+  <attr path="/api/package[@name='com.huawei.agconnect.apms']/class[@name='srq.bcd']/field[@name='bcd']"
+  name="name">BcdField</attr>
+  <attr path="/api/package[@name='com.huawei.agconnect.apms']/class[@name='vut']/field[@name='vut']"
+  name="name">VutField</attr>
+  <attr path="/api/package[@name='com.huawei.agconnect.apms']/class[@name='wvu']/field[@name='wvu']"
+  name="name">WvuField</attr>
+  <attr path="/api/package[@name='com.huawei.agconnect.apms']/class[@name='yza.abc']/field[@name='abc']"
+  name="name">AbcField</attr>
+  <attr path="/api/package[@name='com.huawei.agconnect.apms']/class[@name='qrs.abc']/field[@name='abc']"
+  name="name">AbcField</attr>
+  <attr path="/api/package[@name='com.huawei.agconnect.apms.collect.model.event.interaction']/class[@name='ActivityLoadEvent']/field[@name='loadType']"
+  name="name">LoadTypeField</attr>
+  <attr path="/api/package[@name='com.huawei.agconnect.apms.collect.model.event.interaction']/class[@name='ApplicationStartEvent']/field[@name='startType']"
+  name="name">StartTypeField</attr>
+  <attr path="/api/package[@name='com.huawei.agconnect.apms.collect.model.event.interaction']/class[@name='AppStartEvent']/field[@name='startType']"
+  name="name">StartTypeField</attr>
+
+  <attr path="/api/package[@name='com.huawei.agconnect.apms.instrument.okhttp3']/class[@name='OkHttp3Instrumentation']/method[@name='newCall']"
+    name="managedName">newCall</attr>
+  <attr path="/api/package[@name='com.huawei.agconnect.apms.instrument.okhttp3']/class[@name='OkHttp3Instrumentation']/method[@name='newBuilder']"
+  name="managedName">newBuilder</attr>
+  <attr path="/api/package[@name='com.huawei.agconnect.apms.instrument.okhttp3']/class[@name='OkHttp3Instrumentation']/method[@name='body']"
+  name="managedName">body</attr>
+  <attr path="/api/package[@name='com.huawei.agconnect.apms.instrument.okhttp3']/class[@name='OkHttp3Instrumentation']/method[@name='build']"
+  name="managedName">build</attr>
+  <attr path="/api/package[@name='com.huawei.agconnect.apms.instrument.okhttp3']/class[@name='OkHttp3Instrumentation']/method[@name='open']"
+  name="managedName">open</attr>
+
+  <attr path="/api/package[@name='com.huawei.agconnect.apms.instrument.okhttp2']/class[@name='OkHttp2Instrumentation']/method[@name='newBuilder']"
+  name="managedName">newBuilder</attr>
+  <attr path="/api/package[@name='com.huawei.agconnect.apms.instrument.okhttp2']/class[@name='OkHttp2Instrumentation']/method[@name='body']"
+  name="managedName">body</attr>
+  <attr path="/api/package[@name='com.huawei.agconnect.apms.instrument.okhttp2']/class[@name='OkHttp2Instrumentation']/method[@name='build']"
+  name="managedName">build</attr>
+  <attr path="/api/package[@name='com.huawei.agconnect.apms.instrument.okhttp2']/class[@name='OkHttp2Instrumentation']/method[@name='newCall']"
+  name="managedName">newCall</attr>
+  <attr path="/api/package[@name='com.huawei.agconnect.apms.instrument.okhttp2']/class[@name='OkHttp2Instrumentation']/method[@name='open']"
+  name="managedName">open</attr>
+
+  <attr path="/api/package[@name='com.huawei.agconnect.apms.instrument']/interface[@name='Instrumented']"
+  name="managedName">Instrumented</attr>
+
+  <add-node path="/api/package[@name='com.huawei.agconnect.apms.instrument.okhttp3']/class[@name='CallExtension']">
+    <method name="timeout" return="okio.Timeout" visibility="public" >
+
+    </method>
+  </add-node>
+
+  <attr path="/api/package[@name='com.huawei.agconnect.apms']/class[@name='rqp.abc']" name="managedName">AbcClass</attr>
+  <attr path="/api/package[@name='com.huawei.agconnect.apms']/class[@name='rqp.bcd']" name="managedName">BcdClass</attr>
+  <attr path="/api/package[@name='com.huawei.agconnect.apms']/class[@name='srq.abc']" name="managedName">AbcClass</attr>
+  <attr path="/api/package[@name='com.huawei.agconnect.apms']/class[@name='srq.bcd']" name="managedName">BcdClass</attr>
+  <attr path="/api/package[@name='com.huawei.agconnect.apms']/class[@name='def']" name="managedName">DefClass</attr>
+  <attr path="/api/package[@name='com.huawei.agconnect.apms']/class[@name='hij']" name="managedName">HijClass</attr>
+  <attr path="/api/package[@name='com.huawei.agconnect.apms']/class[@name='qpo.abc']" name="managedName">AbcClass</attr>
+  <attr path="/api/package[@name='com.huawei.agconnect.apms']/class[@name='qpo.bcd']" name="managedName">BcdClass</attr>
+  <attr path="/api/package[@name='com.huawei.agconnect.apms']/class[@name='qrs.abc.abc']" name="managedName">AbcClass</attr>
+  <attr path="/api/package[@name='com.huawei.agconnect.apms']/class[@name='d1.abc']" name="managedName">AbcClass</attr>
+
+</metadata>
