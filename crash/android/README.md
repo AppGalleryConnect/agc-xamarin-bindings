@@ -1,41 +1,74 @@
-<p align="center">
-  <h1 align="center">AGC Crash Service Xamarin Android Plugin</h1>
-</p>
+## Agconnect Crash Service Xamarin Android Plugin - Demo
 
-<p align="center">
-  <a href="https://www.nuget.org/packages/Huawei.Agconnect.Crash"><img src="https://img.shields.io/nuget/dt/Huawei.Agconnect.Crash?label=Downloads&color=%23007EC6&style=for-the-badge"alt="downloads"></a>
-  <a href="https://www.nuget.org/packages/Huawei.Agconnect.Crash"><img src="https://img.shields.io/nuget/v/Huawei.Agconnect.Crash?color=%23ed2a1c&style=for-the-badge" alt="Nuget version"></a>
-  <a href="/LICENSE.txt"><img src="https://img.shields.io/badge/License-Apache%202.0-blue.svg?color=%3bcc62&style=for-the-badge" alt="License"></a>
-</p>
+##  Introduction
 
-The AppGallery Connect Crash service provides a powerful yet lightweight solution to app crash problems. With the service, you can quickly detect, locate, and resolve app crashes (unexpected exits of apps), and have access to highly readable crash reports in real time, without the need to write any code.
+This demo project is an example to demonstrate the features of the Agconnect Crash Service Xamarin Android Plugin.
 
-The Xamarin SDK provides adaption code used for Agconnect Crash Service in Xamarin platform.
+<img src="../.docs/mainPageAndroid.jpg" width = 40% height = 40% style="margin:1.5em">
 
 ## Installation
 
-**Huawei.Agconnect.Crash** is available on [NuGet](https://www.nuget.org/packages/Huawei.Agconnect.Crash). 
+In the Solution Explorer panel, right click on the solution name and select Manage NuGet Packages. Search for [Huawei.Agconnect.AgconnectCrash](https://www.nuget.org/packages/Huawei.Agconnect.AgconnectCrash) and install the package into your Xamarin.Android projects.
 
-**Huawei.Agconnect.CrashNative** is available on [NuGet](https://www.nuget.org/packages/Huawei.Agconnect.CrashNative). 
+### Place your agconnect-services.json file inside the project
 
-In the Solution Explorer panel of your application, right click on the solution name and select Manage NuGet Packages. Search for **Huawei.Agconnect.Crash** and install the package into your Xamarin.Android projects.
+**Step 1:** Sign in to [AppGallery Connect](https://developer.huawei.com/consumer/en/service/josp/agc/index.html) and select your project from **My Projects**. 
+Then go to **Project Settings** tab. On the page that is displayed, click `agconnect-services.json` button.
 
-## Documentation
+**Step 2:** Once you download your `agconnect-services.json` file, place it under the **Assets** folder of the demo project.
 
-- Before you get started, you must register as a HUAWEI Developer and complete identity verification on the [HUAWEI Developer](https://developer.huawei.com/consumer/en/) website. For details, please refer to [Register a HUAWEI ID](https://developer.huawei.com/consumer/en/doc/10104).
+**Step 3:** Package name in the `agconnect-services.json` and the package name in the **AndroidManifest.xml** file should be same
 
-- [Quick Start](https://developer.huawei.com/consumer/en/doc/development/AppGallery-connect-Guides/agc-introduction)
+### Environment Setting
 
-## Supported Environments
- 
-- Android 4.2 Jelly Bean (API level 17) and later versions
+- Android 4.2 JellyBean (API level 17) and later versions
 
 - A minimum version of Visual Studio 2019 16.3 or Visual Studio for Mac 2019 8.3 are required to build and compile
 
-## Sample Project
+## Configuration
 
-You can find the demo application demonstrating how to use the AGC Crash on the [HUAWEI Developer website](https://developer.huawei.com/consumer/en/doc/development/AppGallery-connect-Guides/agc-introduction).
+### Android Manifest Merging
 
-## License and Terms
+In AGConnect Services, we were seeing AndroidManifest.xml files from multiple .aar's which contained ```<application><service android:name><metadata ... /></service></application>``` elements where the service name was the same in different files but each contain their own metadata elements. The ending result is need to be a single service element with all the metadata elements from each aar's manifest file. Otherwise AGConnect Services cannot work properly.
 
-AGC Crash Service Xamarin Android Plugin is licensed under [Apache 2.0 license](LICENSE)
+Xamarin.Android includes an option to use the same Android manifest merger tool that Android Studio uses to merge AndroidManifest.xml files. 
+
+To enable this for your project, set the $(AndroidManifestMerger) MSBuild property to manifestmerger.jar in the .csproj file:
+
+```xml
+<PropertyGroup>
+  <AndroidManifestMerger>manifestmerger.jar</AndroidManifestMerger>
+</PropertyGroup>
+```
+
+So when building your app, the  **AndroidManifestMerger** property  merges all manifest files into a single manifest file that's packaged into your APK.
+
+### Testing a Crash Service
+
+Generally, there is a low probability that an app crashes. Therefore, you are not advised to test the Crash service with a real crash. You can call the API of the Crash SDK to intentionally trigger a crash during app test and view the crash data in AppGallery Connect to check whether the Crash service is running properly.
+
+#### Before You Start
+
+**Step 1:** Enable the Crash service in AppGallery Connect.
+
+**Step 2:** Integrate the Crash Plug-in into your app.
+
+#### Testing Steps
+
+**Step 1:** Create a button in an activity of your app. 
+
+**Step 2:** Add the code for calling **AGConnectCrash.Instance** to initialize the **AGConnectCrash** instance after the button is tapped.
+
+**Step 3.:** Add the code for calling the **AGConnectCrash.Instance.TestIt** method to trigger a crash.
+
+**Step 4.:** Run the application in Release mode.
+
+```csharp
+AGConnectCrash.Instance.TestIt(this);//In your activity.
+```
+
+When a crash occurs, your app will attempt to report the crash. Ensure that the network connection is normal. View crash information in AppGallery Connect.
+
+## Licensing and Terms
+
+Agconnect Crash Service Xamarin Android Plugin - Demo is licensed under [Apache 2.0 license](LICENSE)

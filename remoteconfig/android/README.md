@@ -1,40 +1,56 @@
-<p align="center">
-  <h1 align="center">AGC Remote configuration Xamarin Android Plugin</h1>
-</p>
+# Agconnect Remote Configuration Xamarin Android Plugin - Demo
 
-<p align="center">
-  <a href="https://www.nuget.org/packages/Huawei.Agconnect.Remoteconfig/"><img src="https://img.shields.io/nuget/dt/Huawei.Agconnect.Remoteconfig?label=Downloads&color=%23007EC6&style=for-the-badge"alt="downloads"></a>
-  <a href="https://www.nuget.org/packages/Huawei.Agconnect.Remoteconfig/"><img src="https://img.shields.io/nuget/v/Huawei.Agconnect.Remoteconfig?color=%23ed2a1c&style=for-the-badge" alt="Nuget version"></a>
-  <a href="/LICENCE"><img src="https://img.shields.io/badge/License-Apache%202.0-blue.svg?color=%3bcc62&style=for-the-badge" alt="Licence"></a>
-</p>
+##  Introduction
 
+This demo project is an example to demonstrate the features of the Agconnect Remote Configuration Xamarin Android Plugin.
 
-To build an excellent app and achieve business success, you need to continuously provide users with fresh content and functions, quickly respond to users' changing requirements and experience preferences, and offer differentiated user experience for audiences. Remote Configuration of AppGallery Connect allows you to change the behavior and appearance of your app online without requiring users to update the app. With the service, you can provide tailored experience for your users in a timely manner.
+<img src="../.docs/mainPageAndroid.jpg" width = 40% height = 40% style="margin:1.5em">
 
 ## Installation
 
-**Huawei.Agconnect.Remoteconfig** is available on [NuGet](https://www.nuget.org/packages/Huawei.Agconnect.Remoteconfig). 
+In the Solution Explorer panel, right click on the solution name and select Manage NuGet Packages. Search for [Huawei.Agconnect.Remoteconfig](https://www.nuget.org/packages/Huawei.Agconnect.Remoteconfig) and install the package into your Xamarin.Android projects.
 
-In the Solution Explorer panel, right click on the solution name and select Manage NuGet Packages. Search for **Huawei.Agconnect.Remoteconfig** and install the package into your Xamarin.Android projects.
+### Enabling Remote Configuration 
 
-You can change the `Version` option to specify a [preview version](https://www.nuget.org/packages/Huawei.Agconnect.Remoteconfig) to install.
+Sign in to [AppGallery Connect](https://developer.huawei.com/consumer/en/service/josp/agc/index.html) and select your project from **My Projects**. Go to **Grow > Remote Configuration**. If it is the first time that you use Remote Configuration, click Enable now in the upper right corner.
 
-## Documentation
+### Place your agconnect-services.json file inside the project
 
-- Before you get started, you must register as a HUAWEI Developer and complete identity verification on the [HUAWEI Developer](https://developer.huawei.com/consumer/en/) website. For details, please refer to [Register a HUAWEI ID](https://developer.huawei.com/consumer/en/doc/10104).
+**Step 1:** Sign in to [AppGallery Connect](https://developer.huawei.com/consumer/en/service/josp/agc/index.html) and select your project from **My Projects**. 
+Then go to **Project Settings** tab. On the page that is displayed, click `agconnect-services.json` button.
 
-- [Quick Start](https://developer.huawei.com/consumer/en/doc/development/AppGallery-connect-Guides/agc-introduction) 
+**Step 2:** Once you download your `agconnect-services.json` file, place it under the **Assets** folder of the demo project.
 
-## Supported Environments
+**Step 3:** Package name in the `agconnect-services.json` and the package name in the **AndroidManifest.xml** file should be same
 
-- Android 4.2 (API level 17 ) and later versions
+### Environment Setting
 
-## Sample Project
+- Android 4.2 JellyBean (API level 17) and later versions
 
-You can find the demo application demonstrating how to use the AGC Remote Configuration on the [HUAWEI Developer website](https://developer.huawei.com/consumer/en/doc/development/AppGallery-connect-Guides/agc-introduction).
+- A minimum version of Visual Studio 2019 16.3 or Visual Studio for Mac 2019 8.3 are required to build and compile
 
+## Configuration
 
-## License
+### Android Manifest Merging
 
-AGC Remote configuration Xamarin Android Plugin is licensed under [Apache 2.0 license](LICENCE)
+In AGConnect Services, we were seeing AndroidManifest.xml files from multiple .aar's which contained ```<application><service android:name><metadata ... /></service></application>``` elements where the service name was the same in different files but each contain their own metadata elements. The ending result is need to be a single service element with all the metadata elements from each aar's manifest file. Otherwise AGConnect Services cannot work properly.
 
+Xamarin.Android includes an option to use the same Android manifest merger tool that Android Studio uses to merge AndroidManifest.xml files. 
+
+To enable this for your project, set the $(AndroidManifestMerger) MSBuild property to manifestmerger.jar in the .csproj file:
+
+```xml
+<PropertyGroup>
+  <AndroidManifestMerger>manifestmerger.jar</AndroidManifestMerger>
+</PropertyGroup>
+```
+
+So when building your app, the  **AndroidManifestMerger** property  merges all manifest files into a single manifest file that's packaged into your APK.
+
+## Run & debug your application
+
+You can now run your application and it should automatically start up on your mobile device.
+
+## Licensing and Terms
+
+Agconnect Remote Configuration Xamarin Android Plugin - Demo is licensed under [Apache 2.0 license](LICENSE)

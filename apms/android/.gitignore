@@ -194,5 +194,8 @@ FakesAssemblies/
 
 .vscode/settings.json
 
-*.jar
-*.aar
+# Ignore library .dll files
+_LibDLLs/*.dll
+
+agconnect-services.json
+*.user

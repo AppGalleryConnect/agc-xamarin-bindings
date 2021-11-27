@@ -1,38 +1,48 @@
-<p align="center">
-  <h1 align="center">Agconnect Auth Service Xamarin Android Plugin</h1>
-</p>
+## Agconnect Auth Service Xamarin Android Plugin - Demo
 
-<p align="center">
-  <a href="https://www.nuget.org/packages/Huawei.Agconnect.Auth"><img src="https://img.shields.io/nuget/dt/Huawei.Agconnect.Auth?label=Downloads&color=%23007EC6&style=for-the-badge"alt="downloads"></a>
-  <a href="https://www.nuget.org/packages/Huawei.Agconnect.Auth"><img src="https://img.shields.io/nuget/v/Huawei.Agconnect.Auth?color=%23ed2a1c&style=for-the-badge" alt="Nuget version"></a>
-  <a href="/LICENSE.txt"><img src="https://img.shields.io/badge/License-Apache%202.0-blue.svg?color=%3bcc62&style=for-the-badge" alt="License"></a>
-</p>
+##  Introduction
 
-Most apps need to identify and authenticate users to tailor the app experience for individual users. However, building such a system from scratch is a difficult process. Auth Service can quickly build a secure and reliable user authentication system for your app. You only need to access Auth Service capabilities in your app without caring about the facilities and implementation on the cloud.
+This demo project is an example to demonstrate the features of the Agconnect Auth Service Xamarin Android Plugin.
 
-The Xamarin SDK provides adaption code used for Agconnect Auth Service in Xamarin platform.
+<img src="../.docs/mainPageAndroid.jpg" width = 40% height = 40% style="margin:1.5em">
 
 ## Installation
 
-**Huawei.Agconnect.Auth** is available on [NuGet](https://www.nuget.org/packages/Huawei.Agconnect.Auth). 
+In the Solution Explorer panel, right click on the solution name and select Manage NuGet Packages. Search for [Huawei.Agconnect.Auth](https://www.nuget.org/packages/Huawei.Agconnect.Auth) and install the package into your Xamarin.Android projects.
 
-In the Solution Explorer panel of your application, right click on the solution name and select Manage NuGet Packages. Search for **Huawei.Agconnect.Auth** and install the package into your Xamarin.Android projects.
+### Place your agconnect-services.json file inside the project
 
-## Documentation
+**Step 1:** Sign in to [AppGallery Connect](https://developer.huawei.com/consumer/en/service/josp/agc/index.html) and select your project from **My Projects**. 
+Then go to **Project Settings** tab. On the page that is displayed, click `agconnect-services.json` button.
 
-- Before you get started, you must register as a HUAWEI Developer and complete identity verification on the [HUAWEI Developer](https://developer.huawei.com/consumer/en/) website. For details, please refer to [Register a HUAWEI ID](https://developer.huawei.com/consumer/en/doc/10104).
+**Step 2:** Once you download your `agconnect-services.json` file, place it under the **Assets** folder of the demo project.
 
-- [Quick Start](https://developer.huawei.com/consumer/en/doc/development/AppGallery-connect-Guides/agc-introduction) 
+**Step 3:** Package name in the `agconnect-services.json` and the package name in the **AndroidManifest.xml** file should be same
 
-## Supported Environments
+### Environment Setting
 
-- Android 4.2 (API level 17 ) and later versions
+- Android 4.4 KitKat (API level 19) and later versions
 
-## Sample Project
+- A minimum version of Visual Studio 2019 16.3 or Visual Studio for Mac 2019 8.3 are required to build and compile
 
-You can find the demo application demonstrating how to use the AGC Auth on the [HUAWEI Developer website](https://developer.huawei.com/consumer/en/doc/development/AppGallery-connect-Guides/agc-introduction).
+## Configuration
 
+### Android Manifest Merging
 
-## License
+In AGConnect Services, we were seeing AndroidManifest.xml files from multiple .aar's which contained ```<application><service android:name><metadata ... /></service></application>``` elements where the service name was the same in different files but each contain their own metadata elements. The ending result is need to be a single service element with all the metadata elements from each aar's manifest file. Otherwise AGConnect Services cannot work properly.
 
-AGC Auth Xamarin Android Plugin is licensed under [Apache 2.0 license](LICENCE)
+Xamarin.Android includes an option to use the same Android manifest merger tool that Android Studio uses to merge AndroidManifest.xml files. 
+
+To enable this for your project, set the $(AndroidManifestMerger) MSBuild property to manifestmerger.jar in the .csproj file:
+
+```xml
+<PropertyGroup>
+  <AndroidManifestMerger>manifestmerger.jar</AndroidManifestMerger>
+</PropertyGroup>
+```
+
+So when building your app, the  **AndroidManifestMerger** property  merges all manifest files into a single manifest file that's packaged into your APK.
+
+## Licensing and Terms
+
+Agconnect Auth Service Xamarin Android Plugin - Demo is licensed under [Apache 2.0 license](LICENSE)

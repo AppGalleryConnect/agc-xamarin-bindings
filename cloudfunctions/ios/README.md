@@ -1,45 +1,46 @@
-<p align="center">
-  <h1 align="center">AGC Cloud Functions Xamarin iOS Plugin</h1>
-</p>
+## AGC Cloud Functions Xamarin iOS Plugin - Demo
+
+##  Introduction
+
+This demo project is an example to demonstrate the features of the AGC Cloud Functions Xamarin iOS Plugin.
+
+<img src="../.docs/mainPageiOS.png" width = 40% height = 40% style="margin:1.5em">
 
 
-<p align="center">
-  <a href="Huawei.Agconnect.iOS.Function"><img src="https://img.shields.io/nuget/dt/Huawei.Agconnect.iOS.Function?label=Downloads&color=%23007EC6&style=for-the-badge"alt="downloads"></a>
-  <a href="Huawei.Agconnect.iOS.Function"><img src="https://img.shields.io/nuget/v/Huawei.Agconnect.iOS.Function?color=%23ed2a1c&style=for-the-badge" alt="Nuget version"></a>
-  <a href="/LICENSE.txt"><img src="https://img.shields.io/badge/License-Apache%202.0-blue.svg?color=%3bcc62&style=for-the-badge" alt="Licence"></a>
-</p>
- 
+## Installation 
 
-Cloud Functions enables serverless computing. It provides the Function as a Service (FaaS) capabilities to simplify app development and O&M by splitting service logic into functions and offers the Cloud Functions SDK that works with Cloud DB and Cloud Storage so that your app functions can be implemented more easily. Cloud Functions automatically scales in or out functions based on actual traffic, freeing you from server resource management and helping you reduce costs.
+In the Solution Explorer panel, right click on the solution name and select Manage NuGet Packages. Search for [Huawei.Agconnect.iOS.Function](https://www.nuget.org/packages/Huawei.Agconnect.iOS.Function) and install the package into your Xamarin.Android projects.
 
-This repo provides Xamarin.iOS bindings for AGC Cloud Functions SDK.
 
-## Installation
+### Environment Setting
 
-**Huawei.Agconnect.iOS.Function** is available on [NuGet](https://www.nuget.org/packages/Huawei.Agconnect.iOS.Function). 
-
-In the Solution Explorer panel, right click on the solution name and select Manage NuGet Packages. Search for **Huawei.Agconnect.iOS.Function** and install the package into your Xamarin.iOS projects.
-
-## Documentation
-
-- Before you get started, you must register as a HUAWEI Developer and complete identity verification on the [HUAWEI Developer](https://developer.huawei.com/consumer/en/) website. For details, please refer to [Register a HUAWEI ID](https://developer.huawei.com/consumer/en/doc/10104).
-
-- [Quick Start](https://developer.huawei.com/consumer/en/doc/development/AppGallery-connect-Guides/agc-introduction) 
-
-## Supported Environments
+Before using the Xamarin SDK code, ensure that the below environments are set:
 
  - Visual Studio for Mac or Visual Studio - The latest version of Visual Studio for Mac or Visual Studio should be installed and configured on the development computer. 
-  - A Mac with macOS High Sierra 10.13 or above required for developing a Xamarin.iOS library, and when using Visual Studio you must be connected to a Xamarin.iOS build host.
+  - A Mac with macOS High Sierra 10.13 or above required for developing a Xamarin.iOS application, and when using Visual Studio you must be connected to a Xamarin.iOS build host.
   - Xcode and iOS SDK - Apple's Xcode and the latest iOS API need to be installed and configured on the developer's computer. The latest stable version is usually recommended.
-  - Xcode Command Line Tools - The Xcode Command Line Tools must be installed for the currently installed version of Xcode.
  - An Apple ID. If you don't have an Apple ID already you can create a new one at https://appleid.apple.com. It's necessary to have an Apple ID for installing and signing into Xcode.
 
+### Enable Cloud Functions
 
-## Sample Project
-
-You can find the demo application demonstrating how to use the AGC Cloud Functions on the [HUAWEI Developer website](https://developer.huawei.com/consumer/en/doc/development/AppGallery-connect-Guides/agc-introduction).
+Sign in to [AppGallery Connect](https://developer.huawei.com/consumer/en/service/josp/agc/index.html) and select your project from **My Projects**. Go to  **Build** > **Cloud Functions**. If it is the first time that you use Cloud Functions, click Enable now in the upper right corner.
 
 
-## Licencing and Terms
+### Place your agconnect-services.plist file inside the project
 
-AGC Cloud Functions Xamarin iOS Plugin uses the Apache 2.0 license.
+**Step 1:** Sign in to [AppGallery Connect](https://developer.huawei.com/consumer/en/service/josp/agc/index.html) and select your project from **My Projects**. 
+Then go to **Project Settings** tab. On the page that is displayed, click `agconnect-services.plist` button.
+
+**Step 2:** Once you download your `agconnect-services.plist` file, place it under the root of the demo project. And set the build action as **"BundleResource"**.
+
+**Step 3:** Bundle identifier in the `agconnect-services.plist` and the  **Info.plist** file should be the same.
+
+
+### Run & debug your application
+
+You can now run your application and it should automatically start up on your mobile device.
+
+
+## 4. Licensing and Terms
+
+AGC Cloud Functions Xamarin iOS Plugin - Demo uses the Apache 2.0 license.

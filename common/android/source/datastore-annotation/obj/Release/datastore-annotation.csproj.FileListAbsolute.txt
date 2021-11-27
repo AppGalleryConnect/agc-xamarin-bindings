@@ -1,8 +1,0 @@
-C:\Users\t00596874\Desktop\AGC-NUGETS\Repo\AGC-Common-Libraries\android\source\datastore-annotation\bin\Release\Huawei.Agconnect.DatastoreAnnotation.dll
-C:\Users\t00596874\Desktop\AGC-NUGETS\Repo\AGC-Common-Libraries\android\source\datastore-annotation\bin\Release\Huawei.Agconnect.DatastoreAnnotation.pdb
-C:\Users\t00596874\Desktop\AGC-NUGETS\Repo\AGC-Common-Libraries\android\source\datastore-annotation\obj\Release\MonoAndroid,Version=v9.0.AssemblyAttributes.cs
-C:\Users\t00596874\Desktop\AGC-NUGETS\Repo\AGC-Common-Libraries\android\source\datastore-annotation\obj\Release\stamp\_BuildLibraryImportsCache.stamp
-C:\Users\t00596874\Desktop\AGC-NUGETS\Repo\AGC-Common-Libraries\android\source\datastore-annotation\obj\Release\datastore-annotation.csproj.CoreCompileInputs.cache
-C:\Users\t00596874\Desktop\AGC-NUGETS\Repo\AGC-Common-Libraries\android\source\datastore-annotation\obj\Release\Huawei.Agconnect.DatastoreAnnotation.dll
-C:\Users\t00596874\Desktop\AGC-NUGETS\Repo\AGC-Common-Libraries\android\source\datastore-annotation\obj\Release\Huawei.Agconnect.DatastoreAnnotation.pdb
-C:\Users\t00596874\Desktop\AGC-NUGETS\Repo\AGC-Common-Libraries\android\source\datastore-annotation\obj\Release\datastore-annotation.csprojAssemblyReference.cache
