@@ -24,7 +24,7 @@ These are the available bindings in this repository.
 
 
 ## Precautions
-The agc-xamarins-bindings project contains 6 projects. After downloading the code, you can load different nested projects to the IDE as required. And you can run each project independently.
+The agc-xamarins-bindings project contains 8 projects. After downloading the code, you can load different nested projects to the IDE as required. And you can run each project independently.
 
 ## Question or issues
 If you have questions about how to use AppGallery Connect Bindings, try the following options:  
